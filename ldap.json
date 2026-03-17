@@ -1,0 +1,1624 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "LDAP signifie :",
+    "options": [
+      "Lightweight Directory Access Protocol",
+      "Local Directory Authentication Process",
+      "Layered Data Access Protocol",
+      "Linked Directory Administration Program"
+    ],
+    "correct": [
+      "Lightweight Directory Access Protocol"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "LDAP est présenté comme :",
+    "options": [
+      "Une version allégée du protocole DAP",
+      "Une version chiffrée de DNS",
+      "Un remplaçant de DHCP",
+      "Un protocole de routage"
+    ],
+    "correct": [
+      "Une version allégée du protocole DAP"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Un annuaire électronique est avant tout :",
+    "options": [
+      "Une base de données spécialisée orientée recherche multicritères",
+      "Un système de fichiers distribué",
+      "Une base SQL transactionnelle classique",
+      "Un serveur web"
+    ],
+    "correct": [
+      "Une base de données spécialisée orientée recherche multicritères"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Un annuaire LDAP est généralement :",
+    "options": [
+      "Très performant en lecture mais moins en écriture",
+      "Très performant en écriture mais lent en lecture",
+      "Optimisé uniquement pour les images",
+      "Réservé aux réseaux locaux sans authentification"
+    ],
+    "correct": [
+      "Très performant en lecture mais moins en écriture"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "LDAP centralise principalement des informations utiles pour :",
+    "options": [
+      "L’authentification et les droits d’accès",
+      "La compression vidéo",
+      "Le routage BGP",
+      "Le partitionnement disque"
+    ],
+    "correct": [
+      "L’authentification et les droits d’accès"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Le format d’échange de données utilisé avec LDAP est :",
+    "options": [
+      "LDIF",
+      "JSON",
+      "YAML",
+      "CSV"
+    ],
+    "correct": [
+      "LDIF"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "LDAP fonctionne par défaut sur le port TCP :",
+    "options": [
+      "389",
+      "636",
+      "53",
+      "443"
+    ],
+    "correct": [
+      "389"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "LDAPS fonctionne par défaut sur le port TCP :",
+    "options": [
+      "636",
+      "389",
+      "88",
+      "22"
+    ],
+    "correct": [
+      "636"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "LDAP est qualifié de protocole asynchrone, ce qui signifie que :",
+    "options": [
+      "Des réponses peuvent arriver dans un ordre différent des requêtes",
+      "Il ne peut pas y avoir plusieurs requêtes",
+      "Il fonctionne uniquement sans serveur",
+      "Il ne renvoie jamais d’identifiant"
+    ],
+    "correct": [
+      "Des réponses peuvent arriver dans un ordre différent des requêtes"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "La structure des données LDAP est :",
+    "options": [
+      "Hiérarchique en arborescence",
+      "Strictement linéaire",
+      "Basée uniquement sur des tables plates",
+      "Sans organisation particulière"
+    ],
+    "correct": [
+      "Hiérarchique en arborescence"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Chaque nœud de l’arbre LDAP correspond à :",
+    "options": [
+      "Une entrée de l’annuaire",
+      "Un paquet réseau",
+      "Un fichier temporaire",
+      "Un mot de passe"
+    ],
+    "correct": [
+      "Une entrée de l’annuaire"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Le sommet de l’arbre LDAP est appelé :",
+    "options": [
+      "Racine ou suffixe",
+      "UID",
+      "ACL",
+      "Scope"
+    ],
+    "correct": [
+      "Racine ou suffixe"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "DIT signifie :",
+    "options": [
+      "Directory Information Tree",
+      "Distributed Identity Table",
+      "Directory Internal Template",
+      "Data Index Tree"
+    ],
+    "correct": [
+      "Directory Information Tree"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Dans un DN comme dc=cogip,dc=fr, dc signifie :",
+    "options": [
+      "Domain component",
+      "Directory class",
+      "Data content",
+      "Default client"
+    ],
+    "correct": [
+      "Domain component"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Dans LDAP, ou signifie :",
+    "options": [
+      "Organizational Unit",
+      "Object User",
+      "Operational Unit",
+      "Output Unit"
+    ],
+    "correct": [
+      "Organizational Unit"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "Dans LDAP, cn signifie :",
+    "options": [
+      "Common Name",
+      "Central Node",
+      "Control Name",
+      "Client Number"
+    ],
+    "correct": [
+      "Common Name"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Chaque entrée LDAP est identifiée de manière unique par son :",
+    "options": [
+      "DN",
+      "RDN",
+      "UID local seulement",
+      "OID d’attribut"
+    ],
+    "correct": [
+      "DN"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Le DN représente :",
+    "options": [
+      "Le chemin absolu d’accès à l’entrée dans l’arbre",
+      "Le mot de passe chiffré de l’utilisateur",
+      "Le type d’objet de l’entrée",
+      "Le port du serveur"
+    ],
+    "correct": [
+      "Le chemin absolu d’accès à l’entrée dans l’arbre"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Le RDN permet :",
+    "options": [
+      "De désigner l’entrée relativement à une position donnée dans l’arbre",
+      "D’identifier l’entrée de manière unique dans tout l’annuaire",
+      "De chiffrer le DN",
+      "De remplacer le DN"
+    ],
+    "correct": [
+      "De désigner l’entrée relativement à une position donnée dans l’arbre"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Le RDN d’un élément :",
+    "options": [
+      "Ne suffit pas à identifier de manière unique une entrée dans tout l’annuaire",
+      "Est toujours unique dans tout l’annuaire",
+      "Est le mot de passe de l’entrée",
+      "Est le nom du schéma"
+    ],
+    "correct": [
+      "Ne suffit pas à identifier de manière unique une entrée dans tout l’annuaire"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Une entrée LDAP est composée :",
+    "options": [
+      "D’un ensemble d’attributs",
+      "D’un seul mot-clé",
+      "D’un paquet binaire unique",
+      "Uniquement d’un DN"
+    ],
+    "correct": [
+      "D’un ensemble d’attributs"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Un attribut LDAP possède :",
+    "options": [
+      "Un nom, un type et une ou plusieurs valeurs",
+      "Seulement un nom",
+      "Seulement un entier",
+      "Uniquement une adresse IP"
+    ],
+    "correct": [
+      "Un nom, un type et une ou plusieurs valeurs"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Les attributs LDAP sont définis dans :",
+    "options": [
+      "Des schémas",
+      "Des VLAN",
+      "Des ACL réseau uniquement",
+      "Des serveurs racine"
+    ],
+    "correct": [
+      "Des schémas"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Le schéma LDAP décrit :",
+    "options": [
+      "Les classes d’objets, les types d’attributs et leur syntaxe",
+      "Les interfaces réseau",
+      "Les sauvegardes du serveur",
+      "Les règles de routage"
+    ],
+    "correct": [
+      "Les classes d’objets, les types d’attributs et leur syntaxe"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Une classe d’objet LDAP est définie notamment par :",
+    "options": [
+      "Des attributs obligatoires et optionnels",
+      "Une adresse MAC et un port",
+      "Un fichier de log",
+      "Une table SQL"
+    ],
+    "correct": [
+      "Des attributs obligatoires et optionnels"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Parmi les types de classes d’objets cités, lequel existe ?",
+    "options": [
+      "Structurel",
+      "Binaire",
+      "Réseau",
+      "Chiffré"
+    ],
+    "correct": [
+      "Structurel"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Les OID servent à :",
+    "options": [
+      "Identifier de manière unique les objets et attributs",
+      "Définir le mot de passe administrateur",
+      "Désigner le port LDAPS",
+      "Créer des groupes automatiquement"
+    ],
+    "correct": [
+      "Identifier de manière unique les objets et attributs"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Un OID est :",
+    "options": [
+      "Une séquence de nombres entiers séparés par des points",
+      "Une chaîne aléatoire de lettres",
+      "Une adresse IPv6",
+      "Un chemin LDIF"
+    ],
+    "correct": [
+      "Une séquence de nombres entiers séparés par des points"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Quelle organisation tient à jour la liste des OID ?",
+    "options": [
+      "IANA",
+      "ICANN uniquement",
+      "IEEE",
+      "W3C"
+    ],
+    "correct": [
+      "IANA"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Modifier le schéma en ajoutant des attributs à un objet est présenté comme :",
+    "options": [
+      "Déconseillé",
+      "Obligatoire",
+      "Impossible",
+      "La meilleure pratique"
+    ],
+    "correct": [
+      "Déconseillé"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Créer un nouvel objet plutôt qu’ajouter des attributs à un objet existant est présenté comme :",
+    "options": [
+      "Mieux",
+      "Inutile",
+      "Interdit",
+      "Plus lent et déconseillé"
+    ],
+    "correct": [
+      "Mieux"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Le rootDSE est :",
+    "options": [
+      "Une entrée spéciale décrivant l’arbre et son contenu",
+      "Le mot de passe du root DN",
+      "Un type de filtre",
+      "Une commande LDAP"
+    ],
+    "correct": [
+      "Une entrée spéciale décrivant l’arbre et son contenu"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "LDIF est utilisé notamment pour :",
+    "options": [
+      "Les imports/exports et les modifications d’entrées",
+      "Le chiffrement TLS",
+      "Le partitionnement disque",
+      "Le routage inter-VLAN"
+    ],
+    "correct": [
+      "Les imports/exports et les modifications d’entrées"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "Dans un fichier LDIF, le premier attribut d’une entrée est généralement :",
+    "options": [
+      "dn",
+      "cn",
+      "uid",
+      "objectClass"
+    ],
+    "correct": [
+      "dn"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à rechercher des objets à partir de critères ?",
+    "options": [
+      "Search",
+      "Bind",
+      "Rename",
+      "Unbind"
+    ],
+    "correct": [
+      "Search"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à comparer le contenu de deux objets ?",
+    "options": [
+      "Compare",
+      "Modify",
+      "Add",
+      "Extended"
+    ],
+    "correct": [
+      "Compare"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à ajouter une entrée ?",
+    "options": [
+      "Add",
+      "Bind",
+      "Delete",
+      "Scope"
+    ],
+    "correct": [
+      "Add"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à modifier le contenu d’une entrée ?",
+    "options": [
+      "Modify",
+      "Compare",
+      "Unbind",
+      "Referral"
+    ],
+    "correct": [
+      "Modify"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à supprimer un objet ?",
+    "options": [
+      "Delete",
+      "Search",
+      "Rename",
+      "Base"
+    ],
+    "correct": [
+      "Delete"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à modifier le DN d’une entrée ?",
+    "options": [
+      "Rename",
+      "Modify",
+      "Compare",
+      "Add"
+    ],
+    "correct": [
+      "Rename"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à se connecter au serveur ?",
+    "options": [
+      "Bind",
+      "Search",
+      "Add",
+      "Delete"
+    ],
+    "correct": [
+      "Bind"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Quelle opération LDAP sert à se déconnecter du serveur ?",
+    "options": [
+      "Unbind",
+      "Unsearch",
+      "LogoutEntry",
+      "DisconnectDN"
+    ],
+    "correct": [
+      "Unbind"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Il n’existe pas de fonction read dans LDAP. Elle est simulée par :",
+    "options": [
+      "Search avec un scope base",
+      "Compare avec un scope sub",
+      "Bind avec un filtre",
+      "Add avec attrOnly"
+    ],
+    "correct": [
+      "Search avec un scope base"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Dans une recherche LDAP, la base correspond à :",
+    "options": [
+      "Le DN à partir duquel la recherche commence",
+      "La racine DNS",
+      "Le schéma utilisé",
+      "Le mot de passe du client"
+    ],
+    "correct": [
+      "Le DN à partir duquel la recherche commence"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Le scope correspond à :",
+    "options": [
+      "La profondeur de la recherche",
+      "Le chiffrement de la session",
+      "Le nombre de serveurs",
+      "La taille du mot de passe"
+    ],
+    "correct": [
+      "La profondeur de la recherche"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "Quel scope LDAP effectue l’action récursivement sur toute l’arborescence à partir de la base ?",
+    "options": [
+      "sub",
+      "one",
+      "base",
+      "tree"
+    ],
+    "correct": [
+      "sub"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "Quel scope LDAP agit uniquement sur les fils directs de la base ?",
+    "options": [
+      "one",
+      "sub",
+      "base",
+      "direct"
+    ],
+    "correct": [
+      "one"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "Quel scope LDAP agit uniquement sur l’entrée de base elle-même ?",
+    "options": [
+      "base",
+      "sub",
+      "one",
+      "self"
+    ],
+    "correct": [
+      "base"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Quel opérateur de filtre LDAP correspond à l’égalité ?",
+    "options": [
+      "=",
+      "~=",
+      ">",
+      "!="
+    ],
+    "correct": [
+      "="
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Quel opérateur LDAP correspond à ET ?",
+    "options": [
+      "&",
+      "|",
+      "!",
+      "~"
+    ],
+    "correct": [
+      "&"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Quel opérateur LDAP correspond à OU ?",
+    "options": [
+      "|",
+      "&",
+      "!",
+      "="
+    ],
+    "correct": [
+      "|"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Quel opérateur LDAP correspond à NON ?",
+    "options": [
+      "!",
+      "&",
+      "|",
+      "*"
+    ],
+    "correct": [
+      "!"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Quel opérateur LDAP correspond à une recherche approximative ?",
+    "options": [
+      "~=",
+      "=",
+      "!=",
+      "::"
+    ],
+    "correct": [
+      "~="
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Le test de présence d’un attribut en LDAP s’écrit avec :",
+    "options": [
+      "*",
+      "?",
+      "#",
+      "+"
+    ],
+    "correct": [
+      "*"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Quel filtre vérifie que l’attribut sn est présent ?",
+    "options": [
+      "(sn=*)",
+      "(sn=?)",
+      "(sn=#)",
+      "(sn=!)"
+    ],
+    "correct": [
+      "(sn=*)"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Quel filtre correspond à une recherche de sous-chaîne commençant par F ?",
+    "options": [
+      "(sn=F*)",
+      "(sn=*F)",
+      "(sn~=F)",
+      "(sn<=F)"
+    ],
+    "correct": [
+      "(sn=F*)"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Quel filtre étendu permet de considérer les éléments du DN dans la recherche ?",
+    "options": [
+      "attribut:dn:=value",
+      "attribut::=value",
+      "dn=value",
+      "value:dn"
+    ],
+    "correct": [
+      "attribut:dn:=value"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Lors du bind simple, le client fournit :",
+    "options": [
+      "Un DN et un mot de passe",
+      "Uniquement une adresse IP",
+      "Un certificat obligatoire uniquement",
+      "Un UID sans mot de passe"
+    ],
+    "correct": [
+      "Un DN et un mot de passe"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "Dans l’authentification simple sans chiffrement, le mot de passe transite :",
+    "options": [
+      "En clair",
+      "Toujours haché côté réseau",
+      "Chiffré par défaut",
+      "Sous forme de ticket Kerberos"
+    ],
+    "correct": [
+      "En clair"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "Pour sécuriser LDAP, on peut utiliser :",
+    "options": [
+      "SSL ou TLS",
+      "ARP",
+      "DHCP",
+      "NAT"
+    ],
+    "correct": [
+      "SSL ou TLS"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "SASL permet :",
+    "options": [
+      "Des mécanismes d’authentification plus élaborés",
+      "De remplacer totalement le DN",
+      "D’ajouter des VLAN",
+      "D’exporter en JSON"
+    ],
+    "correct": [
+      "Des mécanismes d’authentification plus élaborés"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "L’authentification anonyme consiste à :",
+    "options": [
+      "Utiliser un DN vide et un mot de passe vide",
+      "Utiliser uniquement root",
+      "Utiliser TLS obligatoire",
+      "Refuser toute connexion"
+    ],
+    "correct": [
+      "Utiliser un DN vide et un mot de passe vide"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "StartTLS utilise par défaut le port :",
+    "options": [
+      "389",
+      "636",
+      "443",
+      "80"
+    ],
+    "correct": [
+      "389"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "Les ACL interviennent :",
+    "options": [
+      "Après la notion de binding",
+      "Avant toute connexion réseau",
+      "Uniquement sur les serveurs DNS",
+      "Seulement pour LDIF"
+    ],
+    "correct": [
+      "Après la notion de binding"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "Les ACL servent principalement à :",
+    "options": [
+      "Définir les droits d’accès aux données",
+      "Attribuer les ports TCP",
+      "Créer des OID",
+      "Modifier le schéma automatiquement"
+    ],
+    "correct": [
+      "Définir les droits d’accès aux données"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "La réplication LDAP est utile notamment si :",
+    "options": [
+      "Le serveur atteint ses limites ou si l’entreprise est multisite",
+      "On veut remplacer DNS",
+      "On supprime tous les utilisateurs",
+      "On veut désactiver la haute disponibilité"
+    ],
+    "correct": [
+      "Le serveur atteint ses limites ou si l’entreprise est multisite"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "En mode maître-esclave, la réplication est :",
+    "options": [
+      "Unidirectionnelle",
+      "Bidirectionnelle",
+      "Toujours chiffrée uniquement",
+      "Impossible avec LDIF"
+    ],
+    "correct": [
+      "Unidirectionnelle"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "En mode maître-maître, la réplication est :",
+    "options": [
+      "Bidirectionnelle",
+      "Unidirectionnelle",
+      "Locale uniquement",
+      "Basée sur DNS"
+    ],
+    "correct": [
+      "Bidirectionnelle"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "La distribution LDAP par referral permet :",
+    "options": [
+      "De pointer vers un autre annuaire pour une branche particulière",
+      "De chiffrer automatiquement tout l’annuaire",
+      "De supprimer une branche distante",
+      "De remplacer les ACL"
+    ],
+    "correct": [
+      "De pointer vers un autre annuaire pour une branche particulière"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "Au niveau de l’annuaire, une délégation via referral se traduit par une entrée de classe :",
+    "options": [
+      "referral",
+      "person",
+      "organizationalUnit",
+      "consumer"
+    ],
+    "correct": [
+      "referral"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "question": "Déployer un service d’annuaire LDAP nécessite d’abord :",
+    "options": [
+      "Une réflexion sur les données, leur usage et leur gestion",
+      "Uniquement l’installation d’un client graphique",
+      "La suppression de tous les schémas",
+      "Le choix d’un port aléatoire"
+    ],
+    "correct": [
+      "Une réflexion sur les données, leur usage et leur gestion"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "question": "Parmi les phases de conception LDAP, laquelle est citée ?",
+    "options": [
+      "Choisir son schéma",
+      "Changer l’adresse MAC du serveur",
+      "Définir un VLAN obligatoire",
+      "Créer un site web"
+    ],
+    "correct": [
+      "Choisir son schéma"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "question": "Concevoir son espace de nommage consiste notamment à :",
+    "options": [
+      "Définir comment les entrées seront organisées, nommées et accédées",
+      "Choisir l’antivirus du poste client",
+      "Sélectionner la couleur des interfaces",
+      "Désactiver la duplication"
+    ],
+    "correct": [
+      "Définir comment les entrées seront organisées, nommées et accédées"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "question": "Définir la topologie du service LDAP consiste notamment à réfléchir à :",
+    "options": [
+      "La performance, la fiabilité et la facilité de gestion",
+      "La taille de l’écran de l’admin",
+      "La marque des câbles réseau uniquement",
+      "La suppression des journaux"
+    ],
+    "correct": [
+      "La performance, la fiabilité et la facilité de gestion"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "question": "Dans le service de duplication, les serveurs qui fournissent les données sont appelés :",
+    "options": [
+      "supplier servers",
+      "consumer servers",
+      "client servers",
+      "bind servers"
+    ],
+    "correct": [
+      "supplier servers"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "question": "Dans le service de duplication, les serveurs qui reçoivent les données sont appelés :",
+    "options": [
+      "consumer servers",
+      "supplier servers",
+      "master users",
+      "rootDSE servers"
+    ],
+    "correct": [
+      "consumer servers"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "question": "Le serveur LDAP peut être configuré en :",
+    "options": [
+      "read-only ou read-write",
+      "TCP-only ou UDP-only",
+      "bind-only ou search-only",
+      "public-only ou private-only"
+    ],
+    "correct": [
+      "read-only ou read-write"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "question": "Parmi les mécanismes de sécurité cités, lequel apparaît ?",
+    "options": [
+      "Audit des journaux",
+      "Spanning Tree",
+      "VTP",
+      "NAT dynamique"
+    ],
+    "correct": [
+      "Audit des journaux"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "question": "Le Root DN Authentication correspond à :",
+    "options": [
+      "L’utilisateur privilégié avec accès en modification à toutes les données",
+      "Une authentification anonyme",
+      "Une simple recherche en scope base",
+      "Un client sans droits"
+    ],
+    "correct": [
+      "L’utilisateur privilégié avec accès en modification à toutes les données"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "question": "Quel logiciel fait partie des serveurs LDAP connus cités dans le cours ?",
+    "options": [
+      "OpenLDAP server",
+      "Wireshark",
+      "Apache HTTP Server uniquement",
+      "Postfix"
+    ],
+    "correct": [
+      "OpenLDAP server"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "question": "Quel logiciel fait partie des clients LDAP connus cités dans le cours ?",
+    "options": [
+      "Apache Directory Studio",
+      "Kea DHCP",
+      "Bind9",
+      "Nmap"
+    ],
+    "correct": [
+      "Apache Directory Studio"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "question": "Active Directory est :",
+    "options": [
+      "Un service d’annuaire fonctionnant sur Microsoft Windows Server",
+      "Un protocole de chiffrement LDAP",
+      "Un simple client graphique LDAP",
+      "Un format LDIF"
+    ],
+    "correct": [
+      "Un service d’annuaire fonctionnant sur Microsoft Windows Server"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "question": "Active Directory permet principalement :",
+    "options": [
+      "De gérer permissions et accès aux ressources réseau",
+      "De remplacer DNS et DHCP",
+      "De compresser les sauvegardes",
+      "D’interdire toute authentification"
+    ],
+    "correct": [
+      "De gérer permissions et accès aux ressources réseau"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "question": "Quelle commande en ligne de commande sert classiquement à effectuer des recherches LDAP ?",
+    "options": [
+      "ldapsearch",
+      "ldapmount",
+      "ldapchmod",
+      "ldapscope"
+    ],
+    "correct": [
+      "ldapsearch"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "question": "Quelle commande sert classiquement à ajouter des entrées à partir d’un fichier LDIF ?",
+    "options": [
+      "ldapadd",
+      "ldaprename",
+      "ldapcmp",
+      "ldapbind"
+    ],
+    "correct": [
+      "ldapadd"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "question": "Quelle commande sert classiquement à modifier des entrées LDAP ?",
+    "options": [
+      "ldapmodify",
+      "ldapscope",
+      "ldapurl",
+      "ldapone"
+    ],
+    "correct": [
+      "ldapmodify"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "question": "Quelle commande sert classiquement à supprimer une entrée LDAP ?",
+    "options": [
+      "ldapdelete",
+      "ldapremoveclass",
+      "ldapdrop",
+      "ldaprmattr"
+    ],
+    "correct": [
+      "ldapdelete"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet souvent de tester une authentification LDAP en CLI via un bind ?",
+    "options": [
+      "ldapwhoami",
+      "ldifwho",
+      "ldapacl",
+      "ldaprdn"
+    ],
+    "correct": [
+      "ldapwhoami"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "question": "Dans ldapsearch, l’option -x est couramment utilisée pour :",
+    "options": [
+      "Faire une authentification simple",
+      "Activer Kerberos obligatoire",
+      "Supprimer une entrée",
+      "Forcer le port 636"
+    ],
+    "correct": [
+      "Faire une authentification simple"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "question": "Dans ldapsearch, l’option -D sert généralement à préciser :",
+    "options": [
+      "Le bind DN",
+      "Le scope",
+      "Le port UDP",
+      "Le fichier LDIF"
+    ],
+    "correct": [
+      "Le bind DN"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "question": "Dans ldapsearch, l’option -W sert généralement à :",
+    "options": [
+      "Demander le mot de passe",
+      "Supprimer le chiffrement",
+      "Afficher les ACL",
+      "Écrire dans un fichier"
+    ],
+    "correct": [
+      "Demander le mot de passe"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "question": "Dans ldapsearch, l’option -b sert généralement à préciser :",
+    "options": [
+      "La base de recherche",
+      "Le bind DN",
+      "Le mode binaire",
+      "Le port de secours"
+    ],
+    "correct": [
+      "La base de recherche"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "free_answer",
+    "question": "Donne l’acronyme du protocole Lightweight Directory Access Protocol.",
+    "correct": [
+      "ldap"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "free_answer",
+    "question": "Quel format texte standardisé est utilisé pour représenter les données LDAP ?",
+    "correct": [
+      "ldif"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "free_answer",
+    "question": "Quel port TCP est utilisé par défaut pour LDAP ?",
+    "correct": [
+      "389"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "free_answer",
+    "question": "Quel port TCP est utilisé par défaut pour LDAPS ?",
+    "correct": [
+      "636"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "free_answer",
+    "question": "Comment s’appelle l’arbre d’information de l’annuaire ?",
+    "correct": [
+      "dit",
+      "directory information tree"
+    ]
+  },
+  {
+    "id": 98,
+    "type": "free_answer",
+    "question": "Comment s’appelle le nom unique absolu d’une entrée LDAP ?",
+    "correct": [
+      "dn",
+      "distinguished name"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "free_answer",
+    "question": "Comment s’appelle le nom relatif d’une entrée LDAP ?",
+    "correct": [
+      "rdn",
+      "relative distinguished name"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "free_answer",
+    "question": "Quel mot-clé LDAP signifie domain component ?",
+    "correct": [
+      "dc"
+    ]
+  },
+  {
+    "id": 101,
+    "type": "free_answer",
+    "question": "Quel mot-clé LDAP signifie organizational unit ?",
+    "correct": [
+      "ou"
+    ]
+  },
+  {
+    "id": 102,
+    "type": "free_answer",
+    "question": "Quel mot-clé LDAP signifie common name ?",
+    "correct": [
+      "cn"
+    ]
+  },
+  {
+    "id": 103,
+    "type": "free_answer",
+    "question": "Comment s’appelle l’entrée spéciale qui décrit l’arbre et son contenu ?",
+    "correct": [
+      "rootdse"
+    ]
+  },
+  {
+    "id": 104,
+    "type": "free_answer",
+    "question": "Quel identifiant unique normalisé sert à référencer objets et attributs ?",
+    "correct": [
+      "oid",
+      "object identifier"
+    ]
+  },
+  {
+    "id": 105,
+    "type": "free_answer",
+    "question": "Quelle organisation gère les OID mentionnée dans le cours ?",
+    "correct": [
+      "iana"
+    ]
+  },
+  {
+    "id": 106,
+    "type": "free_answer",
+    "question": "Quelle opération LDAP sert à rechercher des objets ?",
+    "correct": [
+      "search"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "free_answer",
+    "question": "Quelle opération LDAP sert à ajouter une entrée ?",
+    "correct": [
+      "add"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "free_answer",
+    "question": "Quelle opération LDAP sert à modifier une entrée ?",
+    "correct": [
+      "modify"
+    ]
+  },
+  {
+    "id": 109,
+    "type": "free_answer",
+    "question": "Quelle opération LDAP sert à supprimer une entrée ?",
+    "correct": [
+      "delete"
+    ]
+  },
+  {
+    "id": 110,
+    "type": "free_answer",
+    "question": "Quelle opération LDAP sert à se connecter au serveur ?",
+    "correct": [
+      "bind"
+    ]
+  },
+  {
+    "id": 111,
+    "type": "free_answer",
+    "question": "Quelle opération LDAP sert à se déconnecter du serveur ?",
+    "correct": [
+      "unbind"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "free_answer",
+    "question": "Quel scope LDAP recherche récursivement dans tout le sous-arbre ?",
+    "correct": [
+      "sub"
+    ]
+  },
+  {
+    "id": 113,
+    "type": "free_answer",
+    "question": "Quel scope LDAP recherche uniquement sur les fils directs ?",
+    "correct": [
+      "one"
+    ]
+  },
+  {
+    "id": 114,
+    "type": "free_answer",
+    "question": "Quel scope LDAP recherche uniquement sur l’entrée de base ?",
+    "correct": [
+      "base"
+    ]
+  },
+  {
+    "id": 115,
+    "type": "free_answer",
+    "question": "Quel mécanisme permet des authentifications plus élaborées à base de clés ?",
+    "correct": [
+      "sasl"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "free_answer",
+    "question": "Quel mécanisme chiffre la session LDAP sur le port 389 ?",
+    "correct": [
+      "starttls"
+    ]
+  },
+  {
+    "id": 117,
+    "type": "free_answer",
+    "question": "Quel type d’authentification utilise un DN vide et un mot de passe vide ?",
+    "correct": [
+      "authentification anonyme",
+      "anonyme",
+      "anonymous"
+    ]
+  },
+  {
+    "id": 118,
+    "type": "free_answer",
+    "question": "Comment s’appellent les listes de contrôle d’accès en LDAP ?",
+    "correct": [
+      "acls",
+      "acl"
+    ]
+  },
+  {
+    "id": 119,
+    "type": "free_answer",
+    "question": "Quel mot désigne la duplication de l’annuaire entre plusieurs serveurs ?",
+    "correct": [
+      "réplication",
+      "replication"
+    ]
+  },
+  {
+    "id": 120,
+    "type": "free_answer",
+    "question": "Quel mot désigne la délégation d’une branche vers un autre annuaire ?",
+    "correct": [
+      "referral",
+      "referrals"
+    ]
+  },
+  {
+    "id": 121,
+    "type": "free_answer",
+    "question": "Comment s’appellent les serveurs qui fournissent les données dans la duplication ?",
+    "correct": [
+      "supplier servers",
+      "supplier"
+    ]
+  },
+  {
+    "id": 122,
+    "type": "free_answer",
+    "question": "Comment s’appellent les serveurs qui reçoivent les données dans la duplication ?",
+    "correct": [
+      "consumer servers",
+      "consumer"
+    ]
+  },
+  {
+    "id": 123,
+    "type": "free_answer",
+    "question": "Quel service d’annuaire Microsoft basé sur Windows Server est cité dans le cours ?",
+    "correct": [
+      "active directory",
+      "ad"
+    ]
+  },
+  {
+    "id": 124,
+    "type": "free_answer",
+    "question": "Quelle commande CLI sert à faire une recherche LDAP ?",
+    "correct": [
+      "ldapsearch"
+    ]
+  },
+  {
+    "id": 125,
+    "type": "free_answer",
+    "question": "Quelle commande CLI sert à ajouter des entrées LDAP ?",
+    "correct": [
+      "ldapadd"
+    ]
+  },
+  {
+    "id": 126,
+    "type": "free_answer",
+    "question": "Quelle commande CLI sert à modifier des entrées LDAP ?",
+    "correct": [
+      "ldapmodify"
+    ]
+  },
+  {
+    "id": 127,
+    "type": "free_answer",
+    "question": "Quelle commande CLI sert à supprimer des entrées LDAP ?",
+    "correct": [
+      "ldapdelete"
+    ]
+  },
+  {
+    "id": 128,
+    "type": "free_answer",
+    "question": "Quelle commande CLI permet souvent de vérifier l’identité obtenue après bind ?",
+    "correct": [
+      "ldapwhoami"
+    ]
+  },
+  {
+    "id": 129,
+    "type": "free_answer",
+    "question": "Dans ldapsearch, quelle option sert à préciser la base de recherche ?",
+    "correct": [
+      "-b"
+    ]
+  },
+  {
+    "id": 130,
+    "type": "free_answer",
+    "question": "Dans ldapsearch, quelle option sert à préciser le bind DN ?",
+    "correct": [
+      "-d",
+      "-D"
+    ]
+  },
+  {
+    "id": 131,
+    "type": "free_answer",
+    "question": "Dans ldapsearch, quelle option sert à demander le mot de passe ?",
+    "correct": [
+      "-w",
+      "-W"
+    ]
+  },
+  {
+    "id": 132,
+    "type": "free_answer",
+    "question": "Dans ldapsearch, quelle option est couramment utilisée pour une authentification simple ?",
+    "correct": [
+      "-x"
+    ]
+  }
+]

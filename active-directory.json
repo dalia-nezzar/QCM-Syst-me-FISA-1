@@ -1,0 +1,1011 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "Active Directory est :",
+    "options": [
+      "Un service d’annuaire développé par Microsoft",
+      "Un protocole réseau de routage",
+      "Un antivirus intégré à Windows",
+      "Un simple logiciel DNS"
+    ],
+    "correct": [
+      "Un service d’annuaire développé par Microsoft"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "Parmi les objectifs d’Active Directory, lequel est cité dans le cours ?",
+    "options": [
+      "Centraliser la gestion des identités et des accès",
+      "Remplacer totalement Internet",
+      "Supprimer le besoin de DNS",
+      "Remplacer les bases de données SQL"
+    ],
+    "correct": [
+      "Centraliser la gestion des identités et des accès"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Active Directory permet aussi de :",
+    "options": [
+      "Simplifier l’administration réseau",
+      "Remplacer les cartes réseau",
+      "Supprimer les groupes utilisateurs",
+      "Créer automatiquement des VLAN"
+    ],
+    "correct": [
+      "Simplifier l’administration réseau"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Quel mécanisme est cité pour renforcer la sécurité dans Active Directory ?",
+    "options": [
+      "Kerberos",
+      "FTP",
+      "ARP",
+      "SMTP"
+    ],
+    "correct": [
+      "Kerberos"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "L’architecture d’Active Directory est décrite comme :",
+    "options": [
+      "Hiérarchique et modulaire",
+      "Plate et linéaire",
+      "Strictement locale",
+      "Sans organisation logique"
+    ],
+    "correct": [
+      "Hiérarchique et modulaire"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Parmi les technologies clés intégrées à Active Directory, lesquelles sont citées ?",
+    "options": [
+      "LDAP, Kerberos, DNS",
+      "HTTP, FTP, SMTP",
+      "DHCP, NAT, PAT",
+      "TCP, UDP, ICMP"
+    ],
+    "correct": [
+      "LDAP, Kerberos, DNS"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Un annuaire électronique est présenté comme :",
+    "options": [
+      "Une base de données hiérarchique",
+      "Un protocole de transport",
+      "Un disque de sauvegarde",
+      "Un simple pare-feu"
+    ],
+    "correct": [
+      "Une base de données hiérarchique"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Un annuaire Active Directory est conçu pour gérer :",
+    "options": [
+      "Les utilisateurs, groupes et ressources réseau",
+      "Uniquement les imprimantes",
+      "Uniquement les disques locaux",
+      "Uniquement les tickets Kerberos"
+    ],
+    "correct": [
+      "Les utilisateurs, groupes et ressources réseau"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Active Directory organise les objets selon une structure logique et une structure :",
+    "options": [
+      "Physique",
+      "Binaire",
+      "Analogique",
+      "Temporaire"
+    ],
+    "correct": [
+      "Physique"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Dans le modèle logique d’AD, les objets sont organisés notamment en :",
+    "options": [
+      "Domaines et forêts",
+      "Disques et partitions",
+      "Paquets et trames",
+      "Routes et passerelles"
+    ],
+    "correct": [
+      "Domaines et forêts"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Dans le modèle physique d’AD, l’élément cité est :",
+    "options": [
+      "Les sites",
+      "Les sockets",
+      "Les processus",
+      "Les volumes logiques"
+    ],
+    "correct": [
+      "Les sites"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "ADDS signifie :",
+    "options": [
+      "Active Directory Domain Services",
+      "Active Data Domain System",
+      "Advanced Directory Deployment Service",
+      "Administrative Domain Data Service"
+    ],
+    "correct": [
+      "Active Directory Domain Services"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "ADDS est présenté comme :",
+    "options": [
+      "Le composant principal d’Active Directory",
+      "Le client graphique d’AD",
+      "Le protocole de chiffrement d’AD",
+      "Le serveur DNS externe d’AD"
+    ],
+    "correct": [
+      "Le composant principal d’Active Directory"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "ADDS gère notamment :",
+    "options": [
+      "Les domaines et les relations entre eux",
+      "Les imprimantes USB uniquement",
+      "Les ports réseau matériels",
+      "Les BIOS des machines"
+    ],
+    "correct": [
+      "Les domaines et les relations entre eux"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "ADDS centralise les informations des objets comme :",
+    "options": [
+      "Les utilisateurs et les machines",
+      "Les trames Ethernet et les paquets IP",
+      "Les certificats vidéo et audio",
+      "Les partitions GPT et MBR"
+    ],
+    "correct": [
+      "Les utilisateurs et les machines"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "ADDS s’appuie sur quel protocole pour les opérations CRUD ?",
+    "options": [
+      "LDAP",
+      "DHCP",
+      "SNMP",
+      "NTP"
+    ],
+    "correct": [
+      "LDAP"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "CRUD signifie :",
+    "options": [
+      "Create, Read, Update, Delete",
+      "Connect, Route, Use, Deploy",
+      "Create, Replicate, Update, Domain",
+      "Copy, Run, Undo, Drop"
+    ],
+    "correct": [
+      "Create, Read, Update, Delete"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "ADDS sécurise les accès avec :",
+    "options": [
+      "Kerberos et les ACLs",
+      "DNS et ARP",
+      "DHCP et NAT",
+      "FTP et HTTP"
+    ],
+    "correct": [
+      "Kerberos et les ACLs"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Kerberos est décrit comme :",
+    "options": [
+      "Un protocole d’authentification basé sur des tickets",
+      "Un protocole de nommage de domaine",
+      "Un outil de gestion des utilisateurs",
+      "Un langage de script Microsoft"
+    ],
+    "correct": [
+      "Un protocole d’authentification basé sur des tickets"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Kerberos sécurise principalement :",
+    "options": [
+      "Les communications",
+      "Les prises électriques",
+      "Les disques de sauvegarde",
+      "Les adresses MAC"
+    ],
+    "correct": [
+      "Les communications"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Selon le cours, Kerberos fonctionne en combien d’étapes ?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correct": [
+      "3"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Parmi les étapes Kerberos citées, laquelle apparaît ?",
+    "options": [
+      "Demande de ticket",
+      "Création de VLAN",
+      "Routage du paquet",
+      "Partitionnement du disque"
+    ],
+    "correct": [
+      "Demande de ticket"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Parmi les étapes Kerberos citées, laquelle apparaît ?",
+    "options": [
+      "Obtention de ticket",
+      "Configuration DHCP",
+      "Montage du système de fichiers",
+      "Chiffrement du BIOS"
+    ],
+    "correct": [
+      "Obtention de ticket"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Parmi les étapes Kerberos citées, laquelle apparaît ?",
+    "options": [
+      "Validation du ticket",
+      "Fusion des domaines",
+      "Création du schéma LDAP",
+      "Désactivation des ACL"
+    ],
+    "correct": [
+      "Validation du ticket"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Dans Active Directory, DNS sert à :",
+    "options": [
+      "Fournir la résolution de noms pour les domaines AD",
+      "Attribuer les tickets Kerberos",
+      "Gérer les GPO",
+      "Créer les OUs"
+    ],
+    "correct": [
+      "Fournir la résolution de noms pour les domaines AD"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "DNS lie :",
+    "options": [
+      "Les noms d’hôte aux adresses IP",
+      "Les utilisateurs aux mots de passe BIOS",
+      "Les groupes aux tickets Kerberos",
+      "Les sites aux OUs"
+    ],
+    "correct": [
+      "Les noms d’hôte aux adresses IP"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "DNS est essentiel dans AD pour :",
+    "options": [
+      "La localisation des contrôleurs de domaine",
+      "Le formatage des serveurs",
+      "Le partitionnement du disque système",
+      "La création des ACL"
+    ],
+    "correct": [
+      "La localisation des contrôleurs de domaine"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Dans la structure logique, les domaines contiennent :",
+    "options": [
+      "Les objets AD comme les utilisateurs et groupes",
+      "Uniquement les tickets Kerberos",
+      "Uniquement les sites physiques",
+      "Uniquement les contrôleurs secondaires"
+    ],
+    "correct": [
+      "Les objets AD comme les utilisateurs et groupes"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Un arbre Active Directory regroupe :",
+    "options": [
+      "Des domaines ayant un espace de noms continu",
+      "Des sites sans relation de confiance",
+      "Des DNS externes",
+      "Des VLAN d’entreprise"
+    ],
+    "correct": [
+      "Des domaines ayant un espace de noms continu"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Une forêt Active Directory contient :",
+    "options": [
+      "Plusieurs arbres avec des relations de confiance",
+      "Un seul contrôleur de domaine",
+      "Seulement des OUs",
+      "Seulement des groupes de sécurité"
+    ],
+    "correct": [
+      "Plusieurs arbres avec des relations de confiance"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Les OUs signifient :",
+    "options": [
+      "Unités Organisationnelles",
+      "Objets Unifiés",
+      "Operations Units",
+      "Ordres Utilisateur"
+    ],
+    "correct": [
+      "Unités Organisationnelles"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Les OUs servent principalement à :",
+    "options": [
+      "Organiser les objets pour une gestion efficace",
+      "Remplacer les domaines",
+      "Créer les tickets Kerberos",
+      "Attribuer les adresses IP"
+    ],
+    "correct": [
+      "Organiser les objets pour une gestion efficace"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "Dans la structure physique, les DCs sont :",
+    "options": [
+      "Les contrôleurs de domaine",
+      "Les clients DHCP",
+      "Les consoles GPMC",
+      "Les objets de stratégie"
+    ],
+    "correct": [
+      "Les contrôleurs de domaine"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "Les contrôleurs de domaine hébergent :",
+    "options": [
+      "La base de données AD",
+      "Uniquement les mots de passe Wi-Fi",
+      "Uniquement les journaux DNS",
+      "Le BIOS du réseau"
+    ],
+    "correct": [
+      "La base de données AD"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Les contrôleurs de domaine :",
+    "options": [
+      "Répliquent les modifications entre eux",
+      "Travaillent toujours isolément",
+      "Ne stockent aucun objet",
+      "Remplacent les clients Windows"
+    ],
+    "correct": [
+      "Répliquent les modifications entre eux"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "Les sites dans AD représentent :",
+    "options": [
+      "La structure physique du réseau",
+      "Des groupes d’utilisateurs logiques",
+      "Des partitions DNS publiques",
+      "Des partages de fichiers"
+    ],
+    "correct": [
+      "La structure physique du réseau"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "Les sites permettent notamment d’optimiser :",
+    "options": [
+      "La réplication et le trafic réseau",
+      "La taille des mots de passe",
+      "La couleur des consoles d’admin",
+      "La vitesse du processeur"
+    ],
+    "correct": [
+      "La réplication et le trafic réseau"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "Parmi les étapes d’installation d’AD, laquelle est citée ?",
+    "options": [
+      "Préparer l’environnement",
+      "Installer un hyperviseur obligatoire",
+      "Configurer un serveur mail",
+      "Supprimer le DNS"
+    ],
+    "correct": [
+      "Préparer l’environnement"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Lors de la préparation de l’environnement, il faut configurer :",
+    "options": [
+      "Une IP fixe pour le serveur",
+      "Une IP dynamique aléatoire",
+      "Un serveur FTP public",
+      "Une adresse MAC manuelle"
+    ],
+    "correct": [
+      "Une IP fixe pour le serveur"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Lors de la préparation de l’environnement, il faut aussi configurer :",
+    "options": [
+      "Les services DNS",
+      "Le dual boot Linux/Windows",
+      "Le partitionnement GPT/MBR",
+      "Le proxy web"
+    ],
+    "correct": [
+      "Les services DNS"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Après la préparation, l’étape suivante est :",
+    "options": [
+      "Ajouter le rôle ADDS",
+      "Créer toutes les OUs",
+      "Déployer les GPO",
+      "Supprimer les comptes invités"
+    ],
+    "correct": [
+      "Ajouter le rôle ADDS"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Selon le cours, pour ajouter le rôle ADDS, on utilise :",
+    "options": [
+      "Le Gestionnaire de Serveur",
+      "Wireshark",
+      "Regedit",
+      "Bloc-notes"
+    ],
+    "correct": [
+      "Le Gestionnaire de Serveur"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Promouvoir le serveur consiste notamment à :",
+    "options": [
+      "Créer un nouveau domaine ou intégrer un domaine existant",
+      "Créer un nouveau VLAN",
+      "Supprimer le DNS",
+      "Remplacer Kerberos par LDAP"
+    ],
+    "correct": [
+      "Créer un nouveau domaine ou intégrer un domaine existant"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Pour la validation de l’installation, le cours cite :",
+    "options": [
+      "DcDiag",
+      "ipconfig",
+      "tracert",
+      "ping -t"
+    ],
+    "correct": [
+      "DcDiag"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "ADUC signifie :",
+    "options": [
+      "Active Directory Users and Computers",
+      "Administrative Domain User Console",
+      "Active Directory Unified Controller",
+      "Advanced Directory User Center"
+    ],
+    "correct": [
+      "Active Directory Users and Computers"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "ADUC sert à :",
+    "options": [
+      "La gestion des objets du domaine",
+      "La gestion des tickets Kerberos",
+      "Le routage inter-sites",
+      "Le partitionnement du disque système"
+    ],
+    "correct": [
+      "La gestion des objets du domaine"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "GPMC signifie :",
+    "options": [
+      "Group Policy Management Console",
+      "Global Permission Management Center",
+      "Group Process Monitoring Console",
+      "General Policy Machine Control"
+    ],
+    "correct": [
+      "Group Policy Management Console"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "GPMC sert à gérer :",
+    "options": [
+      "Les politiques appliquées aux groupes du domaine",
+      "Les interfaces réseau physiques",
+      "Les tickets d’authentification Kerberos",
+      "Les partitions système"
+    ],
+    "correct": [
+      "Les politiques appliquées aux groupes du domaine"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "GPO signifie :",
+    "options": [
+      "Group Policy Object",
+      "Global Permission Object",
+      "General Protocol Option",
+      "Group Process Output"
+    ],
+    "correct": [
+      "Group Policy Object"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Quel outil est cité pour l’automatisation des tâches d’administration ?",
+    "options": [
+      "PowerShell",
+      "Paint",
+      "WordPad",
+      "Task Manager"
+    ],
+    "correct": [
+      "PowerShell"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Selon la conclusion du cours, Active Directory est essentiel pour :",
+    "options": [
+      "Les infrastructures réseau Windows",
+      "Les BIOS UEFI",
+      "Les imprimantes locales uniquement",
+      "Les disques NVMe"
+    ],
+    "correct": [
+      "Les infrastructures réseau Windows"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Selon la conclusion, Active Directory simplifie :",
+    "options": [
+      "La gestion des identités et des ressources réseau",
+      "Le montage des systèmes de fichiers Linux",
+      "Le partitionnement GPT",
+      "La configuration RAID matérielle"
+    ],
+    "correct": [
+      "La gestion des identités et des ressources réseau"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Parmi les fonctionnalités avancées citées en conclusion, laquelle apparaît ?",
+    "options": [
+      "Les GPOs",
+      "Le NAT",
+      "Le RAID",
+      "Le DHCP relay"
+    ],
+    "correct": [
+      "Les GPOs"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Parmi les fonctionnalités avancées citées en conclusion, laquelle apparaît ?",
+    "options": [
+      "La réplication",
+      "Le partitionnement MBR",
+      "Le shell bash",
+      "Le boot PXE"
+    ],
+    "correct": [
+      "La réplication"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Parmi les fonctionnalités avancées citées en conclusion, laquelle apparaît ?",
+    "options": [
+      "La sécurité",
+      "La gravure CD",
+      "Le dual boot",
+      "Le DNS public"
+    ],
+    "correct": [
+      "La sécurité"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Quel protocole est utilisé dans AD pour la gestion des objets ?",
+    "options": [
+      "LDAP",
+      "ICMP",
+      "SNMP",
+      "TFTP"
+    ],
+    "correct": [
+      "LDAP"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Quel protocole est utilisé dans AD pour l’authentification ?",
+    "options": [
+      "Kerberos",
+      "ARP",
+      "HTTP",
+      "SMTP"
+    ],
+    "correct": [
+      "Kerberos"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Quel service est indispensable pour retrouver les contrôleurs de domaine ?",
+    "options": [
+      "DNS",
+      "FTP",
+      "RDP",
+      "Telnet"
+    ],
+    "correct": [
+      "DNS"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "free_answer",
+    "question": "Donne l’acronyme de Active Directory Domain Services.",
+    "correct": [
+      "adds"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "free_answer",
+    "question": "Quel protocole AD utilise-t-il pour gérer les objets ?",
+    "correct": [
+      "ldap"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "free_answer",
+    "question": "Quel protocole AD utilise-t-il pour l’authentification ?",
+    "correct": [
+      "kerberos"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "free_answer",
+    "question": "Quel service assure la résolution de noms dans Active Directory ?",
+    "correct": [
+      "dns"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "free_answer",
+    "question": "Comment s’appellent les unités qui organisent les objets dans l’entreprise ?",
+    "correct": [
+      "ou",
+      "ous",
+      "unites organisationnelles",
+      "unités organisationnelles"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "free_answer",
+    "question": "Comment s’appellent les serveurs qui hébergent la base de données AD ?",
+    "correct": [
+      "controleurs de domaine",
+      "contrôleurs de domaine",
+      "dc",
+      "dcs"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "free_answer",
+    "question": "Quel outil permet de tester les connexions lors de la validation d’une installation AD ?",
+    "correct": [
+      "dcdiag"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "free_answer",
+    "question": "Quel outil sert à gérer les objets du domaine ?",
+    "correct": [
+      "aduc",
+      "active directory users and computers"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "free_answer",
+    "question": "Quel outil sert à gérer les GPO ?",
+    "correct": [
+      "gpmc",
+      "group policy management console"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "free_answer",
+    "question": "Quel outil d’automatisation est cité dans le cours ?",
+    "correct": [
+      "powershell"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "free_answer",
+    "question": "Quel mot désigne un ensemble de domaines ayant un espace de noms continu ?",
+    "correct": [
+      "arbre",
+      "arbres"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "free_answer",
+    "question": "Quel mot désigne un ensemble de plusieurs arbres avec relations de confiance ?",
+    "correct": [
+      "foret",
+      "forêt",
+      "forets",
+      "forêts"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "free_answer",
+    "question": "Quel mot désigne les structures physiques du réseau dans AD ?",
+    "correct": [
+      "sites"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "free_answer",
+    "question": "Quel mot désigne les politiques de groupe dans AD ?",
+    "correct": [
+      "gpo",
+      "gpos"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "free_answer",
+    "question": "Quel mécanisme de sécurité dans AD repose sur des tickets ?",
+    "correct": [
+      "kerberos"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "free_answer",
+    "question": "Quelle première étape d’installation impose de configurer une IP fixe ?",
+    "correct": [
+      "preparer l environnement",
+      "préparer l’environnement",
+      "preparation de l environnement",
+      "préparation de l’environnement"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "free_answer",
+    "question": "Quel rôle faut-il ajouter avant de promouvoir le serveur ?",
+    "correct": [
+      "adds",
+      "ad ds",
+      "active directory domain services"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "free_answer",
+    "question": "Quel mot-clé anglais désigne les listes de contrôle d’accès citées avec Kerberos ?",
+    "correct": [
+      "acl",
+      "acls"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "free_answer",
+    "question": "Quel composant principal d’Active Directory centralise les informations des objets ?",
+    "correct": [
+      "adds"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "free_answer",
+    "question": "Quel service est essentiel pour localiser les contrôleurs de domaine ?",
+    "correct": [
+      "dns"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "free_answer",
+    "question": "Quel mot résume la copie des modifications entre contrôleurs de domaine ?",
+    "correct": [
+      "replication",
+      "réplication"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Quel type de base de données est un annuaire électronique selon le cours ?",
+    "correct": [
+      "hierarchique",
+      "hiérarchique"
+    ]
+  }
+]

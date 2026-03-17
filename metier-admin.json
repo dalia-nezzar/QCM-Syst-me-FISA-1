@@ -1,0 +1,1116 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "Dans un système d’information, quels éléments sont explicitement cités dans le cours ?",
+    "options": [
+      "Une infrastructure, des postes clients, des logiciels et des hommes",
+      "Uniquement des serveurs et des routeurs",
+      "Uniquement des logiciels et des bases de données",
+      "Uniquement des utilisateurs et des imprimantes"
+    ],
+    "correct": [
+      "Une infrastructure, des postes clients, des logiciels et des hommes"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "Dans la partie “L’infrastructure”, quel élément est cité ?",
+    "options": [
+      "Réseau",
+      "Licence logicielle",
+      "Formation RH",
+      "Comptabilité"
+    ],
+    "correct": [
+      "Réseau"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Dans la partie “Les logiciels”, lequel est cité ?",
+    "options": [
+      "OS",
+      "Clavier",
+      "Câblage",
+      "Bureau physique"
+    ],
+    "correct": [
+      "OS"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Selon le cours, que veulent principalement les utilisateurs ?",
+    "options": [
+      "Que tout fonctionne",
+      "Voir les administrateurs partout",
+      "Configurer eux-mêmes tout le SI",
+      "Avoir les droits root"
+    ],
+    "correct": [
+      "Que tout fonctionne"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Selon le cours, les administrateurs :",
+    "options": [
+      "Ne doivent pas se voir",
+      "Doivent être visibles en permanence",
+      "Doivent être aussi des développeurs web",
+      "Ne doivent jamais parler aux utilisateurs"
+    ],
+    "correct": [
+      "Ne doivent pas se voir"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Parmi les tâches suivantes, laquelle fait partie des grandes lignes du métier ?",
+    "options": [
+      "Gérer les installations, incidents, sauvegardes et supervision",
+      "Dessiner les locaux de l’entreprise",
+      "Rédiger les contrats commerciaux",
+      "Fabriquer le matériel informatique"
+    ],
+    "correct": [
+      "Gérer les installations, incidents, sauvegardes et supervision"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Le métier d’administrateur système implique aussi de :",
+    "options": [
+      "Assister les utilisateurs",
+      "Éviter tout contact avec les utilisateurs",
+      "Remplacer systématiquement les développeurs",
+      "Supprimer les sauvegardes"
+    ],
+    "correct": [
+      "Assister les utilisateurs"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Quelle qualité est explicitement attendue de l’administrateur ?",
+    "options": [
+      "Avoir une déontologie irréprochable",
+      "Toujours travailler dans l’urgence",
+      "Tout improviser",
+      "Laisser les utilisateurs décider de tout"
+    ],
+    "correct": [
+      "Avoir une déontologie irréprochable"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Une autre mission centrale de l’administrateur est :",
+    "options": [
+      "Assurer la sécurité des systèmes",
+      "Réduire les performances du réseau",
+      "Supprimer les procédures",
+      "Éviter toute documentation"
+    ],
+    "correct": [
+      "Assurer la sécurité des systèmes"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Comment le cours décrit-il les limites du métier d’administrateur système ?",
+    "options": [
+      "Elles sont floues",
+      "Elles sont toujours parfaitement définies",
+      "Elles n’existent pas",
+      "Elles concernent uniquement les serveurs"
+    ],
+    "correct": [
+      "Elles sont floues"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Parmi les exemples de “problèmes d’intendance”, lequel est cité ?",
+    "options": [
+      "Inventaire du parc informatique",
+      "Programmation d’un compilateur",
+      "Création d’un langage",
+      "Conception d’un processeur"
+    ],
+    "correct": [
+      "Inventaire du parc informatique"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Quel phénomène complique le métier selon le cours ?",
+    "options": [
+      "La multiplication des appareils connectés",
+      "La disparition totale des logiciels",
+      "La baisse des usages numériques",
+      "L’arrêt des réseaux"
+    ],
+    "correct": [
+      "La multiplication des appareils connectés"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Dans les très grandes entreprises, les administrateurs sont souvent :",
+    "options": [
+      "Nombreux et spécialisés",
+      "Toujours seuls",
+      "Absents",
+      "Uniquement généralistes"
+    ],
+    "correct": [
+      "Nombreux et spécialisés"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Dans les très grandes entreprises, les restrictions d’accès sont souvent renforcées pour des raisons de :",
+    "options": [
+      "Sécurité",
+      "Confort visuel",
+      "Design",
+      "Marketing"
+    ],
+    "correct": [
+      "Sécurité"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Dans une entreprise de taille moyenne, la spécialisation est :",
+    "options": [
+      "Moins nette et souvent organisée par secteurs",
+      "Impossible",
+      "Toujours plus stricte que dans les très grandes entreprises",
+      "Réservée uniquement au support utilisateur"
+    ],
+    "correct": [
+      "Moins nette et souvent organisée par secteurs"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "Dans une petite entreprise, on trouve souvent :",
+    "options": [
+      "Un ou deux administrateurs",
+      "Des dizaines d’administrateurs",
+      "Uniquement des consultants externes",
+      "Aucun administrateur"
+    ],
+    "correct": [
+      "Un ou deux administrateurs"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Quel risque est cité pour les petites entreprises ?",
+    "options": [
+      "Laisser trop d’initiative aux utilisateurs",
+      "Avoir trop de procédures de défense",
+      "Avoir trop d’administrateurs spécialisés",
+      "Ne plus avoir d’applications"
+    ],
+    "correct": [
+      "Laisser trop d’initiative aux utilisateurs"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Dans le milieu académique, les applications sont décrites comme :",
+    "options": [
+      "Multiples et diverses",
+      "Très peu nombreuses",
+      "Totalement interdites",
+      "Uniquement propriétaires"
+    ],
+    "correct": [
+      "Multiples et diverses"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Parmi les sources de difficultés du métier, laquelle est citée ?",
+    "options": [
+      "L’évolution très rapide de la technologie et des techniques",
+      "Le fait que rien ne change jamais",
+      "L’absence totale d’outils",
+      "Le manque d’utilisateurs"
+    ],
+    "correct": [
+      "L’évolution très rapide de la technologie et des techniques"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Quel cadre réglementaire est explicitement mentionné dans le cours ?",
+    "options": [
+      "RGPD",
+      "HTML5",
+      "PCI Express",
+      "ASCII"
+    ],
+    "correct": [
+      "RGPD"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Le métier d’administrateur devient de plus en plus :",
+    "options": [
+      "Normalisé et encadré",
+      "Improvisé",
+      "Invisible juridiquement",
+      "Déconnecté des méthodes"
+    ],
+    "correct": [
+      "Normalisé et encadré"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Vis-à-vis des utilisateurs, l’administrateur doit notamment :",
+    "options": [
+      "Gagner leur confiance",
+      "Les ignorer",
+      "Toujours leur donner raison",
+      "Leur donner les mots de passe admin"
+    ],
+    "correct": [
+      "Gagner leur confiance"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Face aux collègues, le cours recommande de :",
+    "options": [
+      "Privilégier le compromis à l’affrontement",
+      "Toujours imposer sa solution",
+      "Éviter toute discussion",
+      "Refuser l’aide"
+    ],
+    "correct": [
+      "Privilégier le compromis à l’affrontement"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Vis-à-vis de la hiérarchie, quel problème est mentionné ?",
+    "options": [
+      "Les problèmes techniques sont difficiles à exposer",
+      "Les mots de passe sont toujours publics",
+      "La hiérarchie refuse toute information",
+      "Il n’existe jamais de contrainte de temps"
+    ],
+    "correct": [
+      "Les problèmes techniques sont difficiles à exposer"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Parmi les bonnes pratiques, laquelle est citée ?",
+    "options": [
+      "Prendre des notes",
+      "Éviter toute documentation",
+      "Toujours agir au hasard",
+      "Laisser tomber la formation"
+    ],
+    "correct": [
+      "Prendre des notes"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Parmi les bonnes pratiques, laquelle est citée ?",
+    "options": [
+      "Privilégier la stabilité",
+      "Bannir toute procédure",
+      "Favoriser les comptes locaux",
+      "Installer un maximum de logiciels"
+    ],
+    "correct": [
+      "Privilégier la stabilité"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Parmi les bonnes pratiques, laquelle est citée ?",
+    "options": [
+      "Faire preuve de prudence",
+      "Chercher l’urgence",
+      "Supprimer sans réfléchir",
+      "Recopier sans comprendre"
+    ],
+    "correct": [
+      "Faire preuve de prudence"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Parmi les bonnes pratiques, laquelle est citée ?",
+    "options": [
+      "Anticiper les problèmes",
+      "Attendre qu’une panne arrive",
+      "Tout laisser par défaut",
+      "Éviter d’informer les utilisateurs"
+    ],
+    "correct": [
+      "Anticiper les problèmes"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Concernant la déontologie, l’administrateur doit respecter :",
+    "options": [
+      "La confidentialité vis-à-vis des utilisateurs",
+      "La publication publique des mots de passe",
+      "Le partage libre des mails privés",
+      "L’accès root pour tous"
+    ],
+    "correct": [
+      "La confidentialité vis-à-vis des utilisateurs"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Le cours insiste sur le secret des mots de passe système, notamment pour :",
+    "options": [
+      "Les comptes admins, root et accès BIOS/EFI",
+      "Uniquement les comptes invités",
+      "Uniquement les mots de passe Wi-Fi publics",
+      "Aucun accès sensible"
+    ],
+    "correct": [
+      "Les comptes admins, root et accès BIOS/EFI"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "À propos des notes et de la documentation, le cours recommande :",
+    "options": [
+      "D’utiliser un gestionnaire de mots de passe",
+      "D’écrire les mots de passe sur un post-it",
+      "De ne rien documenter",
+      "De ne prendre des notes qu’en cas de panne grave"
+    ],
+    "correct": [
+      "D’utiliser un gestionnaire de mots de passe"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Faire un RETEX permet surtout de :",
+    "options": [
+      "Capitaliser sur ce qu’on fait",
+      "Effacer l’historique",
+      "Supprimer les procédures",
+      "Éviter les sauvegardes"
+    ],
+    "correct": [
+      "Capitaliser sur ce qu’on fait"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "Quel format de documentation est recommandé pour permettre le versioning et la recherche globale ?",
+    "options": [
+      "Texte brut",
+      "Image scannée",
+      "Audio uniquement",
+      "Vidéo uniquement"
+    ],
+    "correct": [
+      "Texte brut"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "Le cours recommande idéalement de versionner la documentation avec :",
+    "options": [
+      "git",
+      "FTP",
+      "BIOS",
+      "DHCP"
+    ],
+    "correct": [
+      "git"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Pour se former, le cours recommande de :",
+    "options": [
+      "Lire et relire la documentation des outils",
+      "Éviter les documentations officielles",
+      "Ignorer l’évolution des systèmes",
+      "Ne travailler qu’en improvisant"
+    ],
+    "correct": [
+      "Lire et relire la documentation des outils"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "Parmi les sources de formation citées, laquelle apparaît dans le cours ?",
+    "options": [
+      "Forums",
+      "Réseaux électriques",
+      "Pare-feu matériels uniquement",
+      "Câblage des baies"
+    ],
+    "correct": [
+      "Forums"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "Pour privilégier la stabilité, le cours recommande de :",
+    "options": [
+      "Automatiser tout ce qui peut l’être",
+      "Tout faire à la main sans procédure",
+      "Multiplier les exceptions",
+      "Modifier sans consigner"
+    ],
+    "correct": [
+      "Automatiser tout ce qui peut l’être"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "Le cours recommande de privilégier :",
+    "options": [
+      "Des parcs homogènes",
+      "Des postes tous différents",
+      "Des comptes locaux partout",
+      "Des fichiers locaux sans réplication"
+    ],
+    "correct": [
+      "Des parcs homogènes"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Pour les migrations, le cours recommande de tirer parti de :",
+    "options": [
+      "La virtualisation",
+      "L’urgence",
+      "La suppression des sauvegardes",
+      "La duplication manuelle aléatoire"
+    ],
+    "correct": [
+      "La virtualisation"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Faire preuve de prudence signifie notamment :",
+    "options": [
+      "On ne supprime pas, on renomme ou on versionne",
+      "On supprime d’abord, on réfléchit après",
+      "On installe tout ce qui existe",
+      "On applique tous les tutos sans vérifier"
+    ],
+    "correct": [
+      "On ne supprime pas, on renomme ou on versionne"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Le cours conseille d’installer :",
+    "options": [
+      "Le strict nécessaire",
+      "Le plus de services possible",
+      "Tout ce qui est disponible par défaut",
+      "Tous les paquets trouvés sur Internet"
+    ],
+    "correct": [
+      "Le strict nécessaire"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Quelle méthode de validation est recommandée ?",
+    "options": [
+      "Validation pas à pas",
+      "Refonte complète d’un coup",
+      "Aucune validation",
+      "Validation seulement après mise en production"
+    ],
+    "correct": [
+      "Validation pas à pas"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Le cours met en garde contre :",
+    "options": [
+      "Recopier des tutos ou laisser générer des configs/scripts sans comprendre",
+      "Documenter ses actions",
+      "Faire des procédures",
+      "Versionner la documentation"
+    ],
+    "correct": [
+      "Recopier des tutos ou laisser générer des configs/scripts sans comprendre"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Pourquoi faut-il bannir l’urgence selon le cours ?",
+    "options": [
+      "Parce qu’elle est source de problèmes en cascade",
+      "Parce qu’elle améliore la stabilité",
+      "Parce qu’elle réduit les risques humains",
+      "Parce qu’elle remplace le planning"
+    ],
+    "correct": [
+      "Parce qu’elle est source de problèmes en cascade"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Si l’urgence vient d’un manque d’anticipation, le cours recommande de :",
+    "options": [
+      "Faire un planning",
+      "Supprimer les utilisateurs",
+      "Installer davantage d’applications",
+      "Changer tout le matériel"
+    ],
+    "correct": [
+      "Faire un planning"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "Si l’urgence vient d’un manque d’effectif, le cours recommande de :",
+    "options": [
+      "Alerter la hiérarchie et réduire la portée du SI",
+      "Cacher le problème",
+      "Donner tous les droits aux utilisateurs",
+      "Arrêter les sauvegardes"
+    ],
+    "correct": [
+      "Alerter la hiérarchie et réduire la portée du SI"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "En cas de panne matérielle, quelle réponse est suggérée ?",
+    "options": [
+      "Redondance, pièces de rechange, virtualisation, maintenance",
+      "Supprimer tous les serveurs",
+      "Ignorer la panne",
+      "Réduire la sécurité"
+    ],
+    "correct": [
+      "Redondance, pièces de rechange, virtualisation, maintenance"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "“Ne rien laisser au hasard” implique notamment de :",
+    "options": [
+      "Ne pas utiliser les configurations par défaut",
+      "Toujours tout laisser par défaut",
+      "Désactiver les sauvegardes",
+      "Ne jamais nommer les machines"
+    ],
+    "correct": [
+      "Ne pas utiliser les configurations par défaut"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Le cours recommande de synchroniser les machines avec :",
+    "options": [
+      "NTP",
+      "FTP",
+      "SSH",
+      "PDF"
+    ],
+    "correct": [
+      "NTP"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Que faut-il vérifier périodiquement selon le cours ?",
+    "options": [
+      "Les sauvegardes et les procédures de restauration",
+      "Uniquement le fond d’écran",
+      "Uniquement les comptes invités",
+      "Rien de particulier"
+    ],
+    "correct": [
+      "Les sauvegardes et les procédures de restauration"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Le cours recommande aussi d’identifier :",
+    "options": [
+      "Les machines, les équipements réseau et les extrémités des câbles",
+      "Uniquement les écrans",
+      "Uniquement les bureaux",
+      "Uniquement les comptes mail"
+    ],
+    "correct": [
+      "Les machines, les équipements réseau et les extrémités des câbles"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Selon le cours, quelles couches OSI sont les plus pénibles ?",
+    "options": [
+      "1 et 8",
+      "2 et 3",
+      "4 et 5",
+      "6 et 7"
+    ],
+    "correct": [
+      "1 et 8"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Dans la couche physique, quelle bonne pratique est citée ?",
+    "options": [
+      "Câblage propre",
+      "Câbles non identifiés",
+      "Connecteurs lâches",
+      "Matériel bas de gamme obligatoire"
+    ],
+    "correct": [
+      "Câblage propre"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Concernant les utilisateurs, que faut-il surveiller ?",
+    "options": [
+      "Leur comportement, comme l’espace disque ou les installations sauvages",
+      "Uniquement la couleur de leur poste",
+      "Leur salaire",
+      "Leur abonnement téléphonique personnel"
+    ],
+    "correct": [
+      "Leur comportement, comme l’espace disque ou les installations sauvages"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Sensibiliser les utilisateurs passe notamment par :",
+    "options": [
+      "Une charte informatique et une communication régulière",
+      "Le silence complet",
+      "La suppression des consignes",
+      "L’absence de maintenance"
+    ],
+    "correct": [
+      "Une charte informatique et une communication régulière"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Un utilisateur bien informé :",
+    "options": [
+      "Commet moins de bêtises",
+      "Devient automatiquement administrateur",
+      "N’a plus besoin de support",
+      "Supprime moins de logs système"
+    ],
+    "correct": [
+      "Commet moins de bêtises"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Concernant la psychologie, le cours rappelle que :",
+    "options": [
+      "On ne peut pas tout faire",
+      "On peut tout faire parfaitement",
+      "La contrainte améliore toujours le travail",
+      "La reconnaissance n’a aucune importance"
+    ],
+    "correct": [
+      "On ne peut pas tout faire"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Chercher du soutien peut se faire auprès :",
+    "options": [
+      "De la hiérarchie et des collègues",
+      "Uniquement des utilisateurs finaux",
+      "Uniquement des fournisseurs",
+      "Personne"
+    ],
+    "correct": [
+      "De la hiérarchie et des collègues"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "En informatique, la sécurité regroupe notamment :",
+    "options": [
+      "La sûreté de fonctionnement et la protection contre les actes malveillants",
+      "Uniquement l’antivirus",
+      "Uniquement les mots de passe",
+      "Uniquement le chiffrement"
+    ],
+    "correct": [
+      "La sûreté de fonctionnement et la protection contre les actes malveillants"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "Selon le cours, combien d’aspects de la sécurité doivent être pris en compte ?",
+    "options": [
+      "Deux, et aucun ne peut être ignoré",
+      "Un seul",
+      "Trois obligatoirement",
+      "Aucun si le SI est petit"
+    ],
+    "correct": [
+      "Deux, et aucun ne peut être ignoré"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "Parmi les risques listés dans le cours, lequel apparaît ?",
+    "options": [
+      "Vol de données",
+      "Excès de documentation",
+      "Trop de procédures Git",
+      "Surcharge de formation"
+    ],
+    "correct": [
+      "Vol de données"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "Parmi les risques listés dans le cours, lequel apparaît ?",
+    "options": [
+      "Interruption de service",
+      "Excès de réunions techniques",
+      "Trop de câbles bien rangés",
+      "Manque de claviers mécaniques"
+    ],
+    "correct": [
+      "Interruption de service"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "Pour répondre à la perte de matériel, le cours cite :",
+    "options": [
+      "Contrats de maintenance, onduleurs, parafoudres, redondance",
+      "Suppression des sauvegardes",
+      "Ouverture de tous les accès",
+      "Réduction des correctifs de sécurité"
+    ],
+    "correct": [
+      "Contrats de maintenance, onduleurs, parafoudres, redondance"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "Pour répondre au vol de matériel, le cours cite :",
+    "options": [
+      "Sécuriser les accès physiques",
+      "Désactiver les antivirus",
+      "Réduire les sauvegardes",
+      "Supprimer le chiffrement"
+    ],
+    "correct": [
+      "Sécuriser les accès physiques"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "Pour limiter les pertes de données, le cours recommande :",
+    "options": [
+      "Faire des sauvegardes et les tester",
+      "Conserver tout uniquement en local",
+      "Supprimer les serveurs de fichiers",
+      "Interdire toute restauration"
+    ],
+    "correct": [
+      "Faire des sauvegardes et les tester"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "Pour limiter le vol de données, le cours mentionne notamment :",
+    "options": [
+      "Mots de passe, filtrage d’accès, chiffrement des partitions",
+      "Suppression des mots de passe",
+      "Accès libre aux vieilles machines",
+      "Ouverture totale du SI"
+    ],
+    "correct": [
+      "Mots de passe, filtrage d’accès, chiffrement des partitions"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "Pour l’interruption de service, quelle réponse est citée ?",
+    "options": [
+      "PCA/PRA",
+      "HTML/CSS",
+      "RAID uniquement",
+      "BIOS/UEFI"
+    ],
+    "correct": [
+      "PCA/PRA"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "Pour l’intrusion via Internet, le cours recommande :",
+    "options": [
+      "Filtrage, réduction de la surface d’attaque, IDS, IPS",
+      "Ouvrir tous les ports",
+      "Retirer les patchs",
+      "Désactiver les journaux"
+    ],
+    "correct": [
+      "Filtrage, réduction de la surface d’attaque, IDS, IPS"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "Pour répondre aux virus et malwares, le cours cite :",
+    "options": [
+      "Antivirus et patchs de sécurité",
+      "Suppression des mises à jour",
+      "Installation de logiciels non vérifiés",
+      "Désactivation de l’authentification"
+    ],
+    "correct": [
+      "Antivirus et patchs de sécurité"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "Quelle affirmation résume le compromis de sécurité présenté dans le cours ?",
+    "options": [
+      "La sécurité absolue n’existe pas et son coût peut exploser",
+      "La sécurité absolue est toujours gratuite",
+      "Il faut sécuriser sans tenir compte du budget",
+      "Il faut ignorer la criticité métier"
+    ],
+    "correct": [
+      "La sécurité absolue n’existe pas et son coût peut exploser"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "free_answer",
+    "question": "Quel mot désigne l’ensemble des règles morales et professionnelles que l’administrateur doit respecter ?",
+    "correct": [
+      "déontologie",
+      "deontologie"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "free_answer",
+    "question": "Quel acronyme réglementaire est cité dans le cours ?",
+    "correct": [
+      "rgpd"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "free_answer",
+    "question": "Quel outil est recommandé pour stocker les mots de passe ?",
+    "correct": [
+      "gestionnaire de mots de passe",
+      "manager de mots de passe",
+      "password manager"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "free_answer",
+    "question": "Quel retour d’expérience est explicitement conseillé après une tâche ou un incident ?",
+    "correct": [
+      "retex"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "free_answer",
+    "question": "Quel outil de versionnage est recommandé pour la documentation ?",
+    "correct": [
+      "git"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "free_answer",
+    "question": "Quel protocole est cité pour synchroniser les machines ?",
+    "correct": [
+      "ntp"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "free_answer",
+    "question": "Quelle technologie est recommandée pour aider lors des migrations ?",
+    "correct": [
+      "virtualisation"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "free_answer",
+    "question": "Quel mot-clé résume l’idée de ne pas supprimer directement mais de garder un historique ?",
+    "correct": [
+      "versionner",
+      "versionnage"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "free_answer",
+    "question": "Quelle pratique consiste à vérifier progressivement chaque modification ?",
+    "correct": [
+      "validation pas à pas",
+      "pas à pas",
+      "validation iterative",
+      "validation itérative"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Quel mot décrit le fait de prévoir les incidents avant qu’ils n’arrivent ?",
+    "correct": [
+      "anticiper",
+      "anticipation"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "free_answer",
+    "question": "Quelle couche OSI physique est citée parmi les plus pénibles ?",
+    "correct": [
+      "1",
+      "couche 1"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "free_answer",
+    "question": "Quelle “couche” humoristique correspond à l’interface chaise/clavier ?",
+    "correct": [
+      "8",
+      "couche 8"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "free_answer",
+    "question": "Quel document permet d’encadrer les usages des utilisateurs ?",
+    "correct": [
+      "charte informatique",
+      "charte"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "free_answer",
+    "question": "Quel acronyme est cité pour la continuité ou reprise après interruption de service ?",
+    "correct": [
+      "pca",
+      "pra",
+      "pca/pra"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "free_answer",
+    "question": "Quel mot désigne le fait de protéger les partitions contre le vol de données ?",
+    "correct": [
+      "chiffrement",
+      "chiffrage"
+    ]
+  }
+]

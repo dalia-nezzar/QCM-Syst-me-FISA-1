@@ -1,0 +1,1178 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "Pourquoi DHCP et DNS sont-ils utiles dans un réseau fonctionnel ?",
+    "options": [
+      "DHCP automatise la configuration des clients et DNS associe des noms à des adresses IP",
+      "DHCP remplace les routeurs et DNS remplace les switches",
+      "DHCP chiffre le trafic et DNS filtre les paquets",
+      "DHCP attribue les noms de domaine et DNS attribue les masques"
+    ],
+    "correct": [
+      "DHCP automatise la configuration des clients et DNS associe des noms à des adresses IP"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "DHCP signifie :",
+    "options": [
+      "Dynamic Host Configuration Protocol",
+      "Domain Host Communication Protocol",
+      "Dynamic Hardware Control Process",
+      "Distributed Host Configuration Program"
+    ],
+    "correct": [
+      "Dynamic Host Configuration Protocol"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "DNS signifie :",
+    "options": [
+      "Domain Name System",
+      "Dynamic Network Service",
+      "Data Naming System",
+      "Domain Network Switch"
+    ],
+    "correct": [
+      "Domain Name System"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "DHCP est issu de quel protocole ?",
+    "options": [
+      "BOOTP",
+      "ARP",
+      "ICMP",
+      "SMTP"
+    ],
+    "correct": [
+      "BOOTP"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Le client DHCP est :",
+    "options": [
+      "L’hôte qui demande une configuration réseau",
+      "L’hôte qui répond aux requêtes DHCP",
+      "Le routeur racine du DNS",
+      "Le serveur faisant autorité"
+    ],
+    "correct": [
+      "L’hôte qui demande une configuration réseau"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Le serveur DHCP est :",
+    "options": [
+      "L’hôte qui retourne des configurations aux clients",
+      "L’hôte qui traduit les noms en adresses MAC",
+      "Le client qui renouvelle son bail",
+      "Le résolveur DNS du poste"
+    ],
+    "correct": [
+      "L’hôte qui retourne des configurations aux clients"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Le relais DHCP sert à :",
+    "options": [
+      "Transmettre requêtes et réponses DHCP entre clients et serveurs",
+      "Remplacer le serveur DNS",
+      "Attribuer des FQDN",
+      "Chiffrer les baux"
+    ],
+    "correct": [
+      "Transmettre requêtes et réponses DHCP entre clients et serveurs"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "DHCP utilise le protocole :",
+    "options": [
+      "UDP",
+      "TCP",
+      "ICMP",
+      "ARP"
+    ],
+    "correct": [
+      "UDP"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Quel port UDP utilise le client DHCP ?",
+    "options": [
+      "68",
+      "67",
+      "53",
+      "69"
+    ],
+    "correct": [
+      "68"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Quel port UDP utilise le serveur DHCP ?",
+    "options": [
+      "67",
+      "68",
+      "53",
+      "123"
+    ],
+    "correct": [
+      "67"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Si l’adresse du serveur DHCP n’est pas connue, le client envoie sa requête à :",
+    "options": [
+      "255.255.255.255",
+      "127.0.0.1",
+      "224.0.0.1",
+      "0.0.0.0/24"
+    ],
+    "correct": [
+      "255.255.255.255"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Dans la trame DHCP, le champ op indique :",
+    "options": [
+      "Le type de message BOOTREQUEST ou BOOTREPLY",
+      "Le masque réseau",
+      "La durée du bail",
+      "Le type d’enregistrement DNS"
+    ],
+    "correct": [
+      "Le type de message BOOTREQUEST ou BOOTREPLY"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Dans la trame DHCP, le champ xid correspond à :",
+    "options": [
+      "L’identifiant de transaction tiré aléatoirement par le client",
+      "L’adresse IP du routeur",
+      "La durée d’expiration du bail",
+      "Le type de carte réseau"
+    ],
+    "correct": [
+      "L’identifiant de transaction tiré aléatoirement par le client"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Dans la trame DHCP, le champ yiaddr contient :",
+    "options": [
+      "L’adresse IP proposée au client",
+      "L’adresse IP du relais",
+      "L’adresse MAC du client",
+      "L’adresse du résolveur DNS"
+    ],
+    "correct": [
+      "L’adresse IP proposée au client"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Dans la trame DHCP, le champ giaddr contient :",
+    "options": [
+      "L’adresse IP du relais",
+      "L’adresse du client déjà configuré",
+      "L’adresse du serveur racine DNS",
+      "Le FQDN du domaine"
+    ],
+    "correct": [
+      "L’adresse IP du relais"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "Quel champ DHCP est présenté comme le plus important pour le fonctionnement ?",
+    "options": [
+      "options",
+      "hlen",
+      "secs",
+      "sname"
+    ],
+    "correct": [
+      "options"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Quel message DHCP est envoyé en premier par une machine sans configuration ?",
+    "options": [
+      "DHCPDISCOVER",
+      "DHCPOFFER",
+      "DHCPREQUEST",
+      "DHCPACK"
+    ],
+    "correct": [
+      "DHCPDISCOVER"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Quel message DHCP propose une configuration au client ?",
+    "options": [
+      "DHCPOFFER",
+      "DHCPDISCOVER",
+      "DHCPREQUEST",
+      "DHCPNAK"
+    ],
+    "correct": [
+      "DHCPOFFER"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Quel message DHCP permet au client de choisir une offre ?",
+    "options": [
+      "DHCPREQUEST",
+      "DHCPACK",
+      "DHCPOFFER",
+      "DHCPDISCOVER"
+    ],
+    "correct": [
+      "DHCPREQUEST"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Quel message DHCP valide la transaction du côté serveur ?",
+    "options": [
+      "DHCPACK",
+      "DHCPDISCOVER",
+      "DHCPOFFER",
+      "DHCPREQUEST"
+    ],
+    "correct": [
+      "DHCPACK"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Le déroulement classique d’obtention d’une adresse DHCP est :",
+    "options": [
+      "DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK",
+      "DHCPOFFER, DHCPDISCOVER, DHCPACK, DHCPREQUEST",
+      "DHCPREQUEST, DHCPDISCOVER, DHCPOFFER, DHCPACK",
+      "DHCPACK, DHCPREQUEST, DHCPOFFER, DHCPDISCOVER"
+    ],
+    "correct": [
+      "DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPACK"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Pour déployer un serveur DHCP, quel prérequis est cité ?",
+    "options": [
+      "Un plan d’adressage",
+      "Un serveur web",
+      "Un domaine ICANN",
+      "Une base SQL"
+    ],
+    "correct": [
+      "Un plan d’adressage"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Un routeur Cisco peut :",
+    "options": [
+      "Faire office de serveur DHCP",
+      "Remplacer la racine DNS mondiale",
+      "Attribuer des TLD",
+      "Devenir automatiquement serveur mail"
+    ],
+    "correct": [
+      "Faire office de serveur DHCP"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Dans la configuration DHCP Cisco, les adresses exclues sont :",
+    "options": [
+      "Des adresses que le serveur ne peut pas allouer",
+      "Des adresses réservées au DNS uniquement",
+      "Des adresses supprimées du routage",
+      "Des adresses toujours envoyées en broadcast"
+    ],
+    "correct": [
+      "Des adresses que le serveur ne peut pas allouer"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Quelle commande Cisco crée un pool DHCP nommé MON_POOL ?",
+    "options": [
+      "ip dhcp pool MON_POOL",
+      "dhcp pool create MON_POOL",
+      "pool dhcp MON_POOL",
+      "create ip pool MON_POOL"
+    ],
+    "correct": [
+      "ip dhcp pool MON_POOL"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Dans un pool DHCP Cisco, la commande network sert à :",
+    "options": [
+      "Définir le réseau et la plage possible d’IP",
+      "Définir le serveur DNS",
+      "Définir le nom de domaine",
+      "Activer IPv6"
+    ],
+    "correct": [
+      "Définir le réseau et la plage possible d’IP"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Dans un pool DHCP Cisco, quelle commande définit le routeur par défaut ?",
+    "options": [
+      "default-router",
+      "gateway-default",
+      "router-default",
+      "default-gateway only"
+    ],
+    "correct": [
+      "default-router"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Dans un pool DHCP Cisco, quelle commande définit le serveur DNS ?",
+    "options": [
+      "dns-server",
+      "name-server",
+      "dns-ip",
+      "resolver"
+    ],
+    "correct": [
+      "dns-server"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "ISC DHCP est :",
+    "options": [
+      "Un logiciel serveur DHCP édité par Internet Systems Consortium",
+      "Un protocole de transport",
+      "Un serveur DNS autoritaire uniquement",
+      "Un logiciel remplacé par BIND9"
+    ],
+    "correct": [
+      "Un logiciel serveur DHCP édité par Internet Systems Consortium"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Selon le cours, ISC DHCP a été remplacé par :",
+    "options": [
+      "Kea",
+      "Bind9",
+      "Dnsmasq",
+      "Netplan"
+    ],
+    "correct": [
+      "Kea"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Sous Debian, l’installation du serveur ISC DHCP se fait avec :",
+    "options": [
+      "sudo apt install isc-dhcp-server",
+      "sudo apt install dhcpd9",
+      "sudo dnf install dhcp-server",
+      "sudo apt install kea-bind"
+    ],
+    "correct": [
+      "sudo apt install isc-dhcp-server"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Le fichier principal de configuration de ISC DHCP est :",
+    "options": [
+      "/etc/dhcp/dhcpd.conf",
+      "/etc/bind/named.conf",
+      "/etc/dns/dhcp.conf",
+      "/etc/network/interfaces"
+    ],
+    "correct": [
+      "/etc/dhcp/dhcpd.conf"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "Dans la configuration ISC DHCP, quelles sont les sections principales citées ?",
+    "options": [
+      "Paramètres généraux, réseaux, hôtes",
+      "Racine, TLD, résolveurs",
+      "Clients, paquets, ports",
+      "Switchs, routeurs, VLAN"
+    ],
+    "correct": [
+      "Paramètres généraux, réseaux, hôtes"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "Dans une déclaration host de dhcpd.conf, fixed-address sert à :",
+    "options": [
+      "Attribuer une adresse fixe à une machine",
+      "Définir la durée du bail",
+      "Configurer le FQDN",
+      "Définir le serveur racine"
+    ],
+    "correct": [
+      "Attribuer une adresse fixe à une machine"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Sans DNS, pour accéder à un service, il faudrait surtout connaître :",
+    "options": [
+      "Son adresse IP",
+      "Son adresse MAC",
+      "Son numéro de port DHCP",
+      "Son numéro de série matériel"
+    ],
+    "correct": [
+      "Son adresse IP"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "DNS permet :",
+    "options": [
+      "D’associer un nom à une adresse IP",
+      "D’attribuer automatiquement une adresse IP",
+      "De transporter les paquets",
+      "De remplacer le routage"
+    ],
+    "correct": [
+      "D’associer un nom à une adresse IP"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "L’architecture DNS est présentée comme :",
+    "options": [
+      "Hiérarchique, comme un arbre",
+      "Plate et sans racine",
+      "Basée sur des broadcasts uniquement",
+      "Limitée à deux niveaux"
+    ],
+    "correct": [
+      "Hiérarchique, comme un arbre"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "La racine du DNS est représentée par :",
+    "options": [
+      ".",
+      "/",
+      "*",
+      "@"
+    ],
+    "correct": [
+      "."
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "TLD signifie :",
+    "options": [
+      "Top Level Domain",
+      "Transmission Level Data",
+      "Top Link Directory",
+      "Terminal Level Domain"
+    ],
+    "correct": [
+      "Top Level Domain"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Un label DNS comporte au maximum :",
+    "options": [
+      "63 caractères",
+      "32 caractères",
+      "128 caractères",
+      "255 caractères"
+    ],
+    "correct": [
+      "63 caractères"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "La longueur totale maximale d’un nom DNS est de :",
+    "options": [
+      "255 octets",
+      "63 octets",
+      "512 octets",
+      "1024 octets"
+    ],
+    "correct": [
+      "255 octets"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Dans un FQDN, le dernier label est :",
+    "options": [
+      "Le label racine de longueur 0",
+      "Toujours le nom d’hôte",
+      "Toujours le TLD",
+      "Le serveur récursif"
+    ],
+    "correct": [
+      "Le label racine de longueur 0"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Le format de présentation d’un nom DNS utilise :",
+    "options": [
+      "Des labels ASCII séparés par des points",
+      "Des labels binaires sans séparateur",
+      "Uniquement des adresses IP",
+      "Des adresses MAC séparées par des deux-points"
+    ],
+    "correct": [
+      "Des labels ASCII séparés par des points"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Un FQDN est :",
+    "options": [
+      "Le nom de domaine complet incluant la racine",
+      "Un simple alias local",
+      "Une adresse IPv6",
+      "Le nom d’une interface"
+    ],
+    "correct": [
+      "Le nom de domaine complet incluant la racine"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Lequel est un FQDN selon le cours ?",
+    "options": [
+      "www.utbm.fr",
+      "www",
+      "fr",
+      "org"
+    ],
+    "correct": [
+      "www.utbm.fr"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "Quels sont les deux types de serveurs DNS cités ?",
+    "options": [
+      "Résolveurs récursifs et serveurs faisant autorité",
+      "Serveurs BOOTP et serveurs DHCP",
+      "Serveurs root et serveurs web",
+      "Switchs DNS et routeurs DNS"
+    ],
+    "correct": [
+      "Résolveurs récursifs et serveurs faisant autorité"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "Un résolveur DNS récursif :",
+    "options": [
+      "Obtient les enregistrements à partir d’autres serveurs et peut gérer un cache",
+      "Est responsable d’un domaine uniquement",
+      "Ne connaît que la zone localhost",
+      "Attribue des adresses IP aux clients"
+    ],
+    "correct": [
+      "Obtient les enregistrements à partir d’autres serveurs et peut gérer un cache"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "Un serveur DNS faisant autorité :",
+    "options": [
+      "Gère et est responsable d’un domaine ou sous-domaine",
+      "Attribue les adresses DHCP",
+      "Interroge seulement les serveurs root",
+      "Ne connaît jamais de zone"
+    ],
+    "correct": [
+      "Gère et est responsable d’un domaine ou sous-domaine"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Lors d’une résolution récursive illustrée dans le cours, le résolveur interroge d’abord :",
+    "options": [
+      "Le serveur racine",
+      "Le serveur du domaine final directement",
+      "Le client DHCP",
+      "Le serveur mail MX"
+    ],
+    "correct": [
+      "Le serveur racine"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Combien de serveurs racine DNS sont mentionnés dans le cours ?",
+    "options": [
+      "13",
+      "10",
+      "8",
+      "1"
+    ],
+    "correct": [
+      "13"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple de résolution, après la racine, le résolveur va chercher sur le serveur du :",
+    "options": [
+      ".org",
+      ".fr",
+      "wikimedia.org directement uniquement",
+      "localhost"
+    ],
+    "correct": [
+      ".org"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Bind9 est présenté comme :",
+    "options": [
+      "Un logiciel serveur DNS de ISC",
+      "Un client DHCP",
+      "Un switch logiciel",
+      "Un protocole de résolution"
+    ],
+    "correct": [
+      "Un logiciel serveur DNS de ISC"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Bind9 permet :",
+    "options": [
+      "La résolution récursive et la gestion de sa propre zone",
+      "Uniquement le reverse DNS",
+      "Uniquement la translation NAT",
+      "Uniquement la configuration DHCP"
+    ],
+    "correct": [
+      "La résolution récursive et la gestion de sa propre zone"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Sous Debian, Bind9 s’installe avec :",
+    "options": [
+      "sudo apt install bind9",
+      "sudo apt install dns9",
+      "sudo dnf install bind9",
+      "sudo apt install named"
+    ],
+    "correct": [
+      "sudo apt install bind9"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Le fichier principal de configuration de Bind9 est :",
+    "options": [
+      "/etc/bind/named.conf",
+      "/etc/dhcp/dhcpd.conf",
+      "/etc/resolv.conf.local",
+      "/etc/dns/bind.conf"
+    ],
+    "correct": [
+      "/etc/bind/named.conf"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "named.conf.local est :",
+    "options": [
+      "Inclus par named.conf",
+      "Le fichier de bail DHCP",
+      "Le cache des résolveurs uniquement",
+      "Le fichier de zone racine mondiale"
+    ],
+    "correct": [
+      "Inclus par named.conf"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Dans la configuration locale Bind9, type master signifie que le serveur :",
+    "options": [
+      "Est maître de la zone",
+      "Est uniquement récursif",
+      "Est client DHCP",
+      "Est relais DHCP"
+    ],
+    "correct": [
+      "Est maître de la zone"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Quel enregistrement DNS associe un nom d’hôte à une adresse IPv4 ?",
+    "options": [
+      "A",
+      "AAAA",
+      "PTR",
+      "MX"
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "Quel enregistrement DNS associe un nom à une adresse IPv6 ?",
+    "options": [
+      "AAAA",
+      "A",
+      "NS",
+      "TXT"
+    ],
+    "correct": [
+      "AAAA"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "Quel enregistrement DNS sert à la résolution inverse IP vers nom ?",
+    "options": [
+      "PTR",
+      "CNAME",
+      "MX",
+      "SOA"
+    ],
+    "correct": [
+      "PTR"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "Quel enregistrement DNS définit les serveurs DNS du domaine ?",
+    "options": [
+      "NS",
+      "TXT",
+      "A",
+      "PTR"
+    ],
+    "correct": [
+      "NS"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "Quel enregistrement DNS définit les serveurs mail du domaine ?",
+    "options": [
+      "MX",
+      "NS",
+      "PTR",
+      "SOA"
+    ],
+    "correct": [
+      "MX"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "Quel enregistrement DNS correspond à un alias ?",
+    "options": [
+      "CNAME",
+      "AAAA",
+      "SOA",
+      "NS"
+    ],
+    "correct": [
+      "CNAME"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "Quel enregistrement DNS débute la définition d’une zone ?",
+    "options": [
+      "SOA",
+      "PTR",
+      "TXT",
+      "A"
+    ],
+    "correct": [
+      "SOA"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "Dans un SOA, le champ refresh indique :",
+    "options": [
+      "Le temps entre mises à jour par les secondaires",
+      "Le temps de vie des baux DHCP",
+      "Le temps de réponse du client",
+      "Le nombre de labels"
+    ],
+    "correct": [
+      "Le temps entre mises à jour par les secondaires"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "Dans un SOA, le champ retry indique :",
+    "options": [
+      "Le temps entre deux essais d’une requête échouée",
+      "La durée du cache DNS positif",
+      "La durée d’un bail DHCP",
+      "Le temps de routage vers la racine"
+    ],
+    "correct": [
+      "Le temps entre deux essais d’une requête échouée"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "Dans un SOA, le champ expire indique :",
+    "options": [
+      "La durée de validité de la zone si le primaire fait défaut",
+      "Le TTL d’une adresse MAC",
+      "La durée d’un DHCPDISCOVER",
+      "Le nombre maximal de clients"
+    ],
+    "correct": [
+      "La durée de validité de la zone si le primaire fait défaut"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "Le cours recommande d’incrémenter revision à chaque modification, souvent sous la forme :",
+    "options": [
+      "YYYYMMDDnn",
+      "DDMMYYYY",
+      "IPv4/24",
+      "XX-YY-ZZ"
+    ],
+    "correct": [
+      "YYYYMMDDnn"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "free_answer",
+    "question": "Quel protocole configure automatiquement les clients réseau ?",
+    "correct": [
+      "dhcp"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "free_answer",
+    "question": "Quel système associe des noms à des adresses IP ?",
+    "correct": [
+      "dns"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "free_answer",
+    "question": "Quel protocole de transport utilise DHCP ?",
+    "correct": [
+      "udp"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "free_answer",
+    "question": "Quel port utilise le client DHCP ?",
+    "correct": [
+      "68"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "free_answer",
+    "question": "Quel port utilise le serveur DHCP ?",
+    "correct": [
+      "67"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "free_answer",
+    "question": "Quel message DHCP est envoyé en premier par un client sans configuration ?",
+    "correct": [
+      "dhcpdiscover"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "free_answer",
+    "question": "Quel message DHCP propose une configuration au client ?",
+    "correct": [
+      "dhcpoffer"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "free_answer",
+    "question": "Quel message DHCP choisit l’offre retenue ?",
+    "correct": [
+      "dhcprequest"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "free_answer",
+    "question": "Quel message DHCP valide la transaction ?",
+    "correct": [
+      "dhcpack"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "free_answer",
+    "question": "Quel champ DHCP contient l’adresse IP proposée au client ?",
+    "correct": [
+      "yiaddr"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "free_answer",
+    "question": "Quel champ DHCP contient l’adresse IP du relais ?",
+    "correct": [
+      "giaddr"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Quel champ DHCP contient l’adresse matérielle du client ?",
+    "correct": [
+      "chaddr"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "free_answer",
+    "question": "Quel logiciel DHCP largement utilisé est édité par ISC ?",
+    "correct": [
+      "isc dhcpd",
+      "isc-dhcp-server",
+      "dhcpd"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "free_answer",
+    "question": "Quel logiciel a remplacé ISC DHCP selon le cours ?",
+    "correct": [
+      "kea"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "free_answer",
+    "question": "Quel est le fichier principal de configuration de isc dhcpd ?",
+    "correct": [
+      "/etc/dhcp/dhcpd.conf",
+      "dhcpd.conf"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "free_answer",
+    "question": "Quel mot désigne le nom de domaine complet incluant la racine ?",
+    "correct": [
+      "fqdn"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "free_answer",
+    "question": "Quel symbole représente la racine DNS ?",
+    "correct": [
+      "."
+    ]
+  },
+  {
+    "id": 86,
+    "type": "free_answer",
+    "question": "Quel type de serveur DNS peut garder un cache ?",
+    "correct": [
+      "résolveur",
+      "resolveur",
+      "serveur récursif",
+      "serveur recursif"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "free_answer",
+    "question": "Quel logiciel DNS de ISC est cité dans le cours ?",
+    "correct": [
+      "bind9",
+      "bind"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "free_answer",
+    "question": "Quel fichier de configuration principal utilise Bind9 ?",
+    "correct": [
+      "/etc/bind/named.conf",
+      "named.conf"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "free_answer",
+    "question": "Quel enregistrement DNS associe un nom à une IPv4 ?",
+    "correct": [
+      "a"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "free_answer",
+    "question": "Quel enregistrement DNS associe un nom à une IPv6 ?",
+    "correct": [
+      "aaaa"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "free_answer",
+    "question": "Quel enregistrement DNS sert à la résolution inverse ?",
+    "correct": [
+      "ptr"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "free_answer",
+    "question": "Quel enregistrement DNS définit les serveurs mail ?",
+    "correct": [
+      "mx"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "free_answer",
+    "question": "Quel enregistrement DNS définit les serveurs de noms du domaine ?",
+    "correct": [
+      "ns"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "free_answer",
+    "question": "Quel enregistrement DNS correspond à un alias ?",
+    "correct": [
+      "cname"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "free_answer",
+    "question": "Quel enregistrement DNS débute une zone ?",
+    "correct": [
+      "soa"
+    ]
+  }
+]

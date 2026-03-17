@@ -1,0 +1,1000 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "Pourquoi a-t-on besoin d’un système d’exploitation ?",
+    "options": [
+      "Pour fournir une couche d’abstraction entre le matériel et les applications",
+      "Pour remplacer totalement le processeur",
+      "Pour supprimer le besoin de mémoire",
+      "Pour empêcher toute communication réseau"
+    ],
+    "correct": [
+      "Pour fournir une couche d’abstraction entre le matériel et les applications"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "Parmi les éléments suivants, lequel fait partie des composants d’un ordinateur ?",
+    "options": [
+      "Processeur",
+      "Compilateur",
+      "Navigateur web",
+      "Antivirus"
+    ],
+    "correct": [
+      "Processeur"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Lequel des éléments suivants est un rôle de l’OS ?",
+    "options": [
+      "Gestion des processus",
+      "Fabrication du matériel",
+      "Remplacement du BIOS",
+      "Compilation automatique de tous les programmes"
+    ],
+    "correct": [
+      "Gestion des processus"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Lequel des éléments suivants fait partie des rôles de l’OS ?",
+    "options": [
+      "Ordonnancement",
+      "Conception de cartes mères",
+      "Fabrication de SSD",
+      "Soudure des périphériques"
+    ],
+    "correct": [
+      "Ordonnancement"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Linux désigne principalement :",
+    "options": [
+      "Le noyau du système",
+      "Un navigateur",
+      "Un gestionnaire de fenêtres",
+      "Un protocole réseau"
+    ],
+    "correct": [
+      "Le noyau du système"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Une distribution GNU/Linux est :",
+    "options": [
+      "Une combinaison du noyau Linux avec des logiciels utiles",
+      "Uniquement le shell",
+      "Uniquement le serveur graphique",
+      "Un type de partition"
+    ],
+    "correct": [
+      "Une combinaison du noyau Linux avec des logiciels utiles"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Le shell est surtout :",
+    "options": [
+      "Un interpréteur de commandes",
+      "Un système de fichiers",
+      "Un pilote de périphérique",
+      "Un BIOS avancé"
+    ],
+    "correct": [
+      "Un interpréteur de commandes"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Pourquoi le shell reste-t-il utile malgré les interfaces graphiques ?",
+    "options": [
+      "Parce qu’il est pratique pour les serveurs sans interface graphique et les traitements en lots",
+      "Parce qu’il remplace le noyau",
+      "Parce qu’il interdit les erreurs",
+      "Parce qu’il crée automatiquement des partitions"
+    ],
+    "correct": [
+      "Parce qu’il est pratique pour les serveurs sans interface graphique et les traitements en lots"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet d’obtenir des informations sur le noyau exécuté ?",
+    "options": [
+      "uname",
+      "mount",
+      "chmod",
+      "pwd"
+    ],
+    "correct": [
+      "uname"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de voir les partitions montées ?",
+    "options": [
+      "mount",
+      "ip a",
+      "ls",
+      "touch"
+    ],
+    "correct": [
+      "mount"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de voir l’occupation des partitions ?",
+    "options": [
+      "df",
+      "cd",
+      "mv",
+      "route"
+    ],
+    "correct": [
+      "df"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Quelle commande moderne est recommandée pour voir les adresses IP sous Linux ?",
+    "options": [
+      "ip a",
+      "ifconfig",
+      "route",
+      "uname -r"
+    ],
+    "correct": [
+      "ip a"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Quelle commande moderne est recommandée pour voir les routes réseau ?",
+    "options": [
+      "ip r",
+      "mount",
+      "ls -l",
+      "pwd"
+    ],
+    "correct": [
+      "ip r"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Qu’est-ce qu’un système de fichiers ?",
+    "options": [
+      "Une façon d’organiser et stocker une arborescence sur un support",
+      "Une méthode pour exécuter des programmes graphiques",
+      "Un type de processeur",
+      "Un protocole de communication réseau"
+    ],
+    "correct": [
+      "Une façon d’organiser et stocker une arborescence sur un support"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Parmi les systèmes suivants, lequel est un système de fichiers Linux ?",
+    "options": [
+      "ext4",
+      "HTTP",
+      "bash",
+      "BIOS"
+    ],
+    "correct": [
+      "ext4"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "Quelle affirmation est vraie à propos de ext2 ?",
+    "options": [
+      "Il n’est pas journalisé",
+      "Il est basé sur le réseau",
+      "Il est le système de fichiers par défaut de Windows",
+      "Il ne gère aucun fichier texte"
+    ],
+    "correct": [
+      "Il n’est pas journalisé"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Quelle affirmation est vraie à propos de ext3 ?",
+    "options": [
+      "C’est une extension de ext2 permettant la journalisation",
+      "C’est un protocole réseau",
+      "Il ne peut pas être converti depuis ext2",
+      "Il est réservé aux CD-ROM"
+    ],
+    "correct": [
+      "C’est une extension de ext2 permettant la journalisation"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Quel système de fichiers est connu pour être basé sur le Copy-On-Write ?",
+    "options": [
+      "btrfs",
+      "FAT16",
+      "ext2",
+      "ISO"
+    ],
+    "correct": [
+      "btrfs"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Quel système de fichiers est donné comme système par défaut pour de nombreuses distributions Linux ?",
+    "options": [
+      "ext4",
+      "FAT32",
+      "NTFS",
+      "NFS"
+    ],
+    "correct": [
+      "ext4"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Sous UNIX/Linux, tous les systèmes de fichiers doivent être intégrés dans :",
+    "options": [
+      "Une unique arborescence logique",
+      "Une lettre de lecteur différente",
+      "Un BIOS séparé",
+      "Une interface graphique unique"
+    ],
+    "correct": [
+      "Une unique arborescence logique"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Sous Linux, le point de départ de l’arborescence est :",
+    "options": [
+      "/",
+      "/home",
+      "/root",
+      "/mnt"
+    ],
+    "correct": [
+      "/"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Quel répertoire contient généralement les fichiers de configuration du système ?",
+    "options": [
+      "/etc",
+      "/bin",
+      "/tmp",
+      "/home"
+    ],
+    "correct": [
+      "/etc"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Quel répertoire correspond à la racine des répertoires personnels des utilisateurs ?",
+    "options": [
+      "/home",
+      "/root",
+      "/var",
+      "/proc"
+    ],
+    "correct": [
+      "/home"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Quel répertoire contient les fichiers spéciaux d’accès aux périphériques ?",
+    "options": [
+      "/dev",
+      "/etc",
+      "/usr",
+      "/opt"
+    ],
+    "correct": [
+      "/dev"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Quel répertoire est associé aux fichiers temporaires ?",
+    "options": [
+      "/tmp",
+      "/boot",
+      "/lib",
+      "/proc"
+    ],
+    "correct": [
+      "/tmp"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Quel pseudo-répertoire fait le lien entre l’espace noyau et l’espace utilisateur ?",
+    "options": [
+      "/proc",
+      "/mnt",
+      "/opt",
+      "/home"
+    ],
+    "correct": [
+      "/proc"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Combien de types de fichiers sont présentés dans le cours UNIX ?",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "8"
+    ],
+    "correct": [
+      "5"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Parmi les éléments suivants, lequel est un type de fichier UNIX cité dans le cours ?",
+    "options": [
+      "Lien symbolique",
+      "Table SQL",
+      "Machine virtuelle",
+      "Socket TCP obligatoire"
+    ],
+    "correct": [
+      "Lien symbolique"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Un nom absolu de fichier :",
+    "options": [
+      "Commence toujours par la racine",
+      "Ne contient jamais de slash",
+      "Est toujours relatif au répertoire courant",
+      "Est limité à 8 caractères"
+    ],
+    "correct": [
+      "Commence toujours par la racine"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Dans un chemin UNIX, le caractère / peut servir à :",
+    "options": [
+      "Désigner la racine et séparer les noms de répertoires",
+      "Uniquement marquer la fin du fichier",
+      "Uniquement représenter le répertoire parent",
+      "Lancer une commande réseau"
+    ],
+    "correct": [
+      "Désigner la racine et séparer les noms de répertoires"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Sous UNIX/Linux, les noms de fichiers sont :",
+    "options": [
+      "Sensibles à la casse",
+      "Toujours insensibles à la casse",
+      "Toujours en majuscules",
+      "Toujours limités à 12 caractères"
+    ],
+    "correct": [
+      "Sensibles à la casse"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "L’inode correspond principalement à :",
+    "options": [
+      "Un identificateur unique du fichier dans le système de fichiers",
+      "Le contenu texte du fichier",
+      "Le mot de passe du propriétaire",
+      "Le nom visible du fichier"
+    ],
+    "correct": [
+      "Un identificateur unique du fichier dans le système de fichiers"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "Un répertoire UNIX assure la correspondance entre :",
+    "options": [
+      "Un nom de fichier et son numéro d’inode",
+      "Une IP et une adresse MAC",
+      "Un utilisateur et son mot de passe",
+      "Un disque et son BIOS"
+    ],
+    "correct": [
+      "Un nom de fichier et son numéro d’inode"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de créer un lien symbolique ?",
+    "options": [
+      "ln -s fichier lien",
+      "cp -s fichier lien",
+      "mklink fichier lien",
+      "touch -l fichier lien"
+    ],
+    "correct": [
+      "ln -s fichier lien"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Chaque fichier possède combien de niveaux d’accès ?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correct": [
+      "3"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "Quels sont les trois niveaux d’accès d’un fichier ?",
+    "options": [
+      "user, group, other",
+      "admin, guest, root",
+      "read, write, execute",
+      "local, distant, réseau"
+    ],
+    "correct": [
+      "user, group, other"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "Quels sont les trois types de protections classiques sous UNIX ?",
+    "options": [
+      "read, write, execute",
+      "copy, paste, delete",
+      "mount, umount, format",
+      "user, group, other"
+    ],
+    "correct": [
+      "read, write, execute"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "À quoi correspond la permission 644 ?",
+    "options": [
+      "rw-r--r--",
+      "rwxr-xr-x",
+      "rwx------",
+      "rwxrwxrwx"
+    ],
+    "correct": [
+      "rw-r--r--"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Quelle commande ajoute les droits de lecture et écriture au propriétaire ?",
+    "options": [
+      "chmod u+rw fichier",
+      "chmod g+rw fichier",
+      "chmod o+rw fichier",
+      "chmod a-x fichier"
+    ],
+    "correct": [
+      "chmod u+rw fichier"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Pour appliquer un changement de droits récursivement à un répertoire, on utilise généralement :",
+    "options": [
+      "-R",
+      "-a",
+      "-l",
+      "-p"
+    ],
+    "correct": [
+      "-R"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de créer un répertoire ?",
+    "options": [
+      "mkdir",
+      "rmdir",
+      "touchdir",
+      "mkfile"
+    ],
+    "correct": [
+      "mkdir"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Pour entrer dans un répertoire avec cd, il faut principalement le droit :",
+    "options": [
+      "x",
+      "r",
+      "w",
+      "s"
+    ],
+    "correct": [
+      "x"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "La commande rmdir fonctionne si :",
+    "options": [
+      "Le répertoire est vide",
+      "Le répertoire contient au moins un fichier",
+      "Le répertoire est monté",
+      "Le répertoire appartient à root uniquement"
+    ],
+    "correct": [
+      "Le répertoire est vide"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet d’afficher le nom complet du répertoire courant ?",
+    "options": [
+      "pwd",
+      "ls",
+      "cd",
+      "file"
+    ],
+    "correct": [
+      "pwd"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Quelle commande renseigne sur la nature du contenu d’un fichier ?",
+    "options": [
+      "file",
+      "cat",
+      "mount",
+      "grep"
+    ],
+    "correct": [
+      "file"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de déplacer ou renommer un fichier ?",
+    "options": [
+      "mv",
+      "cp",
+      "rm",
+      "touch"
+    ],
+    "correct": [
+      "mv"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de copier un fichier ?",
+    "options": [
+      "cp",
+      "mv",
+      "rm",
+      "pwd"
+    ],
+    "correct": [
+      "cp"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "L’umask correspond à :",
+    "options": [
+      "Des droits à retirer par défaut",
+      "Des droits à ajouter par défaut",
+      "Un type de partition",
+      "Le nom du noyau Linux"
+    ],
+    "correct": [
+      "Des droits à retirer par défaut"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Avec umask 027, quels droits obtient le nouveau fichier selon le cours ?",
+    "options": [
+      "rwxr-x---",
+      "rw-rw-r--",
+      "rwxrwxrwx",
+      "rwxrwx---"
+    ],
+    "correct": [
+      "rwxr-x---"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Quel modèle de table de partitionnement permet jusqu’à 128 partitions maximum ?",
+    "options": [
+      "GPT",
+      "MBR",
+      "EXT",
+      "NFS"
+    ],
+    "correct": [
+      "GPT"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Quel modèle de table de partitionnement est limité à 4 partitions primaires ?",
+    "options": [
+      "MBR",
+      "GPT",
+      "ZFS",
+      "BTRFS"
+    ],
+    "correct": [
+      "MBR"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Sous Linux, le montage consiste à mettre en relation :",
+    "options": [
+      "Un fichier spécial de périphérique et un point de montage",
+      "Deux mots de passe utilisateurs",
+      "Un inode et une adresse IP",
+      "Un shell et un serveur graphique"
+    ],
+    "correct": [
+      "Un fichier spécial de périphérique et un point de montage"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Quel répertoire est souvent utilisé comme racine des points de montage de systèmes extérieurs ?",
+    "options": [
+      "/mnt",
+      "/etc",
+      "/usr",
+      "/var"
+    ],
+    "correct": [
+      "/mnt"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de démonter un système de fichiers ?",
+    "options": [
+      "umount",
+      "unmount",
+      "demount",
+      "rmount"
+    ],
+    "correct": [
+      "umount"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Quel nom de périphérique correspond typiquement à un disque NVMe ?",
+    "options": [
+      "/dev/nvmeXnYpZ",
+      "/dev/eth0",
+      "/dev/proc0",
+      "/dev/rootfs"
+    ],
+    "correct": [
+      "/dev/nvmeXnYpZ"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Quel nom de périphérique correspond typiquement à un disque SATA/SCSI/USB ?",
+    "options": [
+      "/dev/sdX",
+      "/dev/ttyX",
+      "/dev/nvX",
+      "/dev/fsX"
+    ],
+    "correct": [
+      "/dev/sdX"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Parmi les options suivantes, laquelle fait partie des options de montage par défaut citées ?",
+    "options": [
+      "exec",
+      "noexec obligatoire",
+      "compress",
+      "journal"
+    ],
+    "correct": [
+      "exec"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Quelles options sont citées comme utiles pour les SSD ?",
+    "options": [
+      "noatime, nodiratime, discard",
+      "rw, exec, bios",
+      "mount, umount, sync",
+      "uid, gid, ascii"
+    ],
+    "correct": [
+      "noatime, nodiratime, discard"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "free_answer",
+    "question": "Donne le nom de la couche d’abstraction entre le matériel et les applications.",
+    "correct": [
+      "système d’exploitation",
+      "systeme d exploitation",
+      "os",
+      "operating system"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "free_answer",
+    "question": "Donne le nom de l’interpréteur de commandes sous Linux/UNIX.",
+    "correct": [
+      "shell"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "free_answer",
+    "question": "Donne le nom du noyau utilisé comme base des distributions GNU/Linux.",
+    "correct": [
+      "linux"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "free_answer",
+    "question": "Quelle commande permet d’obtenir des informations sur le noyau exécuté ?",
+    "correct": [
+      "uname"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "free_answer",
+    "question": "Quelle commande permet de voir les partitions montées ?",
+    "correct": [
+      "mount"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "free_answer",
+    "question": "Quelle commande permet de voir l’occupation des partitions ?",
+    "correct": [
+      "df"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "free_answer",
+    "question": "Donne le nom du système de fichiers Linux très répandu par défaut sur de nombreuses distributions.",
+    "correct": [
+      "ext4"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "free_answer",
+    "question": "Donne le nom du système de fichiers basé sur le Copy-On-Write cité dans le cours.",
+    "correct": [
+      "btrfs"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "free_answer",
+    "question": "Comment s’appelle l’identificateur unique d’un fichier dans le système de fichiers ?",
+    "correct": [
+      "inode"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "free_answer",
+    "question": "Donne le nom du répertoire racine du système UNIX/Linux.",
+    "correct": [
+      "/",
+      "racine"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "free_answer",
+    "question": "Quel répertoire contient généralement les fichiers de configuration du système ?",
+    "correct": [
+      "/etc",
+      "etc"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "free_answer",
+    "question": "Quel répertoire contient les périphériques sous forme de fichiers spéciaux ?",
+    "correct": [
+      "/dev",
+      "dev"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "free_answer",
+    "question": "Quel répertoire sert généralement de racine pour les points de montage ?",
+    "correct": [
+      "/mnt",
+      "mnt"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "free_answer",
+    "question": "Quel pseudo-répertoire relie l’espace noyau et l’espace utilisateur ?",
+    "correct": [
+      "/proc",
+      "proc"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "free_answer",
+    "question": "Quelle commande permet d’afficher le répertoire courant ?",
+    "correct": [
+      "pwd"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "free_answer",
+    "question": "Quelle commande permet de créer un répertoire ?",
+    "correct": [
+      "mkdir"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "free_answer",
+    "question": "Quelle commande permet de supprimer un répertoire vide ?",
+    "correct": [
+      "rmdir"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "free_answer",
+    "question": "Quelle commande permet de changer de répertoire ?",
+    "correct": [
+      "cd"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "free_answer",
+    "question": "Quelle commande permet de changer les droits d’un fichier ?",
+    "correct": [
+      "chmod"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "free_answer",
+    "question": "Quelle commande permet de créer un lien symbolique ?",
+    "correct": [
+      "ln -s",
+      "ln"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "free_answer",
+    "question": "Quelle commande permet de démonter un périphérique ou système de fichiers ?",
+    "correct": [
+      "umount"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Comment s’appelle le mécanisme qui intègre un système de fichiers externe dans l’arborescence Linux ?",
+    "correct": [
+      "montage",
+      "mount"
+    ]
+  }
+]
