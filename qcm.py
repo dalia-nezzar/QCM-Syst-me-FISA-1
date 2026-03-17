@@ -68,6 +68,7 @@ parts = {
     "Chapitre 3 - DHCP et DNS": "dhcp-dns.json",
     "Chapitre 4 - LDAP": "ldap.json",
     "Chapitre 5 - Active Directory": "active-directory.json",
+    "Chapitre 6 - NFS - Samba": "nfs-samba.json",
 }
 
 if not st.session_state.started:
