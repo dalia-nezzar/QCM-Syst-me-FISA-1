@@ -4,19 +4,19 @@
     "type": "multiple_choice",
     "question": "Active Directory est :",
     "options": [
-      "Un service d’annuaire développé par Microsoft",
+      "Un service d'annuaire développé par Microsoft",
       "Un protocole réseau de routage",
       "Un antivirus intégré à Windows",
       "Un simple logiciel DNS"
     ],
     "correct": [
-      "Un service d’annuaire développé par Microsoft"
+      "Un service d'annuaire développé par Microsoft"
     ]
   },
   {
     "id": 2,
     "type": "multiple_choice",
-    "question": "Parmi les objectifs d’Active Directory, lequel est cité dans le cours ?",
+    "question": "Parmi les objectifs d'Active Directory, lequel est cité dans le cours ?",
     "options": [
       "Centraliser la gestion des identités et des accès",
       "Remplacer totalement Internet",
@@ -32,13 +32,13 @@
     "type": "multiple_choice",
     "question": "Active Directory permet aussi de :",
     "options": [
-      "Simplifier l’administration réseau",
+      "Simplifier l'administration réseau",
       "Remplacer les cartes réseau",
       "Supprimer les groupes utilisateurs",
       "Créer automatiquement des VLAN"
     ],
     "correct": [
-      "Simplifier l’administration réseau"
+      "Simplifier l'administration réseau"
     ]
   },
   {
@@ -58,7 +58,7 @@
   {
     "id": 5,
     "type": "multiple_choice",
-    "question": "L’architecture d’Active Directory est décrite comme :",
+    "question": "L'architecture d'Active Directory est décrite comme :",
     "options": [
       "Hiérarchique et modulaire",
       "Plate et linéaire",
@@ -128,7 +128,7 @@
   {
     "id": 10,
     "type": "multiple_choice",
-    "question": "Dans le modèle logique d’AD, les objets sont organisés notamment en :",
+    "question": "Dans le modèle logique d'AD, les objets sont organisés notamment en :",
     "options": [
       "Domaines et forêts",
       "Disques et partitions",
@@ -142,7 +142,7 @@
   {
     "id": 11,
     "type": "multiple_choice",
-    "question": "Dans le modèle physique d’AD, l’élément cité est :",
+    "question": "Dans le modèle physique d'AD, l'élément cité est :",
     "options": [
       "Les sites",
       "Les sockets",
@@ -172,13 +172,13 @@
     "type": "multiple_choice",
     "question": "ADDS est présenté comme :",
     "options": [
-      "Le composant principal d’Active Directory",
-      "Le client graphique d’AD",
-      "Le protocole de chiffrement d’AD",
-      "Le serveur DNS externe d’AD"
+      "Le composant principal d'Active Directory",
+      "Le client graphique d'AD",
+      "Le protocole de chiffrement d'AD",
+      "Le serveur DNS externe d'AD"
     ],
     "correct": [
-      "Le composant principal d’Active Directory"
+      "Le composant principal d'Active Directory"
     ]
   },
   {
@@ -212,7 +212,7 @@
   {
     "id": 16,
     "type": "multiple_choice",
-    "question": "ADDS s’appuie sur quel protocole pour les opérations CRUD ?",
+    "question": "ADDS s'appuie sur quel protocole pour les opérations CRUD ?",
     "options": [
       "LDAP",
       "DHCP",
@@ -256,13 +256,13 @@
     "type": "multiple_choice",
     "question": "Kerberos est décrit comme :",
     "options": [
-      "Un protocole d’authentification basé sur des tickets",
+      "Un protocole d'authentification basé sur des tickets",
       "Un protocole de nommage de domaine",
       "Un outil de gestion des utilisateurs",
       "Un langage de script Microsoft"
     ],
     "correct": [
-      "Un protocole d’authentification basé sur des tickets"
+      "Un protocole d'authentification basé sur des tickets"
     ]
   },
   {
@@ -282,7 +282,7 @@
   {
     "id": 21,
     "type": "multiple_choice",
-    "question": "Selon le cours, Kerberos fonctionne en combien d’étapes ?",
+    "question": "Selon le cours, Kerberos fonctionne en combien d'étapes ?",
     "options": [
       "3",
       "2",
@@ -354,13 +354,13 @@
     "type": "multiple_choice",
     "question": "DNS lie :",
     "options": [
-      "Les noms d’hôte aux adresses IP",
+      "Les noms d'hôte aux adresses IP",
       "Les utilisateurs aux mots de passe BIOS",
       "Les groupes aux tickets Kerberos",
       "Les sites aux OUs"
     ],
     "correct": [
-      "Les noms d’hôte aux adresses IP"
+      "Les noms d'hôte aux adresses IP"
     ]
   },
   {
@@ -399,7 +399,7 @@
       "Des domaines ayant un espace de noms continu",
       "Des sites sans relation de confiance",
       "Des DNS externes",
-      "Des VLAN d’entreprise"
+      "Des VLAN d'entreprise"
     ],
     "correct": [
       "Des domaines ayant un espace de noms continu"
@@ -495,7 +495,7 @@
     "question": "Les sites dans AD représentent :",
     "options": [
       "La structure physique du réseau",
-      "Des groupes d’utilisateurs logiques",
+      "Des groupes d'utilisateurs logiques",
       "Des partitions DNS publiques",
       "Des partages de fichiers"
     ],
@@ -506,11 +506,11 @@
   {
     "id": 37,
     "type": "multiple_choice",
-    "question": "Les sites permettent notamment d’optimiser :",
+    "question": "Les sites permettent notamment d'optimiser :",
     "options": [
       "La réplication et le trafic réseau",
       "La taille des mots de passe",
-      "La couleur des consoles d’admin",
+      "La couleur des consoles d'admin",
       "La vitesse du processeur"
     ],
     "correct": [
@@ -520,21 +520,21 @@
   {
     "id": 38,
     "type": "multiple_choice",
-    "question": "Parmi les étapes d’installation d’AD, laquelle est citée ?",
+    "question": "Parmi les étapes d'installation d'AD, laquelle est citée ?",
     "options": [
-      "Préparer l’environnement",
+      "Préparer l'environnement",
       "Installer un hyperviseur obligatoire",
       "Configurer un serveur mail",
       "Supprimer le DNS"
     ],
     "correct": [
-      "Préparer l’environnement"
+      "Préparer l'environnement"
     ]
   },
   {
     "id": 39,
     "type": "multiple_choice",
-    "question": "Lors de la préparation de l’environnement, il faut configurer :",
+    "question": "Lors de la préparation de l'environnement, il faut configurer :",
     "options": [
       "Une IP fixe pour le serveur",
       "Une IP dynamique aléatoire",
@@ -548,7 +548,7 @@
   {
     "id": 40,
     "type": "multiple_choice",
-    "question": "Lors de la préparation de l’environnement, il faut aussi configurer :",
+    "question": "Lors de la préparation de l'environnement, il faut aussi configurer :",
     "options": [
       "Les services DNS",
       "Le dual boot Linux/Windows",
@@ -562,7 +562,7 @@
   {
     "id": 41,
     "type": "multiple_choice",
-    "question": "Après la préparation, l’étape suivante est :",
+    "question": "Après la préparation, l'étape suivante est :",
     "options": [
       "Ajouter le rôle ADDS",
       "Créer toutes les OUs",
@@ -604,7 +604,7 @@
   {
     "id": 44,
     "type": "multiple_choice",
-    "question": "Pour la validation de l’installation, le cours cite :",
+    "question": "Pour la validation de l'installation, le cours cite :",
     "options": [
       "DcDiag",
       "ipconfig",
@@ -664,7 +664,7 @@
     "options": [
       "Les politiques appliquées aux groupes du domaine",
       "Les interfaces réseau physiques",
-      "Les tickets d’authentification Kerberos",
+      "Les tickets d'authentification Kerberos",
       "Les partitions système"
     ],
     "correct": [
@@ -688,7 +688,7 @@
   {
     "id": 50,
     "type": "multiple_choice",
-    "question": "Quel outil est cité pour l’automatisation des tâches d’administration ?",
+    "question": "Quel outil est cité pour l'automatisation des tâches d'administration ?",
     "options": [
       "PowerShell",
       "Paint",
@@ -786,7 +786,7 @@
   {
     "id": 57,
     "type": "multiple_choice",
-    "question": "Quel protocole est utilisé dans AD pour l’authentification ?",
+    "question": "Quel protocole est utilisé dans AD pour l'authentification ?",
     "options": [
       "Kerberos",
       "ARP",
@@ -814,7 +814,7 @@
   {
     "id": 59,
     "type": "free_answer",
-    "question": "Donne l’acronyme de Active Directory Domain Services.",
+    "question": "Donne l'acronyme de Active Directory Domain Services.",
     "correct": [
       "adds"
     ]
@@ -830,7 +830,7 @@
   {
     "id": 61,
     "type": "free_answer",
-    "question": "Quel protocole AD utilise-t-il pour l’authentification ?",
+    "question": "Quel protocole AD utilise-t-il pour l'authentification ?",
     "correct": [
       "kerberos"
     ]
@@ -846,7 +846,7 @@
   {
     "id": 63,
     "type": "free_answer",
-    "question": "Comment s’appellent les unités qui organisent les objets dans l’entreprise ?",
+    "question": "Comment s'appellent les unités qui organisent les objets dans l'entreprise ?",
     "correct": [
       "ou",
       "ous",
@@ -857,7 +857,7 @@
   {
     "id": 64,
     "type": "free_answer",
-    "question": "Comment s’appellent les serveurs qui hébergent la base de données AD ?",
+    "question": "Comment s'appellent les serveurs qui hébergent la base de données AD ?",
     "correct": [
       "controleurs de domaine",
       "contrôleurs de domaine",
@@ -868,7 +868,7 @@
   {
     "id": 65,
     "type": "free_answer",
-    "question": "Quel outil permet de tester les connexions lors de la validation d’une installation AD ?",
+    "question": "Quel outil permet de tester les connexions lors de la validation d'une installation AD ?",
     "correct": [
       "dcdiag"
     ]
@@ -894,7 +894,7 @@
   {
     "id": 68,
     "type": "free_answer",
-    "question": "Quel outil d’automatisation est cité dans le cours ?",
+    "question": "Quel outil d'automatisation est cité dans le cours ?",
     "correct": [
       "powershell"
     ]
@@ -947,12 +947,12 @@
   {
     "id": 74,
     "type": "free_answer",
-    "question": "Quelle première étape d’installation impose de configurer une IP fixe ?",
+    "question": "Quelle première étape d'installation impose de configurer une IP fixe ?",
     "correct": [
       "preparer l environnement",
-      "préparer l’environnement",
+      "préparer l'environnement",
       "preparation de l environnement",
-      "préparation de l’environnement"
+      "préparation de l'environnement"
     ]
   },
   {
@@ -968,7 +968,7 @@
   {
     "id": 76,
     "type": "free_answer",
-    "question": "Quel mot-clé anglais désigne les listes de contrôle d’accès citées avec Kerberos ?",
+    "question": "Quel mot-clé anglais désigne les listes de contrôle d'accès citées avec Kerberos ?",
     "correct": [
       "acl",
       "acls"
@@ -977,7 +977,7 @@
   {
     "id": 77,
     "type": "free_answer",
-    "question": "Quel composant principal d’Active Directory centralise les informations des objets ?",
+    "question": "Quel composant principal d'Active Directory centralise les informations des objets ?",
     "correct": [
       "adds"
     ]
