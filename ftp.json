@@ -1,0 +1,1442 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "FTP signifie :",
+    "options": [
+      "File Transfer Protocol",
+      "Fast Transfer Process",
+      "File Transport Program",
+      "Full Transfer Protocol"
+    ],
+    "correct": [
+      "File Transfer Protocol"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "FTP est un protocole destiné principalement à :",
+    "options": [
+      "L’échange de fichiers sur un réseau TCP/IP",
+      "L’attribution automatique d’adresses IP",
+      "La résolution de noms de domaine",
+      "Le routage dynamique"
+    ],
+    "correct": [
+      "L’échange de fichiers sur un réseau TCP/IP"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Le protocole FTP permet notamment :",
+    "options": [
+      "Copier, modifier ou supprimer des fichiers sur une machine distante",
+      "Créer des VLAN",
+      "Remplacer SSH",
+      "Attribuer des tickets Kerberos"
+    ],
+    "correct": [
+      "Copier, modifier ou supprimer des fichiers sur une machine distante"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Le protocole FTP est actuellement défini par :",
+    "options": [
+      "RFC 959",
+      "RFC 1918",
+      "RFC 1035",
+      "RFC 821"
+    ],
+    "correct": [
+      "RFC 959"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Parmi les objectifs de FTP, lequel est cité ?",
+    "options": [
+      "Permettre un partage de fichiers entre machines distantes",
+      "Attribuer les IP aux clients",
+      "Sécuriser automatiquement les sessions par chiffrement",
+      "Remplacer le système de fichiers local"
+    ],
+    "correct": [
+      "Permettre un partage de fichiers entre machines distantes"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "FTP suit un modèle :",
+    "options": [
+      "Client-serveur",
+      "Pair à pair",
+      "Maître-esclave uniquement",
+      "Broadcast"
+    ],
+    "correct": [
+      "Client-serveur"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Le serveur FTP est :",
+    "options": [
+      "Le logiciel qui répond aux demandes des clients FTP",
+      "Le client graphique installé sur le poste utilisateur",
+      "Le protocole Telnet lui-même",
+      "Le système de fichiers distant"
+    ],
+    "correct": [
+      "Le logiciel qui répond aux demandes des clients FTP"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Le client FTP :",
+    "options": [
+      "Se connecte au serveur, effectue des commandes puis se déconnecte",
+      "Attribue des droits aux serveurs",
+      "Crée les comptes Unix du serveur",
+      "Remplace le canal de contrôle"
+    ],
+    "correct": [
+      "Se connecte au serveur, effectue des commandes puis se déconnecte"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Un serveur FTP peut proposer une connexion anonyme donnant principalement :",
+    "options": [
+      "Un droit de lecture uniquement",
+      "Tous les droits d’écriture",
+      "Un accès root",
+      "Un accès SSH"
+    ],
+    "correct": [
+      "Un droit de lecture uniquement"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Lors d’une connexion FTP, combien de canaux sont ouverts ?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correct": [
+      "2"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Les deux canaux FTP sont :",
+    "options": [
+      "Le canal de contrôle et le canal de données",
+      "Le canal DNS et le canal DHCP",
+      "Le canal SSH et le canal SSL",
+      "Le canal RPC et le canal NFS"
+    ],
+    "correct": [
+      "Le canal de contrôle et le canal de données"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Le processus DTP dans FTP est chargé de :",
+    "options": [
+      "Gérer la connexion et le canal de données",
+      "Interpréter les commandes FTP du canal de contrôle",
+      "Créer les comptes utilisateurs",
+      "Gérer le chiffrement TLS"
+    ],
+    "correct": [
+      "Gérer la connexion et le canal de données"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Le processus PI dans FTP est chargé de :",
+    "options": [
+      "Interpréter le protocole et piloter le DTP",
+      "Créer le système de fichiers du serveur",
+      "Monter les partages réseau",
+      "Associer les noms aux adresses IP"
+    ],
+    "correct": [
+      "Interpréter le protocole et piloter le DTP"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Lors de la connexion initiale, le USER-PI initie la connexion selon le protocole :",
+    "options": [
+      "Telnet",
+      "SSH",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": [
+      "Telnet"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Quand la connexion FTP est établie, le serveur-PI donne :",
+    "options": [
+      "Le port sur lequel les données seront envoyées au client DTP",
+      "Le mot de passe administrateur",
+      "Le nom du domaine DNS",
+      "Le masque réseau du serveur"
+    ],
+    "correct": [
+      "Le port sur lequel les données seront envoyées au client DTP"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "En FTP, les canaux de contrôle et de données étant séparés, il est possible :",
+    "options": [
+      "D’envoyer les commandes depuis une machine et recevoir les données sur une autre",
+      "De remplacer le canal de contrôle par NFS",
+      "De supprimer le canal de données",
+      "D’utiliser UDP seulement"
+    ],
+    "correct": [
+      "D’envoyer les commandes depuis une machine et recevoir les données sur une autre"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Dans le mode actif FTP :",
+    "options": [
+      "Le serveur initie la connexion depuis son port 20 vers le port spécifié par l’utilisateur",
+      "Le client initie la connexion vers le port 22",
+      "Le serveur écoute passivement sur le port 990",
+      "Le client choisit toujours le port 21 pour les données"
+    ],
+    "correct": [
+      "Le serveur initie la connexion depuis son port 20 vers le port spécifié par l’utilisateur"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Le mode actif FTP peut poser problème avec :",
+    "options": [
+      "Les pare-feux",
+      "Les DNS",
+      "Les systèmes de fichiers",
+      "Les navigateurs web"
+    ],
+    "correct": [
+      "Les pare-feux"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Dans le mode passif FTP :",
+    "options": [
+      "Le client initie la connexion sur le port ouvert par le serveur",
+      "Le serveur initie toujours la connexion depuis le port 20",
+      "Le client ouvre un tunnel SSH",
+      "Le serveur écoute sur le port 22"
+    ],
+    "correct": [
+      "Le client initie la connexion sur le port ouvert par le serveur"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Le mode passif permet surtout de :",
+    "options": [
+      "Passer les filtres des paquets",
+      "Supprimer le canal de contrôle",
+      "Éviter toute authentification",
+      "Utiliser automatiquement TLS"
+    ],
+    "correct": [
+      "Passer les filtres des paquets"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Quel type de transfert FTP est adapté à un fichier texte ?",
+    "options": [
+      "ASCII",
+      "Binaire",
+      "Page",
+      "Block"
+    ],
+    "correct": [
+      "ASCII"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Quel type de transfert FTP est adapté à une image ou un mp3 ?",
+    "options": [
+      "Binaire",
+      "ASCII",
+      "Automatique uniquement",
+      "Page"
+    ],
+    "correct": [
+      "Binaire"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Le mode de transfert automatique adapte le type en fonction :",
+    "options": [
+      "De l’extension du fichier échangé",
+      "Du système d’exploitation client",
+      "Du port utilisé",
+      "Du mot de passe"
+    ],
+    "correct": [
+      "De l’extension du fichier échangé"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Parmi les droits d’accès FTP cités, lequel existe ?",
+    "options": [
+      "Droit d’ajout d’un fichier",
+      "Droit de changement d’adresse IP",
+      "Droit de création d’un domaine",
+      "Droit de création de ticket Kerberos"
+    ],
+    "correct": [
+      "Droit d’ajout d’un fichier"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Parmi les droits sur les répertoires cités, lequel existe ?",
+    "options": [
+      "Droit de listage du contenu du répertoire",
+      "Droit d’accès au BIOS",
+      "Droit d’écoute sur le port 53",
+      "Droit de montage NFS"
+    ],
+    "correct": [
+      "Droit de listage du contenu du répertoire"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Les communications sur le canal de contrôle suivent les recommandations du protocole :",
+    "options": [
+      "Telnet",
+      "SSH",
+      "SNMP",
+      "IMAP"
+    ],
+    "correct": [
+      "Telnet"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Les commandes FTP sont :",
+    "options": [
+      "Des chaînes de caractères Telnet en NVT-ASCII",
+      "Des paquets binaires uniquement",
+      "Des commandes SQL",
+      "Des requêtes DNS"
+    ],
+    "correct": [
+      "Des chaînes de caractères Telnet en NVT-ASCII"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Combien de grands types de commandes FTP sont distingués dans le cours ?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correct": [
+      "3"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "La commande USER sert à :",
+    "options": [
+      "Identifier l’utilisateur",
+      "Changer le répertoire courant",
+      "Lister les fichiers",
+      "Supprimer un fichier"
+    ],
+    "correct": [
+      "Identifier l’utilisateur"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "La commande PASS sert à :",
+    "options": [
+      "Spécifier le mot de passe de l’utilisateur",
+      "Activer le mode passif",
+      "Changer de compte",
+      "Afficher le serveur distant"
+    ],
+    "correct": [
+      "Spécifier le mot de passe de l’utilisateur"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "La commande CWD sert à :",
+    "options": [
+      "Changer le répertoire courant",
+      "Créer un répertoire",
+      "Afficher le chemin courant",
+      "Supprimer le répertoire courant"
+    ],
+    "correct": [
+      "Changer le répertoire courant"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "La commande CDUP permet de :",
+    "options": [
+      "Remonter au répertoire parent",
+      "Se déconnecter",
+      "Créer un répertoire parent",
+      "Passer en mode compressé"
+    ],
+    "correct": [
+      "Remonter au répertoire parent"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "La commande QUIT permet de :",
+    "options": [
+      "Terminer la session en cours",
+      "Effacer les fichiers en cours de transfert",
+      "Changer d’utilisateur",
+      "Tester le serveur"
+    ],
+    "correct": [
+      "Terminer la session en cours"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "La commande REIN sert à :",
+    "options": [
+      "Réinitialiser la connexion",
+      "Renommer un fichier",
+      "Relancer le serveur",
+      "Réinitialiser le mot de passe"
+    ],
+    "correct": [
+      "Réinitialiser la connexion"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "La commande PASV sert à :",
+    "options": [
+      "Demander au serveur DTP de se mettre en attente sur un port spécifique",
+      "Envoyer le mot de passe",
+      "Passer en mode ASCII",
+      "Changer de répertoire parent"
+    ],
+    "correct": [
+      "Demander au serveur DTP de se mettre en attente sur un port spécifique"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "La commande PORT sert à :",
+    "options": [
+      "Préciser le numéro de port à utiliser",
+      "Lister les ports ouverts",
+      "Fermer le port de contrôle",
+      "Changer le protocole de transport"
+    ],
+    "correct": [
+      "Préciser le numéro de port à utiliser"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "La commande TYPE sert à :",
+    "options": [
+      "Préciser le format dans lequel les données seront envoyées",
+      "Choisir le répertoire courant",
+      "Définir la taille du fichier",
+      "Choisir le serveur distant"
+    ],
+    "correct": [
+      "Préciser le format dans lequel les données seront envoyées"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "La commande STRU sert à préciser :",
+    "options": [
+      "La structure du fichier",
+      "La sécurité de la connexion",
+      "Le port du serveur",
+      "Le nom du compte"
+    ],
+    "correct": [
+      "La structure du fichier"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "La commande MODE sert à préciser :",
+    "options": [
+      "Le mode de transfert des données",
+      "Le mode d’authentification SSH",
+      "Le système de fichiers distant",
+      "Le type de serveur FTP"
+    ],
+    "correct": [
+      "Le mode de transfert des données"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "La commande RETR sert à :",
+    "options": [
+      "Récupérer une copie d’un fichier",
+      "Supprimer un fichier",
+      "Reprendre un transfert",
+      "Créer un répertoire"
+    ],
+    "correct": [
+      "Récupérer une copie d’un fichier"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "La commande STOR sert à :",
+    "options": [
+      "Stocker sur le serveur les données reçues sur le canal de données",
+      "Afficher le stockage libre",
+      "Activer le mode store-and-forward",
+      "Créer une session anonyme"
+    ],
+    "correct": [
+      "Stocker sur le serveur les données reçues sur le canal de données"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Si le fichier existe déjà, STOR :",
+    "options": [
+      "L’écrase",
+      "Le concatène",
+      "Le renomme automatiquement",
+      "Le chiffre"
+    ],
+    "correct": [
+      "L’écrase"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "La commande REST sert à :",
+    "options": [
+      "Reprendre un transfert interrompu",
+      "Redémarrer le serveur",
+      "Réinitialiser les droits",
+      "Revenir au répertoire racine"
+    ],
+    "correct": [
+      "Reprendre un transfert interrompu"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "La commande RNFR doit être immédiatement suivie de :",
+    "options": [
+      "RNTO",
+      "RETR",
+      "DELE",
+      "STOR"
+    ],
+    "correct": [
+      "RNTO"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "La commande DELE sert à :",
+    "options": [
+      "Supprimer un fichier",
+      "Supprimer un répertoire",
+      "Déconnecter le client",
+      "Lister le contenu"
+    ],
+    "correct": [
+      "Supprimer un fichier"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "La commande RMD sert à :",
+    "options": [
+      "Supprimer un répertoire",
+      "Renommer un répertoire",
+      "Monter un répertoire",
+      "Afficher le répertoire courant"
+    ],
+    "correct": [
+      "Supprimer un répertoire"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "La commande LIST sert à :",
+    "options": [
+      "Renvoyer la liste des fichiers et répertoires du répertoire courant",
+      "Afficher uniquement les noms de fichiers sans détails",
+      "Changer le mode de transfert",
+      "Lister les utilisateurs connectés"
+    ],
+    "correct": [
+      "Renvoyer la liste des fichiers et répertoires du répertoire courant"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "La commande APPE permet :",
+    "options": [
+      "De concaténer les données envoyées à un fichier existant",
+      "D’afficher le contenu d’un fichier",
+      "D’appliquer les permissions",
+      "D’abandonner un transfert"
+    ],
+    "correct": [
+      "De concaténer les données envoyées à un fichier existant"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "La commande ABOR sert à :",
+    "options": [
+      "Abandonner les transferts associés à la commande précédente",
+      "Supprimer la session utilisateur",
+      "Activer le mode anonyme",
+      "Annuler les droits du client"
+    ],
+    "correct": [
+      "Abandonner les transferts associés à la commande précédente"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Après ABOR, le canal de contrôle :",
+    "options": [
+      "Reste ouvert",
+      "Est toujours fermé",
+      "Passe en mode passif",
+      "Devient chiffré"
+    ],
+    "correct": [
+      "Reste ouvert"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "La commande MKD sert à :",
+    "options": [
+      "Créer un répertoire",
+      "Monter un répertoire",
+      "Marquer un répertoire comme public",
+      "Modifier un répertoire"
+    ],
+    "correct": [
+      "Créer un répertoire"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "La commande PWD sert à :",
+    "options": [
+      "Renvoyer le chemin complet du répertoire courant",
+      "Afficher le mot de passe",
+      "Changer le répertoire courant",
+      "Afficher le port de données"
+    ],
+    "correct": [
+      "Renvoyer le chemin complet du répertoire courant"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "La commande NLST sert à :",
+    "options": [
+      "Envoyer la liste des fichiers et répertoires du répertoire courant",
+      "Renommer une liste de fichiers",
+      "Lister uniquement les serveurs FTP",
+      "Vider un répertoire"
+    ],
+    "correct": [
+      "Envoyer la liste des fichiers et répertoires du répertoire courant"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "La commande SYST sert à :",
+    "options": [
+      "Envoyer des informations sur le serveur distant",
+      "Afficher le système de fichiers local",
+      "Synchroniser les horloges",
+      "Changer le système de transfert"
+    ],
+    "correct": [
+      "Envoyer des informations sur le serveur distant"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "La commande HELP sert à :",
+    "options": [
+      "Connaître l’ensemble des commandes comprises par le serveur",
+      "Afficher l’aide du client local seulement",
+      "Demander une aide administrateur distante",
+      "Créer une documentation du serveur"
+    ],
+    "correct": [
+      "Connaître l’ensemble des commandes comprises par le serveur"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "La commande NOOP sert surtout à :",
+    "options": [
+      "Obtenir une réponse OK pour éviter une déconnexion après inactivité",
+      "Ne rien envoyer du tout au serveur",
+      "Tester le canal de données uniquement",
+      "Supprimer les transferts en attente"
+    ],
+    "correct": [
+      "Obtenir une réponse OK pour éviter une déconnexion après inactivité"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Les réponses FTP sont constituées :",
+    "options": [
+      "D’un code à 3 chiffres et d’un texte",
+      "D’une adresse IP et d’un port",
+      "D’un hash et d’un mot de passe",
+      "D’un identifiant et d’un DN"
+    ],
+    "correct": [
+      "D’un code à 3 chiffres et d’un texte"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Un code de réponse FTP commençant par 2yz signifie :",
+    "options": [
+      "Réponse positive de réalisation",
+      "Réponse préliminaire positive",
+      "Réponse négative de réalisation",
+      "Réponse négative permanente"
+    ],
+    "correct": [
+      "Réponse positive de réalisation"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "Un code de réponse FTP commençant par 3yz signifie :",
+    "options": [
+      "Réponse intermédiaire positive",
+      "Réponse négative permanente",
+      "Erreur de syntaxe",
+      "Réponse de canal de données"
+    ],
+    "correct": [
+      "Réponse intermédiaire positive"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "Un code de réponse FTP commençant par 4yz signifie :",
+    "options": [
+      "Réponse négative de réalisation temporaire",
+      "Réponse positive finale",
+      "Réponse liée au système de fichiers",
+      "Réponse d’authentification réussie uniquement"
+    ],
+    "correct": [
+      "Réponse négative de réalisation temporaire"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "Un code de réponse FTP commençant par 5yz signifie :",
+    "options": [
+      "Réponse négative permanente",
+      "Réponse positive de transfert",
+      "Réponse de syntaxe valide",
+      "Réponse de contrôle d’accès uniquement"
+    ],
+    "correct": [
+      "Réponse négative permanente"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "Dans les réponses FTP, x2z correspond à :",
+    "options": [
+      "Connexions",
+      "Syntaxe",
+      "Authentification et comptes",
+      "Système de fichiers"
+    ],
+    "correct": [
+      "Connexions"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "Dans les réponses FTP, x3z correspond à :",
+    "options": [
+      "Authentification et comptes",
+      "Syntaxe",
+      "Informations",
+      "Système de fichiers"
+    ],
+    "correct": [
+      "Authentification et comptes"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "Le FTP n’est généralement pas considéré comme sécurisé car :",
+    "options": [
+      "Il n’utilise pas de cryptage et emploie souvent identifiants et mots de passe en clair",
+      "Il repose sur UDP",
+      "Il ne possède pas de commandes",
+      "Il interdit l’authentification"
+    ],
+    "correct": [
+      "Il n’utilise pas de cryptage et emploie souvent identifiants et mots de passe en clair"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "Le FTP protégé par mot de passe de base écoute sur le port :",
+    "options": [
+      "21",
+      "22",
+      "20",
+      "990"
+    ],
+    "correct": [
+      "21"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "FTPS écoute sur le port :",
+    "options": [
+      "990",
+      "21",
+      "22",
+      "20"
+    ],
+    "correct": [
+      "990"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "FTPES est :",
+    "options": [
+      "Un FTP sur port 21 qui passe ensuite au chiffrement TLS/SSL grâce à des commandes spéciales",
+      "Le même protocole que SFTP sur port 22",
+      "Le FTP anonyme sécurisé par défaut",
+      "Un dérivé de Telnet sans contrôle"
+    ],
+    "correct": [
+      "Un FTP sur port 21 qui passe ensuite au chiffrement TLS/SSL grâce à des commandes spéciales"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "SFTP est techniquement :",
+    "options": [
+      "Un dérivé chiffrable de SSH et non un protocole FTP au sens strict",
+      "Un simple FTP sur le port 20",
+      "Un alias de FTPS",
+      "Le mode passif sécurisé de FTP"
+    ],
+    "correct": [
+      "Un dérivé chiffrable de SSH et non un protocole FTP au sens strict"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "SFTP utilise le port :",
+    "options": [
+      "22",
+      "21",
+      "20",
+      "990"
+    ],
+    "correct": [
+      "22"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "Quel est le principal avantage de SFTP par rapport à FTP ?",
+    "options": [
+      "Le chiffrement des échanges",
+      "L’utilisation obligatoire de deux canaux",
+      "La compatibilité avec Telnet",
+      "L’absence d’authentification"
+    ],
+    "correct": [
+      "Le chiffrement des échanges"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "question": "SFTP fonctionne avec combien de connexion(s) sécurisée(s) principale(s) selon le cours ?",
+    "options": [
+      "Une seule",
+      "Deux",
+      "Trois",
+      "Aucune"
+    ],
+    "correct": [
+      "Une seule"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "question": "Parmi les méthodes d’authentification SFTP citées, laquelle existe ?",
+    "options": [
+      "Identifiant et mot de passe chiffrés",
+      "Ticket Kerberos uniquement",
+      "DNSSEC",
+      "DHCP relay"
+    ],
+    "correct": [
+      "Identifiant et mot de passe chiffrés"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "question": "Parmi les méthodes d’authentification SFTP citées, laquelle existe ?",
+    "options": [
+      "Clés SSH",
+      "Clés NetBIOS",
+      "Clés NFS",
+      "Clés RPC"
+    ],
+    "correct": [
+      "Clés SSH"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "question": "Concernant les pare-feux, FTP utilise :",
+    "options": [
+      "Un canal de contrôle sur 21 et un second canal pour les données sur 20",
+      "Un seul port 22 pour tout",
+      "Uniquement le port 990",
+      "Un tunnel RPC"
+    ],
+    "correct": [
+      "Un canal de contrôle sur 21 et un second canal pour les données sur 20"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "question": "SFTP est plus simple pour les pare-feux car il ne nécessite qu’un seul port ouvert :",
+    "options": [
+      "22",
+      "21",
+      "20",
+      "990"
+    ],
+    "correct": [
+      "22"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "question": "Selon le cours, quel serveur FTP demande peu de ressources et offre une sécurité accrue ?",
+    "options": [
+      "pureftpd",
+      "bind9",
+      "smbd",
+      "vsftpd-client"
+    ],
+    "correct": [
+      "pureftpd"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "question": "Quelle commande installe pureftpd ?",
+    "options": [
+      "sudo apt install pureftpd",
+      "sudo apt install ftp-server",
+      "sudo apt install sftpd",
+      "sudo apt install pureftp-server"
+    ],
+    "correct": [
+      "sudo apt install pureftpd"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "question": "Quelle commande démarre pureftpd ?",
+    "options": [
+      "sudo systemctl start pureftpd",
+      "sudo service pureftpd enable",
+      "sudo ftp start pureftpd",
+      "sudo pureftpd start"
+    ],
+    "correct": [
+      "sudo systemctl start pureftpd"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "question": "Quelle commande active le démarrage automatique de pureftpd ?",
+    "options": [
+      "sudo systemctl enable pureftpd",
+      "sudo systemctl start pureftpd",
+      "sudo service pureftpd on",
+      "sudo pureftpd enable"
+    ],
+    "correct": [
+      "sudo systemctl enable pureftpd"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Donne l’acronyme de File Transfer Protocol.",
+    "correct": [
+      "ftp"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "free_answer",
+    "question": "Quel protocole est utilisé sur le canal de contrôle FTP selon le cours ?",
+    "correct": [
+      "telnet"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "free_answer",
+    "question": "Comment s’appelle le processus chargé du canal de données en FTP ?",
+    "correct": [
+      "dtp"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "free_answer",
+    "question": "Comment s’appelle l’interpréteur de protocole FTP ?",
+    "correct": [
+      "pi"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "free_answer",
+    "question": "Quel mode FTP pose souvent problème avec les pare-feux ?",
+    "correct": [
+      "actif",
+      "mode actif"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "free_answer",
+    "question": "Quel mode FTP est généralement plus simple face aux filtres de paquets ?",
+    "correct": [
+      "passif",
+      "mode passif"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "free_answer",
+    "question": "Quel type de transfert FTP convient au texte ?",
+    "correct": [
+      "ascii"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "free_answer",
+    "question": "Quel type de transfert FTP convient aux images ou mp3 ?",
+    "correct": [
+      "binaire",
+      "binary"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "free_answer",
+    "question": "Quelle commande FTP identifie l’utilisateur ?",
+    "correct": [
+      "user"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "free_answer",
+    "question": "Quelle commande FTP envoie le mot de passe ?",
+    "correct": [
+      "pass"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "free_answer",
+    "question": "Quelle commande FTP change le répertoire courant ?",
+    "correct": [
+      "cwd"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "free_answer",
+    "question": "Quelle commande FTP remonte au répertoire parent ?",
+    "correct": [
+      "cdup"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "free_answer",
+    "question": "Quelle commande FTP termine la session ?",
+    "correct": [
+      "quit"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "free_answer",
+    "question": "Quelle commande FTP demande le mode passif ?",
+    "correct": [
+      "pasv"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "free_answer",
+    "question": "Quelle commande FTP précise le port à utiliser ?",
+    "correct": [
+      "port"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "free_answer",
+    "question": "Quelle commande FTP sert à récupérer un fichier ?",
+    "correct": [
+      "retr"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "free_answer",
+    "question": "Quelle commande FTP sert à stocker un fichier sur le serveur ?",
+    "correct": [
+      "stor"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "free_answer",
+    "question": "Quelle commande FTP permet de reprendre un transfert interrompu ?",
+    "correct": [
+      "rest"
+    ]
+  },
+  {
+    "id": 98,
+    "type": "free_answer",
+    "question": "Quelle commande FTP permet de supprimer un fichier ?",
+    "correct": [
+      "dele"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "free_answer",
+    "question": "Quelle commande FTP permet de supprimer un répertoire ?",
+    "correct": [
+      "rmd"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "free_answer",
+    "question": "Quelle commande FTP permet de lister le contenu du répertoire courant ?",
+    "correct": [
+      "list"
+    ]
+  },
+  {
+    "id": 101,
+    "type": "free_answer",
+    "question": "Quelle commande FTP permet de créer un répertoire ?",
+    "correct": [
+      "mkd"
+    ]
+  },
+  {
+    "id": 102,
+    "type": "free_answer",
+    "question": "Quelle commande FTP affiche le chemin complet du répertoire courant ?",
+    "correct": [
+      "pwd"
+    ]
+  },
+  {
+    "id": 103,
+    "type": "free_answer",
+    "question": "Quelle commande FTP donne uniquement une liste de noms ?",
+    "correct": [
+      "nlst"
+    ]
+  },
+  {
+    "id": 104,
+    "type": "free_answer",
+    "question": "Quelle commande FTP sert à obtenir des informations sur le serveur distant ?",
+    "correct": [
+      "syst"
+    ]
+  },
+  {
+    "id": 105,
+    "type": "free_answer",
+    "question": "Quelle commande FTP sert à connaître les commandes comprises par le serveur ?",
+    "correct": [
+      "help"
+    ]
+  },
+  {
+    "id": 106,
+    "type": "free_answer",
+    "question": "Quelle commande FTP peut servir à éviter une déconnexion pour inactivité ?",
+    "correct": [
+      "noop"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "free_answer",
+    "question": "Quel chiffre initial d’un code FTP indique une réponse positive de réalisation ?",
+    "correct": [
+      "2"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "free_answer",
+    "question": "Quel chiffre initial d’un code FTP indique une réponse intermédiaire positive ?",
+    "correct": [
+      "3"
+    ]
+  },
+  {
+    "id": 109,
+    "type": "free_answer",
+    "question": "Quel chiffre initial d’un code FTP indique une réponse négative temporaire ?",
+    "correct": [
+      "4"
+    ]
+  },
+  {
+    "id": 110,
+    "type": "free_answer",
+    "question": "Quel chiffre initial d’un code FTP indique une réponse négative permanente ?",
+    "correct": [
+      "5"
+    ]
+  },
+  {
+    "id": 111,
+    "type": "free_answer",
+    "question": "Quel protocole sécurisé dérivé de SSH est cité dans le cours ?",
+    "correct": [
+      "sftp"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "free_answer",
+    "question": "Quel protocole FTP sécurisé implicite écoute sur le port 990 ?",
+    "correct": [
+      "ftps"
+    ]
+  },
+  {
+    "id": 113,
+    "type": "free_answer",
+    "question": "Quel protocole commence en FTP sur 21 puis passe en TLS/SSL ?",
+    "correct": [
+      "ftpes"
+    ]
+  },
+  {
+    "id": 114,
+    "type": "free_answer",
+    "question": "Quel port utilise SFTP ?",
+    "correct": [
+      "22"
+    ]
+  },
+  {
+    "id": 115,
+    "type": "free_answer",
+    "question": "Quel port utilise FTP protégé par mot de passe classique ?",
+    "correct": [
+      "21"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "free_answer",
+    "question": "Quel port utilise FTPS ?",
+    "correct": [
+      "990"
+    ]
+  },
+  {
+    "id": 117,
+    "type": "free_answer",
+    "question": "Quel serveur FTP léger et sûr est recommandé dans le cours ?",
+    "correct": [
+      "pureftpd"
+    ]
+  },
+  {
+    "id": 118,
+    "type": "free_answer",
+    "question": "Quelle commande installe pureftpd ?",
+    "correct": [
+      "sudo apt install pureftpd",
+      "apt install pureftpd"
+    ]
+  },
+  {
+    "id": 119,
+    "type": "free_answer",
+    "question": "Quelle commande démarre pureftpd ?",
+    "correct": [
+      "sudo systemctl start pureftpd",
+      "systemctl start pureftpd"
+    ]
+  },
+  {
+    "id": 120,
+    "type": "free_answer",
+    "question": "Quelle commande active pureftpd au démarrage ?",
+    "correct": [
+      "sudo systemctl enable pureftpd",
+      "systemctl enable pureftpd"
+    ]
+  }
+]

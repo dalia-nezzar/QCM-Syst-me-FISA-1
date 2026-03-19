@@ -2,1010 +2,1147 @@
   {
     "id": 1,
     "type": "multiple_choice",
-    "question": "Active Directory est :",
+    "question": "NFS signifie :",
     "options": [
-      "Un service d’annuaire développé par Microsoft",
-      "Un protocole réseau de routage",
-      "Un antivirus intégré à Windows",
-      "Un simple logiciel DNS"
+      "Network File System",
+      "Network Files Service",
+      "New File Sharing",
+      "Node File System"
     ],
     "correct": [
-      "Un service d’annuaire développé par Microsoft"
+      "Network File System"
     ]
   },
   {
     "id": 2,
     "type": "multiple_choice",
-    "question": "Parmi les objectifs d’Active Directory, lequel est cité dans le cours ?",
+    "question": "NFS a été développé à l’origine par :",
     "options": [
-      "Centraliser la gestion des identités et des accès",
-      "Remplacer totalement Internet",
-      "Supprimer le besoin de DNS",
-      "Remplacer les bases de données SQL"
+      "Sun Microsystems",
+      "Microsoft",
+      "IBM",
+      "Oracle"
     ],
     "correct": [
-      "Centraliser la gestion des identités et des accès"
+      "Sun Microsystems"
     ]
   },
   {
     "id": 3,
     "type": "multiple_choice",
-    "question": "Active Directory permet aussi de :",
+    "question": "NFS permet principalement :",
     "options": [
-      "Simplifier l’administration réseau",
-      "Remplacer les cartes réseau",
-      "Supprimer les groupes utilisateurs",
-      "Créer automatiquement des VLAN"
+      "D’accéder à des fichiers distants via le réseau",
+      "De chiffrer automatiquement tous les fichiers locaux",
+      "De remplacer DNS",
+      "De faire du routage IP"
     ],
     "correct": [
-      "Simplifier l’administration réseau"
+      "D’accéder à des fichiers distants via le réseau"
     ]
   },
   {
     "id": 4,
     "type": "multiple_choice",
-    "question": "Quel mécanisme est cité pour renforcer la sécurité dans Active Directory ?",
+    "question": "NFS fait partie de quelle couche du modèle OSI selon le cours ?",
     "options": [
-      "Kerberos",
-      "FTP",
-      "ARP",
-      "SMTP"
+      "Couche application",
+      "Couche liaison",
+      "Couche transport",
+      "Couche physique"
     ],
     "correct": [
-      "Kerberos"
+      "Couche application"
     ]
   },
   {
     "id": 5,
     "type": "multiple_choice",
-    "question": "L’architecture d’Active Directory est décrite comme :",
+    "question": "NFS utilise le protocole :",
     "options": [
-      "Hiérarchique et modulaire",
-      "Plate et linéaire",
-      "Strictement locale",
-      "Sans organisation logique"
+      "RPC",
+      "ARP",
+      "STP",
+      "SNMP"
     ],
     "correct": [
-      "Hiérarchique et modulaire"
+      "RPC"
     ]
   },
   {
     "id": 6,
     "type": "multiple_choice",
-    "question": "Parmi les technologies clés intégrées à Active Directory, lesquelles sont citées ?",
+    "question": "Les versions 1 et 2 de NFS sont décrites comme :",
     "options": [
-      "LDAP, Kerberos, DNS",
-      "HTTP, FTP, SMTP",
-      "DHCP, NAT, PAT",
-      "TCP, UDP, ICMP"
+      "Non sécurisées et prévues pour UDP",
+      "Sécurisées par Kerberos5",
+      "Basées sur TCP uniquement",
+      "Compatibles uniquement avec Windows"
     ],
     "correct": [
-      "LDAP, Kerberos, DNS"
+      "Non sécurisées et prévues pour UDP"
     ]
   },
   {
     "id": 7,
     "type": "multiple_choice",
-    "question": "Un annuaire électronique est présenté comme :",
+    "question": "La version 3 de NFS ajoute notamment la prise en charge de :",
     "options": [
-      "Une base de données hiérarchique",
-      "Un protocole de transport",
-      "Un disque de sauvegarde",
-      "Un simple pare-feu"
+      "TCP",
+      "DNSSEC",
+      "SMB",
+      "CIFS"
     ],
     "correct": [
-      "Une base de données hiérarchique"
+      "TCP"
     ]
   },
   {
     "id": 8,
     "type": "multiple_choice",
-    "question": "Un annuaire Active Directory est conçu pour gérer :",
+    "question": "NFSv4 est présenté comme :",
     "options": [
-      "Les utilisateurs, groupes et ressources réseau",
-      "Uniquement les imprimantes",
-      "Uniquement les disques locaux",
-      "Uniquement les tickets Kerberos"
+      "Une rupture importante avec les versions précédentes",
+      "Strictement identique à NFSv3",
+      "Un protocole sans état comme NFSv2",
+      "Un simple renommage de NFSv3"
     ],
     "correct": [
-      "Les utilisateurs, groupes et ressources réseau"
+      "Une rupture importante avec les versions précédentes"
     ]
   },
   {
     "id": 9,
     "type": "multiple_choice",
-    "question": "Active Directory organise les objets selon une structure logique et une structure :",
+    "question": "Avec NFSv4, quel port est utilisé ?",
     "options": [
-      "Physique",
-      "Binaire",
-      "Analogique",
-      "Temporaire"
+      "2049 uniquement",
+      "111 uniquement",
+      "2049 et 111 obligatoirement",
+      "445"
     ],
     "correct": [
-      "Physique"
+      "2049 uniquement"
     ]
   },
   {
     "id": 10,
     "type": "multiple_choice",
-    "question": "Dans le modèle logique d’AD, les objets sont organisés notamment en :",
+    "question": "NFSv4 peut intégrer quelle solution de sécurité citée dans le cours ?",
     "options": [
-      "Domaines et forêts",
-      "Disques et partitions",
-      "Paquets et trames",
-      "Routes et passerelles"
+      "Kerberos5",
+      "RIP",
+      "VTP",
+      "POP3"
     ],
     "correct": [
-      "Domaines et forêts"
+      "Kerberos5"
     ]
   },
   {
     "id": 11,
     "type": "multiple_choice",
-    "question": "Dans le modèle physique d’AD, l’élément cité est :",
+    "question": "NFSv4 est décrit comme serveur :",
     "options": [
-      "Les sites",
-      "Les sockets",
-      "Les processus",
-      "Les volumes logiques"
+      "Stateful",
+      "Toujours stateless",
+      "Sans RPC",
+      "Sans transport réseau"
     ],
     "correct": [
-      "Les sites"
+      "Stateful"
     ]
   },
   {
     "id": 12,
     "type": "multiple_choice",
-    "question": "ADDS signifie :",
+    "question": "NFSv4 est incompatible avec :",
     "options": [
-      "Active Directory Domain Services",
-      "Active Data Domain System",
-      "Advanced Directory Deployment Service",
-      "Administrative Domain Data Service"
+      "NFSv3",
+      "TCP",
+      "Unix",
+      "Mac OS X"
     ],
     "correct": [
-      "Active Directory Domain Services"
+      "NFSv3"
     ]
   },
   {
     "id": 13,
     "type": "multiple_choice",
-    "question": "ADDS est présenté comme :",
+    "question": "Toutes les versions de NFS reposent sur :",
     "options": [
-      "Le composant principal d’Active Directory",
-      "Le client graphique d’AD",
-      "Le protocole de chiffrement d’AD",
-      "Le serveur DNS externe d’AD"
+      "Des appels de procédure distante",
+      "Des requêtes SQL",
+      "Des tunnels GRE",
+      "Du broadcast Ethernet"
     ],
     "correct": [
-      "Le composant principal d’Active Directory"
+      "Des appels de procédure distante"
     ]
   },
   {
     "id": 14,
     "type": "multiple_choice",
-    "question": "ADDS gère notamment :",
+    "question": "Le service rpcbind sert à :",
     "options": [
-      "Les domaines et les relations entre eux",
-      "Les imprimantes USB uniquement",
-      "Les ports réseau matériels",
-      "Les BIOS des machines"
+      "Répondre aux demandes de services RPC et établir les connexions",
+      "Monter les exports Samba",
+      "Créer les partages Windows",
+      "Gérer les mots de passe SMB"
     ],
     "correct": [
-      "Les domaines et les relations entre eux"
+      "Répondre aux demandes de services RPC et établir les connexions"
     ]
   },
   {
     "id": 15,
     "type": "multiple_choice",
-    "question": "ADDS centralise les informations des objets comme :",
+    "question": "Quel démon gère le protocole nfs ?",
     "options": [
-      "Les utilisateurs et les machines",
-      "Les trames Ethernet et les paquets IP",
-      "Les certificats vidéo et audio",
-      "Les partitions GPT et MBR"
+      "rpc.nfsd",
+      "rpc.mountd",
+      "rpc.statd",
+      "rpc.lockd"
     ],
     "correct": [
-      "Les utilisateurs et les machines"
+      "rpc.nfsd"
     ]
   },
   {
     "id": 16,
     "type": "multiple_choice",
-    "question": "ADDS s’appuie sur quel protocole pour les opérations CRUD ?",
+    "question": "Quel démon gère mountd ?",
     "options": [
-      "LDAP",
-      "DHCP",
-      "SNMP",
-      "NTP"
+      "rpc.mountd",
+      "rpc.nfsd",
+      "rpc.statd",
+      "rpc.quotad"
     ],
     "correct": [
-      "LDAP"
+      "rpc.mountd"
     ]
   },
   {
     "id": 17,
     "type": "multiple_choice",
-    "question": "CRUD signifie :",
+    "question": "Quel démon gère nsm ?",
     "options": [
-      "Create, Read, Update, Delete",
-      "Connect, Route, Use, Deploy",
-      "Create, Replicate, Update, Domain",
-      "Copy, Run, Undo, Drop"
+      "rpc.statd",
+      "rpc.lockd",
+      "rpc.nfsd",
+      "rpc.mountd"
     ],
     "correct": [
-      "Create, Read, Update, Delete"
+      "rpc.statd"
     ]
   },
   {
     "id": 18,
     "type": "multiple_choice",
-    "question": "ADDS sécurise les accès avec :",
+    "question": "Quel démon gère nlm ?",
     "options": [
-      "Kerberos et les ACLs",
-      "DNS et ARP",
-      "DHCP et NAT",
-      "FTP et HTTP"
+      "rpc.lockd",
+      "rpc.statd",
+      "rpc.mountd",
+      "rpcbind"
     ],
     "correct": [
-      "Kerberos et les ACLs"
+      "rpc.lockd"
     ]
   },
   {
     "id": 19,
     "type": "multiple_choice",
-    "question": "Kerberos est décrit comme :",
+    "question": "Le protocole nlm sert principalement à :",
     "options": [
-      "Un protocole d’authentification basé sur des tickets",
-      "Un protocole de nommage de domaine",
-      "Un outil de gestion des utilisateurs",
-      "Un langage de script Microsoft"
+      "Gérer les verrous de fichiers",
+      "Gérer les imprimantes réseau",
+      "Attribuer les adresses IP",
+      "Résoudre les noms NetBIOS"
     ],
     "correct": [
-      "Un protocole d’authentification basé sur des tickets"
+      "Gérer les verrous de fichiers"
     ]
   },
   {
     "id": 20,
     "type": "multiple_choice",
-    "question": "Kerberos sécurise principalement :",
+    "question": "Le protocole quotad sert à :",
     "options": [
-      "Les communications",
-      "Les prises électriques",
-      "Les disques de sauvegarde",
-      "Les adresses MAC"
+      "Gérer les quotas",
+      "Gérer les locks",
+      "Monter les exports",
+      "Faire la résolution DNS"
     ],
     "correct": [
-      "Les communications"
+      "Gérer les quotas"
     ]
   },
   {
     "id": 21,
     "type": "multiple_choice",
-    "question": "Selon le cours, Kerberos fonctionne en combien d’étapes ?",
+    "question": "Dans l’architecture NFS, le serveur :",
     "options": [
-      "3",
-      "2",
-      "4",
-      "5"
+      "Déclare les exports NFS",
+      "Monte les dossiers du client",
+      "Résout les groupes Windows",
+      "Attribue les IP DHCP"
     ],
     "correct": [
-      "3"
+      "Déclare les exports NFS"
     ]
   },
   {
     "id": 22,
     "type": "multiple_choice",
-    "question": "Parmi les étapes Kerberos citées, laquelle apparaît ?",
+    "question": "Dans l’architecture NFS, le client :",
     "options": [
-      "Demande de ticket",
-      "Création de VLAN",
-      "Routage du paquet",
-      "Partitionnement du disque"
+      "Monte les dossiers exportés par le serveur",
+      "Déclare les exports du serveur",
+      "Configure rpcbind sur le serveur",
+      "Crée les partages SMB"
     ],
     "correct": [
-      "Demande de ticket"
+      "Monte les dossiers exportés par le serveur"
     ]
   },
   {
     "id": 23,
     "type": "multiple_choice",
-    "question": "Parmi les étapes Kerberos citées, laquelle apparaît ?",
+    "question": "Quel paquet faut-il installer côté serveur NFS selon le cours ?",
     "options": [
-      "Obtention de ticket",
-      "Configuration DHCP",
-      "Montage du système de fichiers",
-      "Chiffrement du BIOS"
+      "nfs-kernel-server",
+      "nfs-common",
+      "samba",
+      "rpc-tools"
     ],
     "correct": [
-      "Obtention de ticket"
+      "nfs-kernel-server"
     ]
   },
   {
     "id": 24,
     "type": "multiple_choice",
-    "question": "Parmi les étapes Kerberos citées, laquelle apparaît ?",
+    "question": "Quel paquet faut-il installer côté client NFS ?",
     "options": [
-      "Validation du ticket",
-      "Fusion des domaines",
-      "Création du schéma LDAP",
-      "Désactivation des ACL"
+      "nfs-common",
+      "nfs-kernel-server",
+      "smbclient",
+      "cifs-utils"
     ],
     "correct": [
-      "Validation du ticket"
+      "nfs-common"
     ]
   },
   {
     "id": 25,
     "type": "multiple_choice",
-    "question": "Dans Active Directory, DNS sert à :",
+    "question": "Le fichier principal de configuration des exports NFS est :",
     "options": [
-      "Fournir la résolution de noms pour les domaines AD",
-      "Attribuer les tickets Kerberos",
-      "Gérer les GPO",
-      "Créer les OUs"
+      "/etc/exports",
+      "/etc/fstab",
+      "/etc/samba/smb.conf",
+      "/etc/nfs.conf.local"
     ],
     "correct": [
-      "Fournir la résolution de noms pour les domaines AD"
+      "/etc/exports"
     ]
   },
   {
     "id": 26,
     "type": "multiple_choice",
-    "question": "DNS lie :",
+    "question": "Dans /etc/exports, l’option par défaut de partage est :",
     "options": [
-      "Les noms d’hôte aux adresses IP",
-      "Les utilisateurs aux mots de passe BIOS",
-      "Les groupes aux tickets Kerberos",
-      "Les sites aux OUs"
+      "ro",
+      "rw",
+      "sync",
+      "no_root_squash"
     ],
     "correct": [
-      "Les noms d’hôte aux adresses IP"
+      "ro"
     ]
   },
   {
     "id": 27,
     "type": "multiple_choice",
-    "question": "DNS est essentiel dans AD pour :",
+    "question": "Quelle option donne la lecture et l’écriture au client NFS ?",
     "options": [
-      "La localisation des contrôleurs de domaine",
-      "Le formatage des serveurs",
-      "Le partitionnement du disque système",
-      "La création des ACL"
+      "rw",
+      "ro",
+      "sync",
+      "root_squash"
     ],
     "correct": [
-      "La localisation des contrôleurs de domaine"
+      "rw"
     ]
   },
   {
     "id": 28,
     "type": "multiple_choice",
-    "question": "Dans la structure logique, les domaines contiennent :",
+    "question": "Avec root_squash, l’utilisateur root du client est traité comme :",
     "options": [
-      "Les objets AD comme les utilisateurs et groupes",
-      "Uniquement les tickets Kerberos",
-      "Uniquement les sites physiques",
-      "Uniquement les contrôleurs secondaires"
+      "nobody",
+      "root",
+      "daemon",
+      "guest"
     ],
     "correct": [
-      "Les objets AD comme les utilisateurs et groupes"
+      "nobody"
     ]
   },
   {
     "id": 29,
     "type": "multiple_choice",
-    "question": "Un arbre Active Directory regroupe :",
+    "question": "Quelle option laisse le root du client avoir les mêmes droits que root sur le serveur ?",
     "options": [
-      "Des domaines ayant un espace de noms continu",
-      "Des sites sans relation de confiance",
-      "Des DNS externes",
-      "Des VLAN d’entreprise"
+      "no_root_squash",
+      "root_squash",
+      "subtree_check",
+      "ro"
     ],
     "correct": [
-      "Des domaines ayant un espace de noms continu"
+      "no_root_squash"
     ]
   },
   {
     "id": 30,
     "type": "multiple_choice",
-    "question": "Une forêt Active Directory contient :",
+    "question": "L’option sync/async sert à choisir :",
     "options": [
-      "Plusieurs arbres avec des relations de confiance",
-      "Un seul contrôleur de domaine",
-      "Seulement des OUs",
-      "Seulement des groupes de sécurité"
+      "Si le serveur peut répondre avant l’application réelle des changements",
+      "Le mode d’authentification SMB",
+      "Le protocole de transport NMB",
+      "Le format du fichier LDIF"
     ],
     "correct": [
-      "Plusieurs arbres avec des relations de confiance"
+      "Si le serveur peut répondre avant l’application réelle des changements"
     ]
   },
   {
     "id": 31,
     "type": "multiple_choice",
-    "question": "Les OUs signifient :",
+    "question": "Quels fichiers peuvent limiter les machines autorisées à utiliser les services NFS ?",
     "options": [
-      "Unités Organisationnelles",
-      "Objets Unifiés",
-      "Operations Units",
-      "Ordres Utilisateur"
+      "/etc/hosts.allow et /etc/hosts.deny",
+      "/etc/passwd et /etc/group",
+      "/etc/resolv.conf et /etc/hostname",
+      "/etc/exports et /etc/fstab"
     ],
     "correct": [
-      "Unités Organisationnelles"
+      "/etc/hosts.allow et /etc/hosts.deny"
     ]
   },
   {
     "id": 32,
     "type": "multiple_choice",
-    "question": "Les OUs servent principalement à :",
+    "question": "Si une machine est listée dans hosts.allow, alors :",
     "options": [
-      "Organiser les objets pour une gestion efficace",
-      "Remplacer les domaines",
-      "Créer les tickets Kerberos",
-      "Attribuer les adresses IP"
+      "L’accès est autorisé",
+      "L’accès est refusé",
+      "Le serveur redémarre",
+      "Le montage devient read-only"
     ],
     "correct": [
-      "Organiser les objets pour une gestion efficace"
+      "L’accès est autorisé"
     ]
   },
   {
     "id": 33,
     "type": "multiple_choice",
-    "question": "Dans la structure physique, les DCs sont :",
+    "question": "Si une machine n’est ni dans hosts.allow ni dans hosts.deny, alors selon le cours :",
     "options": [
-      "Les contrôleurs de domaine",
-      "Les clients DHCP",
-      "Les consoles GPMC",
-      "Les objets de stratégie"
+      "L’accès est autorisé",
+      "L’accès est refusé",
+      "L’accès devient root_squash",
+      "Le service rpcbind s’arrête"
     ],
     "correct": [
-      "Les contrôleurs de domaine"
+      "L’accès est autorisé"
     ]
   },
   {
     "id": 34,
     "type": "multiple_choice",
-    "question": "Les contrôleurs de domaine hébergent :",
+    "question": "La commande exportfs permet notamment :",
     "options": [
-      "La base de données AD",
-      "Uniquement les mots de passe Wi-Fi",
-      "Uniquement les journaux DNS",
-      "Le BIOS du réseau"
+      "D’exporter ou désexporter sans redémarrer NFS",
+      "De créer un partage Samba",
+      "De tester smb.conf",
+      "De lister les groupes AD"
     ],
     "correct": [
-      "La base de données AD"
+      "D’exporter ou désexporter sans redémarrer NFS"
     ]
   },
   {
     "id": 35,
     "type": "multiple_choice",
-    "question": "Les contrôleurs de domaine :",
+    "question": "Quelle option de exportfs réexporte tous les répertoires listés dans /etc/exports ?",
     "options": [
-      "Répliquent les modifications entre eux",
-      "Travaillent toujours isolément",
-      "Ne stockent aucun objet",
-      "Remplacent les clients Windows"
+      "-r",
+      "-u",
+      "-v",
+      "-i"
     ],
     "correct": [
-      "Répliquent les modifications entre eux"
+      "-r"
     ]
   },
   {
     "id": 36,
     "type": "multiple_choice",
-    "question": "Les sites dans AD représentent :",
+    "question": "Quelle option de exportfs désexporte les répertoires partagés ?",
     "options": [
-      "La structure physique du réseau",
-      "Des groupes d’utilisateurs logiques",
-      "Des partitions DNS publiques",
-      "Des partages de fichiers"
+      "-u",
+      "-r",
+      "-a",
+      "-v"
     ],
     "correct": [
-      "La structure physique du réseau"
+      "-u"
     ]
   },
   {
     "id": 37,
     "type": "multiple_choice",
-    "question": "Les sites permettent notamment d’optimiser :",
+    "question": "Pour un montage NFS au démarrage, le fichier cité est :",
     "options": [
-      "La réplication et le trafic réseau",
-      "La taille des mots de passe",
-      "La couleur des consoles d’admin",
-      "La vitesse du processeur"
+      "/etc/fstab",
+      "/etc/exports",
+      "/etc/auto.smb",
+      "/etc/profile"
     ],
     "correct": [
-      "La réplication et le trafic réseau"
+      "/etc/fstab"
     ]
   },
   {
     "id": 38,
     "type": "multiple_choice",
-    "question": "Parmi les étapes d’installation d’AD, laquelle est citée ?",
+    "question": "Pour un montage/démontage automatique NFS, le cours cite :",
     "options": [
-      "Préparer l’environnement",
-      "Installer un hyperviseur obligatoire",
-      "Configurer un serveur mail",
-      "Supprimer le DNS"
+      "autofs",
+      "rpcbind",
+      "testparam",
+      "winbindd"
     ],
     "correct": [
-      "Préparer l’environnement"
+      "autofs"
     ]
   },
   {
     "id": 39,
     "type": "multiple_choice",
-    "question": "Lors de la préparation de l’environnement, il faut configurer :",
+    "question": "Avec NFS, on met nfs4 comme type si on utilise :",
     "options": [
-      "Une IP fixe pour le serveur",
-      "Une IP dynamique aléatoire",
-      "Un serveur FTP public",
-      "Une adresse MAC manuelle"
+      "NFSv4",
+      "NFSv2",
+      "NFSv3",
+      "Samba"
     ],
     "correct": [
-      "Une IP fixe pour le serveur"
+      "NFSv4"
     ]
   },
   {
     "id": 40,
     "type": "multiple_choice",
-    "question": "Lors de la préparation de l’environnement, il faut aussi configurer :",
+    "question": "Pour réduire les risques de sécurité NFS, le cours insiste sur :",
     "options": [
-      "Les services DNS",
-      "Le dual boot Linux/Windows",
-      "Le partitionnement GPT/MBR",
-      "Le proxy web"
+      "Les accès des hôtes et les permissions de fichiers",
+      "Le nom NetBIOS",
+      "Le choix du workgroup",
+      "Le pilote d’impression"
     ],
     "correct": [
-      "Les services DNS"
+      "Les accès des hôtes et les permissions de fichiers"
     ]
   },
   {
     "id": 41,
     "type": "multiple_choice",
-    "question": "Après la préparation, l’étape suivante est :",
+    "question": "Samba implémente principalement le protocole :",
     "options": [
-      "Ajouter le rôle ADDS",
-      "Créer toutes les OUs",
-      "Déployer les GPO",
-      "Supprimer les comptes invités"
+      "SMB/CIFS",
+      "NFSv4",
+      "TFTP",
+      "RDP"
     ],
     "correct": [
-      "Ajouter le rôle ADDS"
+      "SMB/CIFS"
     ]
   },
   {
     "id": 42,
     "type": "multiple_choice",
-    "question": "Selon le cours, pour ajouter le rôle ADDS, on utilise :",
+    "question": "Samba est surtout utilisé pour :",
     "options": [
-      "Le Gestionnaire de Serveur",
-      "Wireshark",
-      "Regedit",
-      "Bloc-notes"
+      "Le partage de fichiers et l’accès aux imprimantes réseau",
+      "L’attribution d’adresses IP",
+      "Le routage inter-VLAN",
+      "Le partitionnement des disques"
     ],
     "correct": [
-      "Le Gestionnaire de Serveur"
+      "Le partage de fichiers et l’accès aux imprimantes réseau"
     ]
   },
   {
     "id": 43,
     "type": "multiple_choice",
-    "question": "Promouvoir le serveur consiste notamment à :",
+    "question": "Quel démon Samba gère les sessions, l’authentification et l’accès aux fichiers ?",
     "options": [
-      "Créer un nouveau domaine ou intégrer un domaine existant",
-      "Créer un nouveau VLAN",
-      "Supprimer le DNS",
-      "Remplacer Kerberos par LDAP"
+      "smbd",
+      "nmbd",
+      "winbindd",
+      "rpc.nfsd"
     ],
     "correct": [
-      "Créer un nouveau domaine ou intégrer un domaine existant"
+      "smbd"
     ]
   },
   {
     "id": 44,
     "type": "multiple_choice",
-    "question": "Pour la validation de l’installation, le cours cite :",
+    "question": "Quel démon Samba fait connaître le nom du serveur et ses ressources sur le réseau ?",
     "options": [
-      "DcDiag",
-      "ipconfig",
-      "tracert",
-      "ping -t"
+      "nmbd",
+      "smbd",
+      "rpcbind",
+      "mountd"
     ],
     "correct": [
-      "DcDiag"
+      "nmbd"
     ]
   },
   {
     "id": 45,
     "type": "multiple_choice",
-    "question": "ADUC signifie :",
+    "question": "Quel démon Samba permet de rendre interprétables sous UNIX des infos utilisateurs/groupes Windows ?",
     "options": [
-      "Active Directory Users and Computers",
-      "Administrative Domain User Console",
-      "Active Directory Unified Controller",
-      "Advanced Directory User Center"
+      "winbindd",
+      "smbd",
+      "nmbd",
+      "rpc.statd"
     ],
     "correct": [
-      "Active Directory Users and Computers"
+      "winbindd"
     ]
   },
   {
     "id": 46,
     "type": "multiple_choice",
-    "question": "ADUC sert à :",
+    "question": "smbd écoute sur quels ports TCP ?",
     "options": [
-      "La gestion des objets du domaine",
-      "La gestion des tickets Kerberos",
-      "Le routage inter-sites",
-      "Le partitionnement du disque système"
+      "139 et 445",
+      "137 et 138",
+      "2049 et 111",
+      "389 et 636"
     ],
     "correct": [
-      "La gestion des objets du domaine"
+      "139 et 445"
     ]
   },
   {
     "id": 47,
     "type": "multiple_choice",
-    "question": "GPMC signifie :",
+    "question": "nmbd écoute sur quel port ?",
     "options": [
-      "Group Policy Management Console",
-      "Global Permission Management Center",
-      "Group Process Monitoring Console",
-      "General Policy Machine Control"
+      "UDP 137",
+      "TCP 445",
+      "TCP 139",
+      "UDP 111"
     ],
     "correct": [
-      "Group Policy Management Console"
+      "UDP 137"
     ]
   },
   {
     "id": 48,
     "type": "multiple_choice",
-    "question": "GPMC sert à gérer :",
+    "question": "Le fichier de configuration Samba est :",
     "options": [
-      "Les politiques appliquées aux groupes du domaine",
-      "Les interfaces réseau physiques",
-      "Les tickets d’authentification Kerberos",
-      "Les partitions système"
+      "/etc/samba/smb.conf",
+      "/etc/smb.conf",
+      "/etc/exports",
+      "/etc/winbind.conf"
     ],
     "correct": [
-      "Les politiques appliquées aux groupes du domaine"
+      "/etc/samba/smb.conf"
     ]
   },
   {
     "id": 49,
     "type": "multiple_choice",
-    "question": "GPO signifie :",
+    "question": "Dans un smb.conf, quel paramètre définit le groupe de travail ?",
     "options": [
-      "Group Policy Object",
-      "Global Permission Object",
-      "General Protocol Option",
-      "Group Process Output"
+      "workgroup",
+      "netbios name",
+      "security",
+      "valid users"
     ],
     "correct": [
-      "Group Policy Object"
+      "workgroup"
     ]
   },
   {
     "id": 50,
     "type": "multiple_choice",
-    "question": "Quel outil est cité pour l’automatisation des tâches d’administration ?",
+    "question": "Dans un smb.conf, quel paramètre définit le nom NetBIOS du serveur ?",
     "options": [
-      "PowerShell",
-      "Paint",
-      "WordPad",
-      "Task Manager"
+      "netbios name",
+      "workgroup",
+      "path",
+      "comment"
     ],
     "correct": [
-      "PowerShell"
+      "netbios name"
     ]
   },
   {
     "id": 51,
     "type": "multiple_choice",
-    "question": "Selon la conclusion du cours, Active Directory est essentiel pour :",
+    "question": "Dans l’exemple anonyme lecture seule, la valeur de security est :",
     "options": [
-      "Les infrastructures réseau Windows",
-      "Les BIOS UEFI",
-      "Les imprimantes locales uniquement",
-      "Les disques NVMe"
+      "share",
+      "user",
+      "domain",
+      "ads"
     ],
     "correct": [
-      "Les infrastructures réseau Windows"
+      "share"
     ]
   },
   {
     "id": 52,
     "type": "multiple_choice",
-    "question": "Selon la conclusion, Active Directory simplifie :",
+    "question": "Le cours indique qu’il faut éviter :",
     "options": [
-      "La gestion des identités et des ressources réseau",
-      "Le montage des systèmes de fichiers Linux",
-      "Le partitionnement GPT",
-      "La configuration RAID matérielle"
+      "security = share",
+      "security = user",
+      "encrypt passwords = Yes",
+      "valid users"
     ],
     "correct": [
-      "La gestion des identités et des ressources réseau"
+      "security = share"
     ]
   },
   {
     "id": 53,
     "type": "multiple_choice",
-    "question": "Parmi les fonctionnalités avancées citées en conclusion, laquelle apparaît ?",
+    "question": "Pour une meilleure sécurité dans Samba, le cours recommande :",
     "options": [
-      "Les GPOs",
-      "Le NAT",
-      "Le RAID",
-      "Le DHCP relay"
+      "security = user",
+      "security = share",
+      "guest only = Yes partout",
+      "public = Yes partout"
     ],
     "correct": [
-      "Les GPOs"
+      "security = user"
     ]
   },
   {
     "id": 54,
     "type": "multiple_choice",
-    "question": "Parmi les fonctionnalités avancées citées en conclusion, laquelle apparaît ?",
+    "question": "Quel paramètre smb.conf permet de rendre le partage lecture seule ?",
     "options": [
-      "La réplication",
-      "Le partitionnement MBR",
-      "Le shell bash",
-      "Le boot PXE"
+      "read only = Yes",
+      "guest ok = Yes",
+      "force user = docsbot",
+      "browseable = No"
     ],
     "correct": [
-      "La réplication"
+      "read only = Yes"
     ]
   },
   {
     "id": 55,
     "type": "multiple_choice",
-    "question": "Parmi les fonctionnalités avancées citées en conclusion, laquelle apparaît ?",
+    "question": "Quel paramètre permet d’autoriser uniquement les invités sur un partage ?",
     "options": [
-      "La sécurité",
-      "La gravure CD",
-      "Le dual boot",
-      "Le DNS public"
+      "guest only = Yes",
+      "valid users = guest",
+      "public = No",
+      "printable = Yes"
     ],
     "correct": [
-      "La sécurité"
+      "guest only = Yes"
     ]
   },
   {
     "id": 56,
     "type": "multiple_choice",
-    "question": "Quel protocole est utilisé dans AD pour la gestion des objets ?",
+    "question": "Quel paramètre permet de forcer l’utilisateur effectif sur les fichiers du partage ?",
     "options": [
-      "LDAP",
-      "ICMP",
-      "SNMP",
-      "TFTP"
+      "force user",
+      "valid users",
+      "workgroup",
+      "printing"
     ],
     "correct": [
-      "LDAP"
+      "force user"
     ]
   },
   {
     "id": 57,
     "type": "multiple_choice",
-    "question": "Quel protocole est utilisé dans AD pour l’authentification ?",
+    "question": "Quel paramètre permet de forcer le groupe effectif sur les fichiers du partage ?",
     "options": [
-      "Kerberos",
-      "ARP",
-      "HTTP",
-      "SMTP"
+      "force group",
+      "workgroup",
+      "guest ok",
+      "use client driver"
     ],
     "correct": [
-      "Kerberos"
+      "force group"
     ]
   },
   {
     "id": 58,
     "type": "multiple_choice",
-    "question": "Quel service est indispensable pour retrouver les contrôleurs de domaine ?",
+    "question": "Dans l’exemple d’impression Samba, quel système d’impression est utilisé ?",
     "options": [
-      "DNS",
-      "FTP",
-      "RDP",
-      "Telnet"
+      "cups",
+      "lprng",
+      "ipp-only",
+      "smbprint"
     ],
     "correct": [
-      "DNS"
+      "cups"
     ]
   },
   {
     "id": 59,
-    "type": "free_answer",
-    "question": "Donne l’acronyme de Active Directory Domain Services.",
+    "type": "multiple_choice",
+    "question": "Quel paramètre rend un partage imprimante imprimable ?",
+    "options": [
+      "printable = Yes",
+      "guest only = Yes",
+      "read only = No",
+      "comment = All Printers"
+    ],
     "correct": [
-      "adds"
+      "printable = Yes"
     ]
   },
   {
     "id": 60,
-    "type": "free_answer",
-    "question": "Quel protocole AD utilise-t-il pour gérer les objets ?",
+    "type": "multiple_choice",
+    "question": "Quel paramètre permet de restreindre un partage à certains utilisateurs ?",
+    "options": [
+      "valid users",
+      "force user",
+      "guest ok",
+      "netbios name"
+    ],
     "correct": [
-      "ldap"
+      "valid users"
     ]
   },
   {
     "id": 61,
-    "type": "free_answer",
-    "question": "Quel protocole AD utilise-t-il pour l’authentification ?",
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de tester une configuration Samba ?",
+    "options": [
+      "testparam",
+      "exportfs -r",
+      "smbclient",
+      "rpcinfo"
+    ],
     "correct": [
-      "kerberos"
+      "testparam"
     ]
   },
   {
     "id": 62,
-    "type": "free_answer",
-    "question": "Quel service assure la résolution de noms dans Active Directory ?",
+    "type": "multiple_choice",
+    "question": "Quelle commande est donnée pour se connecter à un partage Samba depuis Linux ?",
+    "options": [
+      "smbclient \"\\\\<nom du serveur>\\<nom du partage>\" -U <utilisateur>",
+      "mount -t nfs <serveur>:/partage /mnt",
+      "rpcbind -U <utilisateur>",
+      "testparam -U <utilisateur>"
+    ],
     "correct": [
-      "dns"
+      "smbclient \"\\\\<nom du serveur>\\<nom du partage>\" -U <utilisateur>"
     ]
   },
   {
     "id": 63,
     "type": "free_answer",
-    "question": "Comment s’appellent les unités qui organisent les objets dans l’entreprise ?",
+    "question": "Donne l’acronyme de Network File System.",
     "correct": [
-      "ou",
-      "ous",
-      "unites organisationnelles",
-      "unités organisationnelles"
+      "nfs"
     ]
   },
   {
     "id": 64,
     "type": "free_answer",
-    "question": "Comment s’appellent les serveurs qui hébergent la base de données AD ?",
+    "question": "Quel protocole utilise NFS pour communiquer entre client et serveur ?",
     "correct": [
-      "controleurs de domaine",
-      "contrôleurs de domaine",
-      "dc",
-      "dcs"
+      "rpc"
     ]
   },
   {
     "id": 65,
     "type": "free_answer",
-    "question": "Quel outil permet de tester les connexions lors de la validation d’une installation AD ?",
+    "question": "Quel port principal écoute NFS ?",
     "correct": [
-      "dcdiag"
+      "2049"
     ]
   },
   {
     "id": 66,
     "type": "free_answer",
-    "question": "Quel outil sert à gérer les objets du domaine ?",
+    "question": "Quel port est utile pour le service portmap dans les anciennes versions de NFS ?",
     "correct": [
-      "aduc",
-      "active directory users and computers"
+      "111"
     ]
   },
   {
     "id": 67,
     "type": "free_answer",
-    "question": "Quel outil sert à gérer les GPO ?",
+    "question": "Quel démon gère le protocole nfs ?",
     "correct": [
-      "gpmc",
-      "group policy management console"
+      "rpc.nfsd",
+      "nfsd"
     ]
   },
   {
     "id": 68,
     "type": "free_answer",
-    "question": "Quel outil d’automatisation est cité dans le cours ?",
+    "question": "Quel démon gère mountd ?",
     "correct": [
-      "powershell"
+      "rpc.mountd",
+      "mountd"
     ]
   },
   {
     "id": 69,
     "type": "free_answer",
-    "question": "Quel mot désigne un ensemble de domaines ayant un espace de noms continu ?",
+    "question": "Quel démon gère nsm ?",
     "correct": [
-      "arbre",
-      "arbres"
+      "rpc.statd",
+      "statd"
     ]
   },
   {
     "id": 70,
     "type": "free_answer",
-    "question": "Quel mot désigne un ensemble de plusieurs arbres avec relations de confiance ?",
+    "question": "Quel démon gère nlm ?",
     "correct": [
-      "foret",
-      "forêt",
-      "forets",
-      "forêts"
+      "rpc.lockd",
+      "lockd"
     ]
   },
   {
     "id": 71,
     "type": "free_answer",
-    "question": "Quel mot désigne les structures physiques du réseau dans AD ?",
+    "question": "Quel démon gère les quotas NFS ?",
     "correct": [
-      "sites"
+      "rpc.quotad",
+      "quotad"
     ]
   },
   {
     "id": 72,
     "type": "free_answer",
-    "question": "Quel mot désigne les politiques de groupe dans AD ?",
+    "question": "Quel paquet faut-il installer côté serveur NFS ?",
     "correct": [
-      "gpo",
-      "gpos"
+      "nfs-kernel-server"
     ]
   },
   {
     "id": 73,
     "type": "free_answer",
-    "question": "Quel mécanisme de sécurité dans AD repose sur des tickets ?",
+    "question": "Quel paquet faut-il installer côté client NFS ?",
     "correct": [
-      "kerberos"
+      "nfs-common"
     ]
   },
   {
     "id": 74,
     "type": "free_answer",
-    "question": "Quelle première étape d’installation impose de configurer une IP fixe ?",
+    "question": "Quel fichier contient les exports NFS ?",
     "correct": [
-      "preparer l environnement",
-      "préparer l’environnement",
-      "preparation de l environnement",
-      "préparation de l’environnement"
+      "/etc/exports",
+      "exports"
     ]
   },
   {
     "id": 75,
     "type": "free_answer",
-    "question": "Quel rôle faut-il ajouter avant de promouvoir le serveur ?",
+    "question": "Quelle commande permet de réexporter les partages définis dans /etc/exports ?",
     "correct": [
-      "adds",
-      "ad ds",
-      "active directory domain services"
+      "exportfs -r",
+      "exportfs"
     ]
   },
   {
     "id": 76,
     "type": "free_answer",
-    "question": "Quel mot-clé anglais désigne les listes de contrôle d’accès citées avec Kerberos ?",
+    "question": "Quelle option de exportfs désexporte les répertoires ?",
     "correct": [
-      "acl",
-      "acls"
+      "-u"
     ]
   },
   {
     "id": 77,
     "type": "free_answer",
-    "question": "Quel composant principal d’Active Directory centralise les informations des objets ?",
+    "question": "Quelle option NFS transforme root en nobody ?",
     "correct": [
-      "adds"
+      "root_squash"
     ]
   },
   {
     "id": 78,
     "type": "free_answer",
-    "question": "Quel service est essentiel pour localiser les contrôleurs de domaine ?",
+    "question": "Quelle option NFS laisse root client agir comme root serveur ?",
     "correct": [
-      "dns"
+      "no_root_squash"
     ]
   },
   {
     "id": 79,
     "type": "free_answer",
-    "question": "Quel mot résume la copie des modifications entre contrôleurs de domaine ?",
+    "question": "Quel fichier permet de monter automatiquement au démarrage ?",
     "correct": [
-      "replication",
-      "réplication"
+      "/etc/fstab",
+      "fstab"
     ]
   },
   {
     "id": 80,
     "type": "free_answer",
-    "question": "Quel type de base de données est un annuaire électronique selon le cours ?",
+    "question": "Quel outil permet le montage automatique NFS cité dans le cours ?",
     "correct": [
-      "hierarchique",
-      "hiérarchique"
+      "autofs"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "free_answer",
+    "question": "Quel type faut-il mettre dans la commande de montage pour NFSv4 ?",
+    "correct": [
+      "nfs4"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "free_answer",
+    "question": "Quel logiciel implémente SMB/CIFS sous UNIX ?",
+    "correct": [
+      "samba"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "free_answer",
+    "question": "Quel démon Samba gère les sessions et l’authentification ?",
+    "correct": [
+      "smbd"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "free_answer",
+    "question": "Quel démon Samba annonce le serveur sur le réseau ?",
+    "correct": [
+      "nmbd"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "free_answer",
+    "question": "Quel démon Samba permet de rendre visibles les utilisateurs Windows côté UNIX ?",
+    "correct": [
+      "winbindd"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "free_answer",
+    "question": "Quels ports TCP écoute smbd ?",
+    "correct": [
+      "139 445",
+      "139 et 445"
+    ],
+    "number_of_answers": 2
+  },
+  {
+    "id": 87,
+    "type": "free_answer",
+    "question": "Quel port UDP écoute nmbd ?",
+    "correct": [
+      "137"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "free_answer",
+    "question": "Quel est le fichier principal de configuration Samba ?",
+    "correct": [
+      "/etc/samba/smb.conf",
+      "smb.conf"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "free_answer",
+    "question": "Quel paramètre Samba définit le groupe de travail ?",
+    "correct": [
+      "workgroup"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "free_answer",
+    "question": "Quel paramètre Samba définit le nom NetBIOS du serveur ?",
+    "correct": [
+      "netbios name"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "free_answer",
+    "question": "Quel paramètre Samba rend le partage lecture seule ?",
+    "correct": [
+      "read only = yes",
+      "read only",
+      "readonly"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "free_answer",
+    "question": "Quel paramètre Samba permet de limiter l’accès à certains utilisateurs ?",
+    "correct": [
+      "valid users"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "free_answer",
+    "question": "Quel paramètre Samba est recommandé pour la sécurité globale à la place de share ?",
+    "correct": [
+      "security = user",
+      "user"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "free_answer",
+    "question": "Quelle commande permet de tester la configuration Samba ?",
+    "correct": [
+      "testparam"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "free_answer",
+    "question": "Quelle commande Linux du cours permet de se connecter à un partage Samba ?",
+    "correct": [
+      "smbclient"
     ]
   }
 ]
