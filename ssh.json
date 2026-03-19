@@ -1,0 +1,1000 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "SSH signifie :",
+    "options": [
+      "Secure Shell",
+      "System Secure Host",
+      "Shell Server Host",
+      "Secure System Handler"
+    ],
+    "correct": [
+      "Secure Shell"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "SSH est présenté comme :",
+    "options": [
+      "Un équivalent de RSH mais chiffré",
+      "Un remplaçant de DNS",
+      "Un protocole de routage",
+      "Un système de fichiers réseau"
+    ],
+    "correct": [
+      "Un équivalent de RSH mais chiffré"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Pourquoi SSH est-il utile selon l’introduction du cours ?",
+    "options": [
+      "Pour administrer des serveurs distants, nombreux, sans interaction simple",
+      "Pour attribuer des adresses IP",
+      "Pour monter des partages NFS",
+      "Pour remplacer les comptes utilisateurs"
+    ],
+    "correct": [
+      "Pour administrer des serveurs distants, nombreux, sans interaction simple"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Quel protocole historique est cité comme obsolète car non sécurisé ?",
+    "options": [
+      "RSH",
+      "FTP",
+      "LDAP",
+      "SNMP"
+    ],
+    "correct": [
+      "RSH"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Sous Debian-like, quelle commande installe le serveur SSH ?",
+    "options": [
+      "apt install openssh-server -y",
+      "apt install ssh-server -y",
+      "dnf install openssh-server -y",
+      "apt install openssh-client -y"
+    ],
+    "correct": [
+      "apt install openssh-server -y"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Sous Red Hat-like, quelle commande installe le serveur SSH ?",
+    "options": [
+      "dnf install openssh-server -y",
+      "apt install openssh-server -y",
+      "yum install ssh-client -y",
+      "dnf install sshd-client -y"
+    ],
+    "correct": [
+      "dnf install openssh-server -y"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Le fichier de configuration du serveur SSH est :",
+    "options": [
+      "/etc/ssh/sshd_config",
+      "/etc/ssh/ssh_config",
+      "/etc/sshd/ssh.conf",
+      "/etc/openssh/server.conf"
+    ],
+    "correct": [
+      "/etc/ssh/sshd_config"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Le fichier de configuration du client SSH est :",
+    "options": [
+      "/etc/ssh/ssh_config",
+      "/etc/ssh/sshd_config",
+      "/etc/ssh/clientd_config",
+      "/etc/openssh/client.conf"
+    ],
+    "correct": [
+      "/etc/ssh/ssh_config"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Les fichiers de configuration SSH sont éditables :",
+    "options": [
+      "Par root avec un éditeur de texte",
+      "Uniquement par un client graphique",
+      "Seulement via PowerShell",
+      "Par n’importe quel utilisateur sans privilège"
+    ],
+    "correct": [
+      "Par root avec un éditeur de texte"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Pourquoi est-il conseillé d’interdire l’accès root par mot de passe ?",
+    "options": [
+      "Pour limiter les attaques par force brute sur root",
+      "Pour accélérer SSH",
+      "Pour supprimer le chiffrement",
+      "Pour forcer l’usage de FTP"
+    ],
+    "correct": [
+      "Pour limiter les attaques par force brute sur root"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Quelle directive refuse toute connexion SSH avec root ?",
+    "options": [
+      "PermitRootLogin no",
+      "PermitRootLogin prohibit-password",
+      "RootLogin no",
+      "AllowRoot no"
+    ],
+    "correct": [
+      "PermitRootLogin no"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Quelle directive autorise root uniquement par clé ?",
+    "options": [
+      "PermitRootLogin prohibit-password",
+      "PermitRootLogin yes",
+      "PasswordAuthentication no",
+      "PubkeyAuthentication no"
+    ],
+    "correct": [
+      "PermitRootLogin prohibit-password"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Quelle directive est indiquée comme mauvaise pratique pour root ?",
+    "options": [
+      "PermitRootLogin yes",
+      "PermitRootLogin prohibit-password",
+      "PermitRootLogin no",
+      "PasswordAuthentication no"
+    ],
+    "correct": [
+      "PermitRootLogin yes"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Quelle commande recharge OpenSSH server après modification de configuration ?",
+    "options": [
+      "systemctl reload sshd.service",
+      "systemctl restart ssh.service",
+      "service ssh reload-client",
+      "sshd --reload-config"
+    ],
+    "correct": [
+      "systemctl reload sshd.service"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "La fonctionnalité X11Forwarding sert à :",
+    "options": [
+      "Lancer une application graphique distante et l’afficher côté client",
+      "Transférer des fichiers par SSH",
+      "Monter un répertoire SFTP",
+      "Ouvrir un second shell root"
+    ],
+    "correct": [
+      "Lancer une application graphique distante et l’afficher côté client"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "Pour activer la transmission graphique côté serveur SSH, on met :",
+    "options": [
+      "X11Forwarding yes",
+      "DisplayForward yes",
+      "ForwardX11 yes",
+      "X11Export yes"
+    ],
+    "correct": [
+      "X11Forwarding yes"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Le port SSH par défaut est :",
+    "options": [
+      "22/TCP",
+      "21/TCP",
+      "22/UDP",
+      "2222/TCP"
+    ],
+    "correct": [
+      "22/TCP"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Changer le port SSH est présenté comme :",
+    "options": [
+      "Une bonne pratique",
+      "Une mauvaise pratique absolue",
+      "Impossible avec OpenSSH",
+      "Utile uniquement pour FTP"
+    ],
+    "correct": [
+      "Une bonne pratique"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Pourquoi changer le port SSH peut-il être utile ?",
+    "options": [
+      "Parce que le service est plus difficile à trouver et qu’il peut y avoir un conflit de port",
+      "Parce que SSH ne fonctionne jamais sur 22",
+      "Parce que ça active automatiquement le chiffrement",
+      "Parce que ça remplace le firewall"
+    ],
+    "correct": [
+      "Parce que le service est plus difficile à trouver et qu’il peut y avoir un conflit de port"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Quelle directive change le port d’écoute SSH ?",
+    "options": [
+      "Port 12345",
+      "ListenPort 12345",
+      "SSHPort 12345",
+      "BindPort 12345"
+    ],
+    "correct": [
+      "Port 12345"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Le filtrage des accès SSH peut se faire selon le cours par :",
+    "options": [
+      "Firewall ou configuration SSH",
+      "DNS uniquement",
+      "NFS et Samba",
+      "LDAP uniquement"
+    ],
+    "correct": [
+      "Firewall ou configuration SSH"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Quelle directive interdit globalement l’authentification par mot de passe ?",
+    "options": [
+      "PasswordAuthentication no",
+      "PermitRootLogin no",
+      "PubkeyAuthentication no",
+      "PasswordRootLogin no"
+    ],
+    "correct": [
+      "PasswordAuthentication no"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Quelle directive interdit globalement l’authentification par clé ?",
+    "options": [
+      "PubkeyAuthentication no",
+      "PasswordAuthentication no",
+      "PermitRootLogin no",
+      "Match Address no"
+    ],
+    "correct": [
+      "PubkeyAuthentication no"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "La directive Match Address 192.168.100.* permet de :",
+    "options": [
+      "Appliquer des règles spécifiques à ce réseau",
+      "Changer le port du client",
+      "Forcer l’usage de SCP",
+      "Activer automatiquement X11"
+    ],
+    "correct": [
+      "Appliquer des règles spécifiques à ce réseau"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple du cours, pour le réseau 192.168.100.0/24, l’authentification autorisée est :",
+    "options": [
+      "Par clé",
+      "Par mot de passe uniquement",
+      "Anonyme",
+      "Kerberos uniquement"
+    ],
+    "correct": [
+      "Par clé"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "La commande de base pour se connecter sur remote_host avec le même utilisateur que celui du client est :",
+    "options": [
+      "ssh remote_host",
+      "ssh user@remote_host",
+      "scp remote_host",
+      "ssh -p remote_host"
+    ],
+    "correct": [
+      "ssh remote_host"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Pour se connecter à remote_host en tant que user, on utilise :",
+    "options": [
+      "ssh user@remote_host",
+      "ssh remote_host user",
+      "ssh -u user remote_host",
+      "connect user@remote_host"
+    ],
+    "correct": [
+      "ssh user@remote_host"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Après une authentification réussie en SSH, on obtient généralement :",
+    "options": [
+      "Un prompt bash sur le serveur",
+      "Un partage NFS",
+      "Une session graphique obligatoire",
+      "Une base LDAP"
+    ],
+    "correct": [
+      "Un prompt bash sur le serveur"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Si le serveur SSH écoute sur un port différent de 22, il faut utiliser l’option :",
+    "options": [
+      "-p",
+      "-P",
+      "-L",
+      "-C"
+    ],
+    "correct": [
+      "-p"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Quelle commande correspond à une connexion SSH sur un port spécifique ?",
+    "options": [
+      "ssh -p 12345 user@remote_host",
+      "ssh -P 12345 user@remote_host",
+      "ssh user@remote_host -P 12345",
+      "ssh --port-client 12345 user@remote_host"
+    ],
+    "correct": [
+      "ssh -p 12345 user@remote_host"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Pour demander la transmission d’affichage graphique, le client SSH utilise :",
+    "options": [
+      "-CX",
+      "-p",
+      "-L",
+      "-r"
+    ],
+    "correct": [
+      "-CX"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Selon le cours, l’export display est généralement couplé avec :",
+    "options": [
+      "Une compression du flux",
+      "Un changement de port obligatoire",
+      "La désactivation du chiffrement",
+      "Le montage d’un répertoire"
+    ],
+    "correct": [
+      "Une compression du flux"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "Après ssh -CX user@remote_host, il devient possible de :",
+    "options": [
+      "Lancer une application graphique distante affichée sur le client",
+      "Copier automatiquement des clés SSH",
+      "Monter un partage Samba",
+      "Changer les ACL système"
+    ],
+    "correct": [
+      "Lancer une application graphique distante affichée sur le client"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "La seconde méthode d’authentification SSH présentée dans le cours est :",
+    "options": [
+      "L’authentification par clé",
+      "L’authentification par token DNS",
+      "L’authentification par FTP",
+      "L’authentification par adresse MAC"
+    ],
+    "correct": [
+      "L’authentification par clé"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Pourquoi l’authentification par clé est-elle présentée comme plus sécurisée ?",
+    "options": [
+      "Parce que la clé est plus longue/complexe et que la clé privée n’est jamais transmise",
+      "Parce qu’elle désactive le chiffrement",
+      "Parce qu’elle n’a pas besoin d’utilisateur",
+      "Parce qu’elle remplace root"
+    ],
+    "correct": [
+      "Parce que la clé est plus longue/complexe et que la clé privée n’est jamais transmise"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "La première étape pour utiliser l’authentification par clé est :",
+    "options": [
+      "Créer la clé avec ssh-keygen",
+      "Redémarrer sshd",
+      "Monter le home distant",
+      "Changer le port SSH"
+    ],
+    "correct": [
+      "Créer la clé avec ssh-keygen"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "Quelle commande crée une paire de clés SSH ?",
+    "options": [
+      "ssh-keygen",
+      "ssh-copy-id",
+      "sshfs",
+      "scp"
+    ],
+    "correct": [
+      "ssh-keygen"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "Quelle commande envoie la clé publique sur le serveur ?",
+    "options": [
+      "ssh-copy-id user@host",
+      "ssh-keygen user@host",
+      "scp id_rsa user@host",
+      "ssh -L user@host"
+    ],
+    "correct": [
+      "ssh-copy-id user@host"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Le port forwarding SSH sert principalement à :",
+    "options": [
+      "Accéder à un service derrière un firewall via SSH",
+      "Changer le mot de passe root",
+      "Chiffrer un disque distant",
+      "Créer des comptes LDAP"
+    ],
+    "correct": [
+      "Accéder à un service derrière un firewall via SSH"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Quelle syntaxe correspond au port forwarding local selon le cours ?",
+    "options": [
+      "ssh -L mon_port:fhost:fport user@remote_host",
+      "ssh -p mon_port:fhost:fport user@remote_host",
+      "ssh -CX mon_port:fhost:fport user@remote_host",
+      "ssh -R mon_port:fhost:fport user@remote_host"
+    ],
+    "correct": [
+      "ssh -L mon_port:fhost:fport user@remote_host"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Dans ssh -L mon_port:fhost:fport user@remote_host, les paquets adressés à mon_port sont forwardés :",
+    "options": [
+      "Vers fhost sur le port fport en passant par remote_host",
+      "Vers remote_host sur le port 22 uniquement",
+      "Vers le client local sans transit",
+      "Vers un partage SFTP"
+    ],
+    "correct": [
+      "Vers fhost sur le port fport en passant par remote_host"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "La commande scp est décrite comme :",
+    "options": [
+      "Un mix entre cp et ssh",
+      "Un dérivé de FTP non chiffré",
+      "Un outil de DNS dynamique",
+      "Un gestionnaire de paquets"
+    ],
+    "correct": [
+      "Un mix entre cp et ssh"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Quelle commande copie un fichier du client vers le home du serveur ?",
+    "options": [
+      "scp fichier user@host:~",
+      "scp user@host:~ fichier",
+      "ssh fichier user@host:~",
+      "cp fichier user@host:~"
+    ],
+    "correct": [
+      "scp fichier user@host:~"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Avec scp, l’option -r permet :",
+    "options": [
+      "La copie récursive d’un répertoire",
+      "Le rechargement de sshd",
+      "Le renommage distant",
+      "L’authentification root"
+    ],
+    "correct": [
+      "La copie récursive d’un répertoire"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Avec scp, l’option pour préciser le port SSH est :",
+    "options": [
+      "-P",
+      "-p",
+      "-L",
+      "-C"
+    ],
+    "correct": [
+      "-P"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "SSHFS permet de :",
+    "options": [
+      "Monter un répertoire distant à travers SSH",
+      "Créer un partage Samba",
+      "Exporter un dossier en NFSv4",
+      "Transférer uniquement des clés publiques"
+    ],
+    "correct": [
+      "Monter un répertoire distant à travers SSH"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "SSHFS repose sur :",
+    "options": [
+      "SFTP",
+      "NFS",
+      "SMB",
+      "RPC"
+    ],
+    "correct": [
+      "SFTP"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "Selon le cours, SFTP est généralement :",
+    "options": [
+      "Supporté et activé par défaut sur la plupart des serveurs SSH",
+      "Toujours désactivé par défaut",
+      "Réservé à Windows Server",
+      "Incompatible avec OpenSSH"
+    ],
+    "correct": [
+      "Supporté et activé par défaut sur la plupart des serveurs SSH"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple sshfs user@remote_host:/media/videos /videos -p 12345, /videos est :",
+    "options": [
+      "Le point de montage local",
+      "Le dossier distant",
+      "Le port du serveur",
+      "Le fichier de configuration SSH"
+    ],
+    "correct": [
+      "Le point de montage local"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple sshfs user@remote_host:/media/videos /videos -p 12345, /media/videos est :",
+    "options": [
+      "Le chemin distant sur le serveur SSH",
+      "Le point de montage local",
+      "Le fichier sshd_config",
+      "Le home du client"
+    ],
+    "correct": [
+      "Le chemin distant sur le serveur SSH"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple SSHFS du cours, le serveur écoute sur le port :",
+    "options": [
+      "12345",
+      "22",
+      "2222",
+      "2049"
+    ],
+    "correct": [
+      "12345"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Après le montage SSHFS, le répertoire distant est manipulé :",
+    "options": [
+      "Localement via le point de montage",
+      "Uniquement avec scp",
+      "Seulement avec root",
+      "En lecture seule obligatoirement"
+    ],
+    "correct": [
+      "Localement via le point de montage"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Parmi les éléments suivants, lequel est une bonne pratique de sécurité SSH vue dans le cours ?",
+    "options": [
+      "Interdire root par mot de passe",
+      "Laisser root en mot de passe partout",
+      "Désactiver le chiffrement",
+      "Utiliser RSH"
+    ],
+    "correct": [
+      "Interdire root par mot de passe"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Le cours indique que l’accès à la clé privée peut être :",
+    "options": [
+      "Protégé",
+      "Publié automatiquement",
+      "Toujours transmis au serveur",
+      "Impossible à sécuriser"
+    ],
+    "correct": [
+      "Protégé"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple de filtrage d’accès, quelle directive est activée pour autoriser les clés sur un réseau donné ?",
+    "options": [
+      "PubkeyAuthentication yes",
+      "PasswordAuthentication no",
+      "PermitRootLogin yes",
+      "X11Forwarding yes"
+    ],
+    "correct": [
+      "PubkeyAuthentication yes"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple de filtrage, l’authentification par mot de passe pour le réseau matché est :",
+    "options": [
+      "Commentée dans l’exemple",
+      "Obligatoire",
+      "Interdite par la directive PermitRootLogin",
+      "Toujours activée implicitement"
+    ],
+    "correct": [
+      "Commentée dans l’exemple"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "free_answer",
+    "question": "Donne l’acronyme de Secure Shell.",
+    "correct": [
+      "ssh"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "free_answer",
+    "question": "Quel protocole historique non sécurisé SSH remplace-t-il ?",
+    "correct": [
+      "rsh"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "free_answer",
+    "question": "Quel paquet installe le serveur SSH sous Debian-like ?",
+    "correct": [
+      "openssh-server"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "free_answer",
+    "question": "Quel est le fichier de configuration du serveur SSH ?",
+    "correct": [
+      "/etc/ssh/sshd_config",
+      "sshd_config"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "free_answer",
+    "question": "Quel est le fichier de configuration du client SSH ?",
+    "correct": [
+      "/etc/ssh/ssh_config",
+      "ssh_config"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "free_answer",
+    "question": "Quelle directive refuse toute connexion avec root ?",
+    "correct": [
+      "permitrootlogin no"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "free_answer",
+    "question": "Quelle directive autorise root seulement par clé ?",
+    "correct": [
+      "permitrootlogin prohibit-password"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "free_answer",
+    "question": "Quelle directive active la transmission graphique X11 ?",
+    "correct": [
+      "x11forwarding yes"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "free_answer",
+    "question": "Quel est le port SSH par défaut ?",
+    "correct": [
+      "22"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "free_answer",
+    "question": "Quelle directive permet de changer le port SSH ?",
+    "correct": [
+      "port"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "free_answer",
+    "question": "Quelle directive interdit globalement l’authentification par mot de passe ?",
+    "correct": [
+      "passwordauthentication no"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "free_answer",
+    "question": "Quelle directive interdit globalement l’authentification par clé ?",
+    "correct": [
+      "pubkeyauthentication no"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "free_answer",
+    "question": "Quelle directive sert à cibler un réseau ou une adresse pour appliquer des règles SSH ?",
+    "correct": [
+      "match address"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "free_answer",
+    "question": "Quelle commande SSH simple se connecte à remote_host avec le même utilisateur que le client ?",
+    "correct": [
+      "ssh remote_host"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "free_answer",
+    "question": "Quelle syntaxe SSH se connecte en tant que user sur remote_host ?",
+    "correct": [
+      "ssh user@remote_host"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "free_answer",
+    "question": "Quelle option SSH permet de préciser un port différent ?",
+    "correct": [
+      "-p"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "free_answer",
+    "question": "Quelle option ou combinaison est utilisée pour l’export display dans le cours ?",
+    "correct": [
+      "-cx",
+      "-CX"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "free_answer",
+    "question": "Quelle commande permet de générer une paire de clés SSH ?",
+    "correct": [
+      "ssh-keygen"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "free_answer",
+    "question": "Quelle commande permet d’envoyer la clé publique au serveur ?",
+    "correct": [
+      "ssh-copy-id"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "free_answer",
+    "question": "Quelle option SSH permet le port forwarding local ?",
+    "correct": [
+      "-l",
+      "-L"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "free_answer",
+    "question": "Quelle commande sert à copier des fichiers via SSH ?",
+    "correct": [
+      "scp"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "free_answer",
+    "question": "Avec scp, quelle option copie récursivement un répertoire ?",
+    "correct": [
+      "-r"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "free_answer",
+    "question": "Avec scp, quelle option précise le port SSH ?",
+    "correct": [
+      "-p",
+      "-P"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Quelle commande permet de monter un répertoire distant via SSH ?",
+    "correct": [
+      "sshfs"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "free_answer",
+    "question": "Sur quoi repose SSHFS ?",
+    "correct": [
+      "sftp"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "free_answer",
+    "question": "Quelle commande recharge le service SSH après modification de configuration ?",
+    "correct": [
+      "systemctl reload sshd.service",
+      "sudo systemctl reload sshd.service"
+    ]
+  }
+]
