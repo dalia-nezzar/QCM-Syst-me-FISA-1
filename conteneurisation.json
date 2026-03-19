@@ -1,0 +1,1308 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "La virtualisation consiste principalement à :",
+    "options": [
+      "Virtualiser une machine complète",
+      "Exécuter uniquement un processus isolé",
+      "Partager uniquement un système de fichiers",
+      "Créer uniquement un réseau virtuel"
+    ],
+    "correct": [
+      "Virtualiser une machine complète"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "Parmi les éléments virtualisés cités dans le cours, lequel apparaît ?",
+    "options": [
+      "Processeur",
+      "DNS public",
+      "Nom de domaine",
+      "Compte LDAP"
+    ],
+    "correct": [
+      "Processeur"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Parmi les éléments virtualisés cités dans le cours, lequel apparaît ?",
+    "options": [
+      "Mémoire",
+      "Mot de passe root",
+      "Utilisateur SSH",
+      "Clé GPG"
+    ],
+    "correct": [
+      "Mémoire"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Parmi les éléments virtualisés cités dans le cours, lequel apparaît ?",
+    "options": [
+      "Stockage",
+      "Ticket Kerberos",
+      "Zone DNS",
+      "Port FTP"
+    ],
+    "correct": [
+      "Stockage"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "La virtualisation repose sur :",
+    "options": [
+      "Un hyperviseur",
+      "Un compilateur",
+      "Un annuaire LDAP",
+      "Un serveur NFS"
+    ],
+    "correct": [
+      "Un hyperviseur"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Quel hyperviseur est cité pour Windows ?",
+    "options": [
+      "VirtualPC",
+      "KVM",
+      "Proxmox",
+      "LXC"
+    ],
+    "correct": [
+      "VirtualPC"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Quel hyperviseur est cité pour poste de travail ?",
+    "options": [
+      "VirtualBox",
+      "Podman",
+      "Dockerfile",
+      "WordPress"
+    ],
+    "correct": [
+      "VirtualBox"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Quel hyperviseur est cité pour datacenter ?",
+    "options": [
+      "Proxmox",
+      "VirtualPC",
+      "podman-compose",
+      "MariaDB"
+    ],
+    "correct": [
+      "Proxmox"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Quel outil Linux cité peut servir côté client et datacenter ?",
+    "options": [
+      "KVM",
+      "Dockerfile",
+      "Apache2",
+      "php-mysql"
+    ],
+    "correct": [
+      "KVM"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "La conteneurisation consiste principalement à :",
+    "options": [
+      "Exécuter un processus dans un environnement fermé",
+      "Virtualiser une machine complète",
+      "Créer un domaine Active Directory",
+      "Remplacer le noyau Linux"
+    ],
+    "correct": [
+      "Exécuter un processus dans un environnement fermé"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "La conteneurisation implique :",
+    "options": [
+      "Une séparation des ressources de l’hôte",
+      "Une virtualisation complète du processeur",
+      "La création obligatoire de plusieurs VM",
+      "Un BIOS virtuel par service"
+    ],
+    "correct": [
+      "Une séparation des ressources de l’hôte"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Selon le cours, la conteneurisation :",
+    "options": [
+      "N’est pas de la virtualisation",
+      "Est strictement identique à la virtualisation",
+      "Remplace le réseau",
+      "Supprime tout besoin de système hôte"
+    ],
+    "correct": [
+      "N’est pas de la virtualisation"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Quelle plateforme citée propose aussi des conteneurs LXC ?",
+    "options": [
+      "Proxmox",
+      "VirtualPC",
+      "MariaDB",
+      "Apache"
+    ],
+    "correct": [
+      "Proxmox"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Parmi les exemples de conteneurisation cités, lequel apparaît ?",
+    "options": [
+      "docker",
+      "bind9",
+      "smbd",
+      "sshd"
+    ],
+    "correct": [
+      "docker"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Parmi les exemples de conteneurisation cités, lequel apparaît ?",
+    "options": [
+      "podman",
+      "kerberos",
+      "ldapsearch",
+      "testparam"
+    ],
+    "correct": [
+      "podman"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "Pourquoi le cours choisit-il podman ?",
+    "options": [
+      "Parce qu’il est similaire à docker",
+      "Parce qu’il remplace SSH",
+      "Parce qu’il virtualise tout le BIOS",
+      "Parce qu’il nécessite toujours root"
+    ],
+    "correct": [
+      "Parce qu’il est similaire à docker"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Quel avantage de podman est explicitement cité ?",
+    "options": [
+      "Il ne demande pas d’être root",
+      "Il remplace MariaDB",
+      "Il remplace Apache",
+      "Il supprime le besoin de volumes"
+    ],
+    "correct": [
+      "Il ne demande pas d’être root"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Selon le cours, les commandes podman sont :",
+    "options": [
+      "Similaires à celles de docker",
+      "Totalement incompatibles avec docker",
+      "Réservées à Windows",
+      "Identiques à ansible"
+    ],
+    "correct": [
+      "Similaires à celles de docker"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Dans le cas d’usage web, quel SGBD est cité ?",
+    "options": [
+      "mariadb",
+      "postgresql",
+      "sqlite",
+      "oracle"
+    ],
+    "correct": [
+      "mariadb"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Pour le site web PHP, quel choix d’architecture est proposé ?",
+    "options": [
+      "Un seul conteneur ou deux conteneurs séparés",
+      "Uniquement trois VM",
+      "Uniquement un cluster Kubernetes",
+      "Uniquement un seul conteneur obligatoire"
+    ],
+    "correct": [
+      "Un seul conteneur ou deux conteneurs séparés"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Dans le choix 2 du cours, l’architecture sépare :",
+    "options": [
+      "MariaDB d’un côté et Apache/PHP de l’autre",
+      "Apache et PHP dans deux VM différentes",
+      "Le DNS et le DHCP",
+      "Le SSH et le FTP"
+    ],
+    "correct": [
+      "MariaDB d’un côté et Apache/PHP de l’autre"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Parmi les logiciels à lister pour le besoin web, lequel est cité ?",
+    "options": [
+      "apache2",
+      "bind9",
+      "sshd",
+      "samba"
+    ],
+    "correct": [
+      "apache2"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Parmi les logiciels à lister pour le besoin web, lequel est cité ?",
+    "options": [
+      "libapache2-mod-php",
+      "openssh-server",
+      "nfs-common",
+      "dhcpd"
+    ],
+    "correct": [
+      "libapache2-mod-php"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "Parmi les logiciels à lister pour le besoin web, lequel est cité ?",
+    "options": [
+      "php-mysql",
+      "ldap-utils",
+      "winbind",
+      "vsftpd"
+    ],
+    "correct": [
+      "php-mysql"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Quel port web est cité dans le cours ?",
+    "options": [
+      "80",
+      "22",
+      "21",
+      "3306"
+    ],
+    "correct": [
+      "80"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Parmi les ressources à prévoir, laquelle apparaît ?",
+    "options": [
+      "Les fichiers du site",
+      "Le BIOS de la machine hôte",
+      "Le noyau du client",
+      "Le certificat LDAP"
+    ],
+    "correct": [
+      "Les fichiers du site"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Parmi les ressources à prévoir, laquelle apparaît ?",
+    "options": [
+      "Le fichier SQL de constitution de la BDD",
+      "Le fichier /etc/passwd de l’hôte",
+      "Le firmware UEFI",
+      "Le fichier hosts DNS"
+    ],
+    "correct": [
+      "Le fichier SQL de constitution de la BDD"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Parmi les étapes citées, laquelle apparaît ?",
+    "options": [
+      "Écrire le Dockerfile",
+      "Créer un domaine AD",
+      "Monter un partage NFS",
+      "Générer une clé SSH"
+    ],
+    "correct": [
+      "Écrire le Dockerfile"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Parmi les étapes citées, laquelle apparaît ?",
+    "options": [
+      "Écrire le script de déploiement",
+      "Configurer un serveur SMTP",
+      "Créer un GPO",
+      "Configurer Kerberos"
+    ],
+    "correct": [
+      "Écrire le script de déploiement"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Parmi les étapes citées, laquelle apparaît ?",
+    "options": [
+      "Écrire les fichiers du site",
+      "Créer les ACL LDAP",
+      "Configurer rpcbind",
+      "Installer Samba"
+    ],
+    "correct": [
+      "Écrire les fichiers du site"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple simple de Dockerfile, l’image de base est :",
+    "options": [
+      "debian:latest",
+      "ubuntu:latest",
+      "mariadb:latest",
+      "wordpress:latest"
+    ],
+    "correct": [
+      "debian:latest"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple simple, le WORKDIR est :",
+    "options": [
+      "/home/",
+      "/var/www/html",
+      "/root/",
+      "/srv/"
+    ],
+    "correct": [
+      "/home/"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple simple, la commande de démarrage affiche :",
+    "options": [
+      "Hello world!",
+      "Starting",
+      "Apache started",
+      "Container ready"
+    ],
+    "correct": [
+      "Hello world!"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "Le mot-clé FROM dans un Dockerfile sert à :",
+    "options": [
+      "Définir l’image de base",
+      "Définir le port exposé",
+      "Définir le script exécuté au boot",
+      "Copier les volumes"
+    ],
+    "correct": [
+      "Définir l’image de base"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Le mot-clé WORKDIR sert à :",
+    "options": [
+      "Définir le répertoire depuis lequel seront lancées les commandes",
+      "Définir le nom du conteneur",
+      "Définir l’utilisateur root",
+      "Définir le volume principal"
+    ],
+    "correct": [
+      "Définir le répertoire depuis lequel seront lancées les commandes"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "Le mot-clé CMD sert à :",
+    "options": [
+      "Définir la commande exécutée au démarrage du conteneur",
+      "Définir les packages à installer",
+      "Définir l’image parente",
+      "Définir les volumes"
+    ],
+    "correct": [
+      "Définir la commande exécutée au démarrage du conteneur"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "Combien de CMD peut-on mettre dans un Dockerfile selon le cours ?",
+    "options": [
+      "Une seule",
+      "Deux",
+      "Autant qu’on veut",
+      "Aucune"
+    ],
+    "correct": [
+      "Une seule"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "Le mot-clé RUN sert à :",
+    "options": [
+      "Lancer des commandes à la création de l’image",
+      "Lancer des commandes à chaque accès HTTP",
+      "Définir les ports réseau",
+      "Créer un volume dynamique"
+    ],
+    "correct": [
+      "Lancer des commandes à la création de l’image"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Le mot-clé EXPOSE sert à :",
+    "options": [
+      "Ouvrir un port accessible par l’hôte",
+      "Créer automatiquement une base MariaDB",
+      "Copier les fichiers du site",
+      "Initialiser un volume"
+    ],
+    "correct": [
+      "Ouvrir un port accessible par l’hôte"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple web, quel port est exposé dans le Dockerfile ?",
+    "options": [
+      "80",
+      "8080",
+      "3306",
+      "22"
+    ],
+    "correct": [
+      "80"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple web, le CMD exécute :",
+    "options": [
+      "bash /home/start.sh",
+      "apache2ctl -DFOREGROUND",
+      "mysql < /home/test.sql",
+      "service mariadb start"
+    ],
+    "correct": [
+      "bash /home/start.sh"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Dans le script start.sh, la première action affichée est :",
+    "options": [
+      "echo \"Starting\"",
+      "service mariadb start",
+      "apache2ctl -DFOREGROUND",
+      "cp -r /php/* /var/www/html/"
+    ],
+    "correct": [
+      "echo \"Starting\""
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Dans le script start.sh, quelle commande démarre la base ?",
+    "options": [
+      "service mariadb start",
+      "mysql start",
+      "systemctl start mysql",
+      "mariadb up"
+    ],
+    "correct": [
+      "service mariadb start"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Dans le script start.sh, quelle commande lance Apache au premier plan ?",
+    "options": [
+      "apache2ctl -DFOREGROUND",
+      "service apache2 start",
+      "apache2 -start",
+      "run apache foreground"
+    ],
+    "correct": [
+      "apache2ctl -DFOREGROUND"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Quelle commande construit l’image selon le cours ?",
+    "options": [
+      "podman build -f Dockerfile -t my_image:latest",
+      "podman run -f Dockerfile -t my_image:latest",
+      "dockerfile build my_image",
+      "podman create Dockerfile my_image:latest"
+    ],
+    "correct": [
+      "podman build -f Dockerfile -t my_image:latest"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "Dans la commande podman build, l’option -f sert à :",
+    "options": [
+      "Préciser le fichier Dockerfile",
+      "Préciser le port exposé",
+      "Monter un volume",
+      "Supprimer le conteneur après arrêt"
+    ],
+    "correct": [
+      "Préciser le fichier Dockerfile"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "Dans la commande podman build, l’option -t sert à :",
+    "options": [
+      "Nommer l’image",
+      "Choisir le type de volume",
+      "Fixer le temps de vie du conteneur",
+      "Activer le terminal"
+    ],
+    "correct": [
+      "Nommer l’image"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "Dans la commande podman run, l’option -p sert à :",
+    "options": [
+      "Mapper un port hôte vers un port conteneur",
+      "Donner le mot de passe root",
+      "Choisir l’image de base",
+      "Définir une variable d’environnement"
+    ],
+    "correct": [
+      "Mapper un port hôte vers un port conteneur"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple podman run, le mappage de port est :",
+    "options": [
+      "8080:80",
+      "80:8080",
+      "3306:80",
+      "22:80"
+    ],
+    "correct": [
+      "8080:80"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Dans podman run, l’option -v sert à :",
+    "options": [
+      "Mapper un dossier hôte dans le conteneur",
+      "Afficher la version",
+      "Créer un utilisateur",
+      "Valider le Dockerfile"
+    ],
+    "correct": [
+      "Mapper un dossier hôte dans le conteneur"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "L’option --rm dans podman run sert à :",
+    "options": [
+      "Supprimer le conteneur quand il a terminé",
+      "Supprimer l’image après build",
+      "Supprimer tous les volumes",
+      "Désactiver le réseau"
+    ],
+    "correct": [
+      "Supprimer le conteneur quand il a terminé"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Dans le cours, l’option :O sur un volume est associée à :",
+    "options": [
+      "Lecture seule avec modification interne",
+      "Exécution en root obligatoire",
+      "Montage réseau partagé",
+      "Compression automatique"
+    ],
+    "correct": [
+      "Lecture seule avec modification interne"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "podman-compose sert principalement à :",
+    "options": [
+      "Composer plusieurs services entre eux",
+      "Compiler une image plus vite",
+      "Chiffrer les conteneurs",
+      "Remplacer podman build"
+    ],
+    "correct": [
+      "Composer plusieurs services entre eux"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Le fichier compose est écrit en :",
+    "options": [
+      "YAML",
+      "JSON",
+      "XML",
+      "INI"
+    ],
+    "correct": [
+      "YAML"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Le fichier compose porte généralement l’extension :",
+    "options": [
+      ".yml",
+      ".conf",
+      ".ldif",
+      ".sh"
+    ],
+    "correct": [
+      ".yml"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Quel avantage du compose est cité ?",
+    "options": [
+      "Plusieurs services/conteneurs par fichier",
+      "Un seul service maximum",
+      "Remplacement des volumes",
+      "Exécution sans image"
+    ],
+    "correct": [
+      "Plusieurs services/conteneurs par fichier"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Quel mot-clé compose définit l’image du conteneur ?",
+    "options": [
+      "image",
+      "ports",
+      "environment",
+      "depends_on"
+    ],
+    "correct": [
+      "image"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Quel mot-clé compose définit le mappage de ports ?",
+    "options": [
+      "ports",
+      "image",
+      "volumes",
+      "services"
+    ],
+    "correct": [
+      "ports"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "Quel mot-clé compose définit les variables d’environnement ?",
+    "options": [
+      "environment",
+      "depends_on",
+      "services",
+      "children"
+    ],
+    "correct": [
+      "environment"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "Quel mot-clé compose définit les volumes ?",
+    "options": [
+      "volumes",
+      "image",
+      "ports",
+      "build"
+    ],
+    "correct": [
+      "volumes"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "Quel mot-clé compose exprime une dépendance entre services ?",
+    "options": [
+      "depends_on",
+      "children",
+      "require",
+      "after"
+    ],
+    "correct": [
+      "depends_on"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple compose, le service wordpress dépend de :",
+    "options": [
+      "db",
+      "apache",
+      "php",
+      "mysqlclient"
+    ],
+    "correct": [
+      "db"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple compose, quel hôte est utilisé par WordPress pour la BDD ?",
+    "options": [
+      "db",
+      "localhost",
+      "mariadb",
+      "wordpress-db"
+    ],
+    "correct": [
+      "db"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "Dans l’exemple compose, l’image du service db est :",
+    "options": [
+      "mariadb:${MARIADB_VERSION}",
+      "mysql:${DB_VERSION}",
+      "wordpress:${WP_VERSION}",
+      "debian:latest"
+    ],
+    "correct": [
+      "mariadb:${MARIADB_VERSION}"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "Le cours précise que privileged: true est requis pour :",
+    "options": [
+      "podman-compose",
+      "dockerfile",
+      "sshfs",
+      "ftpes"
+    ],
+    "correct": [
+      "podman-compose"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "Le fichier .env contient :",
+    "options": [
+      "Des variables comme versions et identifiants BDD",
+      "Le Dockerfile principal",
+      "Les logs du conteneur",
+      "Le script bash de démarrage"
+    ],
+    "correct": [
+      "Des variables comme versions et identifiants BDD"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "Parmi les variables du .env, laquelle apparaît ?",
+    "options": [
+      "WP_VERSION",
+      "SSH_PORT",
+      "LDAP_BASE",
+      "NFS_EXPORT"
+    ],
+    "correct": [
+      "WP_VERSION"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "Parmi les variables du .env, laquelle apparaît ?",
+    "options": [
+      "DB_USER",
+      "FTP_USER",
+      "ROOT_DN",
+      "SAMBA_GROUP"
+    ],
+    "correct": [
+      "DB_USER"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "Parmi les variables du .env, laquelle apparaît ?",
+    "options": [
+      "DB_ROOT_PASSWD",
+      "ROOT_PASSWORD_SSH",
+      "MYSQL_TCP_PORT",
+      "HOSTNAME"
+    ],
+    "correct": [
+      "DB_ROOT_PASSWD"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "Selon la conclusion, la virtualisation est utile pour :",
+    "options": [
+      "Des systèmes complets",
+      "Uniquement des microservices",
+      "Uniquement le web PHP",
+      "Uniquement le shell distant"
+    ],
+    "correct": [
+      "Des systèmes complets"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "question": "Selon la conclusion, la conteneurisation est utile et fréquente dans :",
+    "options": [
+      "Le développement de web services",
+      "Le partitionnement de disque",
+      "L’authentification LDAP",
+      "Le routage dynamique"
+    ],
+    "correct": [
+      "Le développement de web services"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "question": "Le cours cite particulièrement les :",
+    "options": [
+      "Microservices",
+      "Mainframes",
+      "BIOS virtualisés",
+      "Domaines AD"
+    ],
+    "correct": [
+      "Microservices"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "free_answer",
+    "question": "Quel mot désigne l’exécution d’un processus dans un environnement fermé ?",
+    "correct": [
+      "conteneurisation",
+      "containerisation"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "free_answer",
+    "question": "Quel mot désigne la virtualisation d’une machine complète ?",
+    "correct": [
+      "virtualisation"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "free_answer",
+    "question": "Quel composant permet de faire tourner plusieurs VM sur une machine physique ?",
+    "correct": [
+      "hyperviseur"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "free_answer",
+    "question": "Quel outil de conteneurisation a été choisi dans le cours ?",
+    "correct": [
+      "podman"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "free_answer",
+    "question": "Quel autre outil similaire à podman est cité ?",
+    "correct": [
+      "docker"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "free_answer",
+    "question": "Quel système de conteneurs est cité avec Proxmox ?",
+    "correct": [
+      "lxc"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "free_answer",
+    "question": "Quel fichier décrit l’image à construire ?",
+    "correct": [
+      "dockerfile"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Quel mot-clé Dockerfile définit l’image de base ?",
+    "correct": [
+      "from"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "free_answer",
+    "question": "Quel mot-clé Dockerfile définit le répertoire de travail ?",
+    "correct": [
+      "workdir"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "free_answer",
+    "question": "Quel mot-clé Dockerfile définit la commande de démarrage ?",
+    "correct": [
+      "cmd"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "free_answer",
+    "question": "Quel mot-clé Dockerfile exécute des commandes à la création de l’image ?",
+    "correct": [
+      "run"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "free_answer",
+    "question": "Quel mot-clé Dockerfile ouvre un port vers l’hôte ?",
+    "correct": [
+      "expose"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "free_answer",
+    "question": "Quel port web est exposé dans l’exemple ?",
+    "correct": [
+      "80"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "free_answer",
+    "question": "Quelle commande construit une image podman à partir d’un Dockerfile ?",
+    "correct": [
+      "podman build -f Dockerfile -t my_image:latest",
+      "podman build"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "free_answer",
+    "question": "Dans podman build, quelle option précise le fichier Dockerfile ?",
+    "correct": [
+      "-f"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "free_answer",
+    "question": "Dans podman build, quelle option nomme l’image ?",
+    "correct": [
+      "-t"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "free_answer",
+    "question": "Quelle commande lance un conteneur selon l’exemple du cours ?",
+    "correct": [
+      "podman run --rm -p 8080:80 -v $PWD/php/:/php:O -v $PWD/resources/:/home:O site:latest",
+      "podman run"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "free_answer",
+    "question": "Dans podman run, quelle option mappe les ports ?",
+    "correct": [
+      "-p"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "free_answer",
+    "question": "Dans podman run, quelle option mappe les volumes ?",
+    "correct": [
+      "-v"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "free_answer",
+    "question": "Dans podman run, quelle option supprime le conteneur une fois terminé ?",
+    "correct": [
+      "--rm"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "free_answer",
+    "question": "Quel port hôte est mappé vers le port 80 du conteneur dans l’exemple ?",
+    "correct": [
+      "8080"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "free_answer",
+    "question": "Quel fichier bash est exécuté au démarrage dans l’exemple web ?",
+    "correct": [
+      "start.sh",
+      "/home/start.sh"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "free_answer",
+    "question": "Quel service de base de données est démarré dans le script ?",
+    "correct": [
+      "mariadb"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "free_answer",
+    "question": "Quelle commande garde Apache au premier plan dans le script ?",
+    "correct": [
+      "apache2ctl -dforeground",
+      "apache2ctl -DFOREGROUND"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "free_answer",
+    "question": "Quel outil sert à composer plusieurs conteneurs/services ?",
+    "correct": [
+      "podman-compose"
+    ]
+  },
+  {
+    "id": 98,
+    "type": "free_answer",
+    "question": "Dans un fichier compose, quel mot-clé définit les services ?",
+    "correct": [
+      "services"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "free_answer",
+    "question": "Dans un fichier compose, quel mot-clé définit les dépendances ?",
+    "correct": [
+      "depends_on"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "free_answer",
+    "question": "Dans un fichier compose, quel mot-clé définit les variables d’environnement ?",
+    "correct": [
+      "environment"
+    ]
+  },
+  {
+    "id": 101,
+    "type": "free_answer",
+    "question": "Dans un fichier compose, quel mot-clé définit les volumes ?",
+    "correct": [
+      "volumes"
+    ]
+  },
+  {
+    "id": 102,
+    "type": "free_answer",
+    "question": "Dans un fichier compose, quel mot-clé définit l’image ?",
+    "correct": [
+      "image"
+    ]
+  },
+  {
+    "id": 103,
+    "type": "free_answer",
+    "question": "Quel service WordPress dépend du service de base de données dans l’exemple ?",
+    "correct": [
+      "db"
+    ]
+  },
+  {
+    "id": 104,
+    "type": "free_answer",
+    "question": "Quel fichier contient les variables comme WP_VERSION et DB_USER ?",
+    "correct": [
+      ".env"
+    ]
+  },
+  {
+    "id": 105,
+    "type": "free_answer",
+    "question": "Quelle variable du .env définit la version de WordPress ?",
+    "correct": [
+      "wp_version",
+      "WP_VERSION"
+    ]
+  },
+  {
+    "id": 106,
+    "type": "free_answer",
+    "question": "Quelle variable du .env définit l’utilisateur de la base ?",
+    "correct": [
+      "db_user",
+      "DB_USER"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "free_answer",
+    "question": "Quelle variable du .env définit le mot de passe root de la base ?",
+    "correct": [
+      "db_root_passwd",
+      "DB_ROOT_PASSWD"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "free_answer",
+    "question": "Quel mot-clé YAML du compose est requis avec podman-compose selon le cours ?",
+    "correct": [
+      "privileged",
+      "privileged true",
+      "privileged: true"
+    ]
+  }
+]

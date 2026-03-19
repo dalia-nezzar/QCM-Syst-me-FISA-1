@@ -72,6 +72,7 @@ parts = {
     "Chapitre 7 - FTP": "ftp.json",
     "Chapitre 8 - SSH": "ssh.json",
     "Chapitre 9 - Ansible": "ansible.json",
+    "Chapitre 10 - Conteneurisation": "conteneurisation.json",
 }
 
 if not st.session_state.started:
