@@ -71,6 +71,7 @@ parts = {
     "Chapitre 6 - NFS - Samba": "nfs-samba.json",
     "Chapitre 7 - FTP": "ftp.json",
     "Chapitre 8 - SSH": "ssh.json",
+    "Chapitre 9 - Ansible": "ansible.json",
 }
 
 if not st.session_state.started:

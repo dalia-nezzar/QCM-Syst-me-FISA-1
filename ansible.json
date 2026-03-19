@@ -1,0 +1,1220 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "Ansible est présenté comme :",
+    "options": [
+      "Une plateforme logicielle de configuration et de gestion des ordinateurs",
+      "Un protocole réseau de routage",
+      "Un système de fichiers distribué",
+      "Un serveur DNS"
+    ],
+    "correct": [
+      "Une plateforme logicielle de configuration et de gestion des ordinateurs"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "Parmi les fonctions principales d'Ansible, laquelle est citée ?",
+    "options": [
+      "Déploiement de logiciels sur parc",
+      "Remplacement de SSH",
+      "Gestion du BIOS à distance uniquement",
+      "Résolution DNS publique"
+    ],
+    "correct": [
+      "Déploiement de logiciels sur parc"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Parmi les fonctions principales d'Ansible, laquelle est citée ?",
+    "options": [
+      "Gestionnaire de configuration",
+      "Serveur DHCP",
+      "Hyperviseur",
+      "Pare-feu matériel"
+    ],
+    "correct": [
+      "Gestionnaire de configuration"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Parmi les fonctions principales d'Ansible, laquelle est citée ?",
+    "options": [
+      "Exécuteur de tâches",
+      "Compilateur C",
+      "Serveur LDAP",
+      "Contrôleur de domaine"
+    ],
+    "correct": [
+      "Exécuteur de tâches"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Pourquoi des outils comme Ansible sont-ils utiles selon l'introduction du cours ?",
+    "options": [
+      "Parce qu'il y a beaucoup d'ordinateurs, des tâches répétitives et des risques d'erreurs",
+      "Parce que SSH ne fonctionne plus",
+      "Parce qu'il faut remplacer Linux",
+      "Parce qu'il n'existe aucun autre outil d'automatisation"
+    ],
+    "correct": [
+      "Parce qu'il y a beaucoup d'ordinateurs, des tâches répétitives et des risques d'erreurs"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Pour installer Ansible selon le cours, il faut d'abord installer :",
+    "options": [
+      "python3-pip",
+      "openssh-server",
+      "docker",
+      "ansible-galaxy"
+    ],
+    "correct": [
+      "python3-pip"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Quelle commande d'installation Ansible est donnée dans le cours ?",
+    "options": [
+      "python3 -m pip install --user ansible",
+      "apt install ansible-core-only",
+      "pip install ansible-system",
+      "ansible install --user"
+    ],
+    "correct": [
+      "python3 -m pip install --user ansible"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Ansible nécessite de pouvoir accéder aux clients avec :",
+    "options": [
+      "Une clé SSH",
+      "Un partage NFS",
+      "Un compte root sans mot de passe",
+      "Un tunnel FTP"
+    ],
+    "correct": [
+      "Une clé SSH"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Pour tester l'installation, le cours demande de créer :",
+    "options": [
+      "Un fichier /etc/ansible/hosts",
+      "Un fichier /etc/ansible/playbook.yml",
+      "Un fichier /etc/ssh/ansible.conf",
+      "Un fichier /var/lib/ansible/hosts"
+    ],
+    "correct": [
+      "Un fichier /etc/ansible/hosts"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de lister les machines définies ?",
+    "options": [
+      "ansible all --list-hosts",
+      "ansible-playbook --list-hosts",
+      "ansible-inventory --graph-only",
+      "ansible all -m setup"
+    ],
+    "correct": [
+      "ansible all --list-hosts"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Quelle commande est utilisée pour tester la connectivité Ansible avec le module ping ?",
+    "options": [
+      "ansible all -m ping",
+      "ansible-playbook ping.yml",
+      "ansible -m pong all",
+      "ansible-inventory -m ping"
+    ],
+    "correct": [
+      "ansible all -m ping"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Si le ping Ansible réussit, la réponse contient généralement :",
+    "options": [
+      "\"ping\": \"pong\"",
+      "\"ping\": \"ok\"",
+      "\"status\": \"pong\"",
+      "\"ansible\": \"success\""
+    ],
+    "correct": [
+      "\"ping\": \"pong\""
+    ]
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Les deux concepts importants avec Ansible cités dans le cours sont :",
+    "options": [
+      "Inventaires et playbooks",
+      "DNS et DHCP",
+      "NFS et Samba",
+      "LDAP et Kerberos"
+    ],
+    "correct": [
+      "Inventaires et playbooks"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "Un inventaire Ansible sert principalement à :",
+    "options": [
+      "Organiser les nœuds gérés",
+      "Compiler les playbooks",
+      "Créer des clés SSH",
+      "Monter des répertoires distants"
+    ],
+    "correct": [
+      "Organiser les nœuds gérés"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Dans le cours, le format d'inventaire retenu est :",
+    "options": [
+      "YAML",
+      "JSON",
+      "XML",
+      "CSV"
+    ],
+    "correct": [
+      "YAML"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "L'inventaire Ansible peut être, selon le cours :",
+    "options": [
+      "YAML ou INI",
+      "Seulement JSON",
+      "Seulement XML",
+      "CSV ou TXT"
+    ],
+    "correct": [
+      "YAML ou INI"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple d'inventaire simple, quel mot-clé contient les machines ?",
+    "options": [
+      "hosts",
+      "nodes",
+      "machines",
+      "targets"
+    ],
+    "correct": [
+      "hosts"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple d'inventaire, ansible_host sert à :",
+    "options": [
+      "Donner l'adresse IP ou l'hôte cible",
+      "Définir le nom du groupe",
+      "Préciser le module utilisé",
+      "Définir le nom du playbook"
+    ],
+    "correct": [
+      "Donner l'adresse IP ou l'hôte cible"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Quelle commande permet de tester/afficher un inventaire YAML ?",
+    "options": [
+      "ansible-inventory --list -i inventory.yaml",
+      "ansible all --list-hosts -i inventory.yaml",
+      "ansible-playbook --check inventory.yaml",
+      "ansible-inventory -m ping inventory.yaml"
+    ],
+    "correct": [
+      "ansible-inventory --list -i inventory.yaml"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Quelle commande ping un groupe défini dans un inventaire YAML ?",
+    "options": [
+      "ansible mes_machines -m ping -i inventory.yaml",
+      "ansible-playbook mes_machines -m ping -i inventory.yaml",
+      "ansible inventory.yaml -m mes_machines",
+      "ansible mes_machines --ping inventory.yaml"
+    ],
+    "correct": [
+      "ansible mes_machines -m ping -i inventory.yaml"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "Pour définir un groupe de machines dans un inventaire, on utilise principalement :",
+    "options": [
+      "Un nom de groupe contenant hosts",
+      "Le mot-clé tasks",
+      "Le mot-clé module",
+      "Le mot-clé role"
+    ],
+    "correct": [
+      "Un nom de groupe contenant hosts"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "Un métagroupe Ansible permet de :",
+    "options": [
+      "Regrouper plusieurs groupes",
+      "Créer plusieurs playbooks",
+      "Fusionner plusieurs rôles",
+      "Créer plusieurs collections"
+    ],
+    "correct": [
+      "Regrouper plusieurs groupes"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Quel mot-clé YAML sert à définir les groupes enfants dans un métagroupe ?",
+    "options": [
+      "children",
+      "groups",
+      "members",
+      "subgroups"
+    ],
+    "correct": [
+      "children"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "L'intérêt d'un métagroupe est de pouvoir :",
+    "options": [
+      "Appliquer une commande sur plusieurs groupes en une fois",
+      "Créer plusieurs utilisateurs SSH",
+      "Partager une clé privée",
+      "Fusionner plusieurs serveurs"
+    ],
+    "correct": [
+      "Appliquer une commande sur plusieurs groupes en une fois"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple de variables d'hôte, http_port est :",
+    "options": [
+      "Une variable",
+      "Un module",
+      "Un rôle",
+      "Un groupe"
+    ],
+    "correct": [
+      "Une variable"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "Les variables Ansible sont utilisées principalement dans :",
+    "options": [
+      "Les playbooks",
+      "Le BIOS",
+      "Le noyau Linux",
+      "Le serveur DNS"
+    ],
+    "correct": [
+      "Les playbooks"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "Quel mot-clé permet de définir des variables pour tout un groupe ?",
+    "options": [
+      "vars",
+      "hosts",
+      "children",
+      "tasks"
+    ],
+    "correct": [
+      "vars"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple de variable de groupe, ansible_user vaut :",
+    "options": [
+      "invite",
+      "root",
+      "admin",
+      "managed1"
+    ],
+    "correct": [
+      "invite"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Un hôte Ansible peut faire partie :",
+    "options": [
+      "De plusieurs groupes",
+      "D'un seul groupe maximum",
+      "D'aucun groupe",
+      "Uniquement d'un métagroupe"
+    ],
+    "correct": [
+      "De plusieurs groupes"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "Selon le cours, pour créer des groupes d'inventaire il faut se poser des questions comme :",
+    "options": [
+      "Quoi, où, quand",
+      "Qui, combien, pourquoi",
+      "IP, port, masque",
+      "CPU, RAM, disque"
+    ],
+    "correct": [
+      "Quoi, où, quand"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "Le “quoi ?” dans la construction des groupes correspond par exemple à :",
+    "options": [
+      "Application ou service",
+      "Datacenter ou région",
+      "Prod ou test",
+      "Adresse IP ou masque"
+    ],
+    "correct": [
+      "Application ou service"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "Le “où ?” dans la construction des groupes correspond par exemple à :",
+    "options": [
+      "Une région ou un datacenter",
+      "Le type de service",
+      "L'état de développement",
+      "La version de Python"
+    ],
+    "correct": [
+      "Une région ou un datacenter"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "Le “quand ?” dans la construction des groupes correspond par exemple à :",
+    "options": [
+      "Un état de développement comme prod ou test",
+      "Le fuseau horaire uniquement",
+      "L'heure système",
+      "Le temps de réponse SSH"
+    ],
+    "correct": [
+      "Un état de développement comme prod ou test"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "La méthode recommandée pour gérer la clé SSH avec Ansible est :",
+    "options": [
+      "ssh-agent",
+      "Telnet",
+      "FTP",
+      "sudo sans mot de passe"
+    ],
+    "correct": [
+      "ssh-agent"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "Quelle commande démarre un agent SSH selon le cours ?",
+    "options": [
+      "eval $(ssh-agent -s)",
+      "ssh-agent start",
+      "systemctl start ssh-agent-user",
+      "ssh-add -s"
+    ],
+    "correct": [
+      "eval $(ssh-agent -s)"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "Quelle commande charge la clé privée dans l'agent SSH ?",
+    "options": [
+      "ssh-add ~/.ssh/id_rsa",
+      "ssh-copy-id ~/.ssh/id_rsa",
+      "ansible-add ~/.ssh/id_rsa",
+      "ssh-agent ~/.ssh/id_rsa"
+    ],
+    "correct": [
+      "ssh-add ~/.ssh/id_rsa"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "L'alternative à ssh-agent proposée dans le cours est de définir dans l'inventaire :",
+    "options": [
+      "ansible_ssh_private_key_file",
+      "ansible_private_host",
+      "ansible_ssh_public_key",
+      "ansible_agent_file"
+    ],
+    "correct": [
+      "ansible_ssh_private_key_file"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "Un playbook est défini comme :",
+    "options": [
+      "Une liste de plays joués dans l'ordre du fichier",
+      "Une seule tâche Ansible",
+      "Un seul module Python",
+      "Une collection complète"
+    ],
+    "correct": [
+      "Une liste de plays joués dans l'ordre du fichier"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "Un play est défini comme :",
+    "options": [
+      "Une liste de tâches ordonnées mappées sur les hôtes",
+      "Une liste de rôles partagés",
+      "Une liste de modules Python",
+      "Une liste de groupes enfants"
+    ],
+    "correct": [
+      "Une liste de tâches ordonnées mappées sur les hôtes"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "Une task est définie comme :",
+    "options": [
+      "Une ou plusieurs actions via des modules",
+      "Un inventaire partiel",
+      "Un sous-groupe d'hôtes",
+      "Une collection publiée"
+    ],
+    "correct": [
+      "Une ou plusieurs actions via des modules"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "Un module Ansible est :",
+    "options": [
+      "Un script ou un binaire exécuté par Ansible sur les nœuds cibles",
+      "Un groupe d'hôtes",
+      "Un type de variable",
+      "Un service SSH"
+    ],
+    "correct": [
+      "Un script ou un binaire exécuté par Ansible sur les nœuds cibles"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple de playbook, le nom du playbook est :",
+    "options": [
+      "First playbook",
+      "Ping hosts",
+      "Print hello",
+      "Gathering Facts"
+    ],
+    "correct": [
+      "First playbook"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple de playbook, la cible hosts est :",
+    "options": [
+      "all",
+      "managed1",
+      "mes_machines",
+      "debian_servers"
+    ],
+    "correct": [
+      "all"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple de playbook, quel module est utilisé pour tester la connectivité ?",
+    "options": [
+      "ansible.builtin.ping",
+      "ansible.builtin.copy",
+      "ansible.builtin.file",
+      "ansible.builtin.shell"
+    ],
+    "correct": [
+      "ansible.builtin.ping"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Dans l'exemple de playbook, quel module affiche “Hello, World!” ?",
+    "options": [
+      "ansible.builtin.debug",
+      "ansible.builtin.echo",
+      "ansible.builtin.print",
+      "ansible.builtin.msg"
+    ],
+    "correct": [
+      "ansible.builtin.debug"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "Quelle commande exécute un playbook avec un inventaire donné ?",
+    "options": [
+      "ansible-playbook -i mon_inventaire.yaml mon_playbook.yaml",
+      "ansible -m playbook -i mon_inventaire.yaml mon_playbook.yaml",
+      "ansible-inventory -i mon_playbook.yaml",
+      "ansible-play -i mon_inventaire.yaml mon_playbook.yaml"
+    ],
+    "correct": [
+      "ansible-playbook -i mon_inventaire.yaml mon_playbook.yaml"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "Dans le résultat d'exécution du playbook, quelle étape apparaît automatiquement ?",
+    "options": [
+      "Gathering Facts",
+      "Loading Galaxy",
+      "Building Collection",
+      "Compiling Role"
+    ],
+    "correct": [
+      "Gathering Facts"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "Dans le PLAY RECAP, le champ failed indique :",
+    "options": [
+      "Le nombre d'échecs",
+      "Le nombre d'hôtes du groupe",
+      "Le nombre de variables",
+      "Le nombre de modules chargés"
+    ],
+    "correct": [
+      "Le nombre d'échecs"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "Un rôle Ansible est présenté comme :",
+    "options": [
+      "Une unité d'organisation réutilisable regroupant variables, tâches et fichiers",
+      "Un groupe spécial dans l'inventaire",
+      "Un module SSH",
+      "Un playbook compilé"
+    ],
+    "correct": [
+      "Une unité d'organisation réutilisable regroupant variables, tâches et fichiers"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "Quel avantage des rôles est cité ?",
+    "options": [
+      "Abstraction",
+      "Suppression de YAML",
+      "Remplacement de SSH",
+      "Exécution sans inventaire"
+    ],
+    "correct": [
+      "Abstraction"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "Quel autre avantage des rôles est cité ?",
+    "options": [
+      "Réutilisabilité",
+      "Adressage IP automatique",
+      "Compilation native",
+      "Authentification LDAP obligatoire"
+    ],
+    "correct": [
+      "Réutilisabilité"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "Quel autre avantage des rôles est cité ?",
+    "options": [
+      "Standardisation",
+      "Chiffrement SSH",
+      "Montage automatique",
+      "Routage dynamique"
+    ],
+    "correct": [
+      "Standardisation"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "Quelle commande crée la structure correcte d'un rôle ?",
+    "options": [
+      "ansible-galaxy role init mon_nouveau_role",
+      "ansible role create mon_nouveau_role",
+      "ansible-playbook init role mon_nouveau_role",
+      "ansible-galaxy init role mon_nouveau_role"
+    ],
+    "correct": [
+      "ansible-galaxy role init mon_nouveau_role"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "Dans la structure d'un rôle, quel dossier contient le cœur du rôle ?",
+    "options": [
+      "tasks/",
+      "handlers/",
+      "templates/",
+      "defaults/"
+    ],
+    "correct": [
+      "tasks/"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "Dans la structure d'un rôle, quel dossier sert pour les services à redémarrer ?",
+    "options": [
+      "handlers/",
+      "tasks/",
+      "files/",
+      "plugins/"
+    ],
+    "correct": [
+      "handlers/"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "Dans la structure d'un rôle, quels dossiers servent pour la configuration ?",
+    "options": [
+      "defaults/ et vars/",
+      "tasks/ et handlers/",
+      "plugins/ et modules/",
+      "meta/ et tests/"
+    ],
+    "correct": [
+      "defaults/ et vars/"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "Dans la structure d'un rôle, quel dossier contient les fichiers dynamiques Jinja2 ?",
+    "options": [
+      "templates/",
+      "tasks/",
+      "handlers/",
+      "inventory/"
+    ],
+    "correct": [
+      "templates/"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "Depuis Ansible 2.9+, le format de distribution standard est :",
+    "options": [
+      "Les Collections",
+      "Les Inventaires",
+      "Les Métagroupes",
+      "Les Modules natifs seuls"
+    ],
+    "correct": [
+      "Les Collections"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "Une collection regroupe notamment :",
+    "options": [
+      "Plusieurs rôles",
+      "Uniquement des hôtes",
+      "Uniquement des variables",
+      "Uniquement des fichiers SSH"
+    ],
+    "correct": [
+      "Plusieurs rôles"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "Une collection peut aussi regrouper :",
+    "options": [
+      "Des modules, des plugins et des playbooks",
+      "Des VLAN et des routes",
+      "Des partitions et des volumes",
+      "Des certificats SSL uniquement"
+    ],
+    "correct": [
+      "Des modules, des plugins et des playbooks"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "Pourquoi les collections sont-elles utiles selon le cours ?",
+    "options": [
+      "Pour gérer les dépendances complexes sans polluer le noyau d'Ansible",
+      "Pour remplacer les rôles",
+      "Pour éviter les inventaires",
+      "Pour exécuter Ansible sans Python"
+    ],
+    "correct": [
+      "Pour gérer les dépendances complexes sans polluer le noyau d'Ansible"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "Quelle commande initialise une collection ?",
+    "options": [
+      "ansible-galaxy collection init mon_namespace.ma_collection",
+      "ansible collection init mon_namespace.ma_collection",
+      "ansible-galaxy init collection ma_collection",
+      "ansible-playbook collection init"
+    ],
+    "correct": [
+      "ansible-galaxy collection init mon_namespace.ma_collection"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "Le nom d'une collection doit être composé :",
+    "options": [
+      "En deux parties",
+      "En une seule partie",
+      "En trois parties obligatoires",
+      "En adresse IP"
+    ],
+    "correct": [
+      "En deux parties"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "Le nommage en deux parties des collections sert à :",
+    "options": [
+      "Éviter les conflits de noms sur Ansible Galaxy",
+      "Améliorer la vitesse d'exécution",
+      "Activer SSH automatiquement",
+      "Créer un inventaire hiérarchique"
+    ],
+    "correct": [
+      "Éviter les conflits de noms sur Ansible Galaxy"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "Après création d'une collection, le cours indique qu'on peut générer une archive avec :",
+    "options": [
+      "build",
+      "pack",
+      "zip",
+      "bundle"
+    ],
+    "correct": [
+      "build"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "Une archive de collection peut être partagée sur :",
+    "options": [
+      "Automation Hub privé ou Galaxy",
+      "Uniquement GitHub",
+      "Uniquement FTP",
+      "Uniquement un partage Samba"
+    ],
+    "correct": [
+      "Automation Hub privé ou Galaxy"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "free_answer",
+    "question": "Quel outil d'automatisation de configuration est étudié dans ce cours ?",
+    "correct": [
+      "ansible"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "free_answer",
+    "question": "Quel paquet faut-il installer avant Ansible selon le cours ?",
+    "correct": [
+      "python3-pip"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "free_answer",
+    "question": "Quelle commande installe Ansible via pip ?",
+    "correct": [
+      "python3 -m pip install --user ansible",
+      "pip install --user ansible"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "free_answer",
+    "question": "Quel fichier est créé pour le test initial des hôtes sous /etc/ansible ?",
+    "correct": [
+      "/etc/ansible/hosts",
+      "hosts"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "free_answer",
+    "question": "Quelle commande liste les hôtes connus par Ansible ?",
+    "correct": [
+      "ansible all --list-hosts"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "free_answer",
+    "question": "Quelle commande teste les hôtes avec le module ping ?",
+    "correct": [
+      "ansible all -m ping"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "free_answer",
+    "question": "Quel mot-clé YAML contient les machines d'un groupe dans l'inventaire ?",
+    "correct": [
+      "hosts"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "free_answer",
+    "question": "Quel mot-clé YAML contient les groupes enfants d'un métagroupe ?",
+    "correct": [
+      "children"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "free_answer",
+    "question": "Quel mot-clé YAML sert à définir des variables de groupe ?",
+    "correct": [
+      "vars"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "free_answer",
+    "question": "Quel champ permet d'indiquer l'adresse de l'hôte géré dans l'inventaire ?",
+    "correct": [
+      "ansible_host"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "free_answer",
+    "question": "Quel champ permet d'indiquer l'utilisateur Ansible d'un groupe ?",
+    "correct": [
+      "ansible_user"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "free_answer",
+    "question": "Quelle variable d'exemple du cours indique un port HTTP ?",
+    "correct": [
+      "http_port"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "free_answer",
+    "question": "Quel outil recommandé permet à Ansible d'utiliser une clé SSH sans friction ?",
+    "correct": [
+      "ssh-agent"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "free_answer",
+    "question": "Quelle commande lance un agent SSH ?",
+    "correct": [
+      "eval $(ssh-agent -s)"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "free_answer",
+    "question": "Quelle commande charge la clé ~/.ssh/id_rsa dans l'agent ?",
+    "correct": [
+      "ssh-add ~/.ssh/id_rsa",
+      "ssh-add"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "free_answer",
+    "question": "Quelle variable d'inventaire permet de spécifier directement la clé privée SSH ?",
+    "correct": [
+      "ansible_ssh_private_key_file"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "free_answer",
+    "question": "Comment s'appelle une liste de plays joués dans l'ordre du fichier ?",
+    "correct": [
+      "playbook"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "free_answer",
+    "question": "Comment s'appelle une liste de tâches ordonnées mappées sur les hôtes ?",
+    "correct": [
+      "play"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "free_answer",
+    "question": "Comment s'appelle une opération élémentaire dans un playbook ?",
+    "correct": [
+      "task",
+      "tache",
+      "tâche"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "free_answer",
+    "question": "Comment s'appelle le script ou binaire exécuté par Ansible sur les nœuds cibles ?",
+    "correct": [
+      "module"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "free_answer",
+    "question": "Quel module est utilisé dans l'exemple pour tester les hôtes ?",
+    "correct": [
+      "ansible.builtin.ping",
+      "ping"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "free_answer",
+    "question": "Quel module est utilisé dans l'exemple pour afficher un message ?",
+    "correct": [
+      "ansible.builtin.debug",
+      "debug"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "free_answer",
+    "question": "Quel message affiche le module debug dans l'exemple ?",
+    "correct": [
+      "hello world",
+      "hello, world!"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "free_answer",
+    "question": "Quelle commande exécute un playbook avec un inventaire ?",
+    "correct": [
+      "ansible-playbook -i mon_inventaire.yaml mon_playbook.yaml",
+      "ansible-playbook"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "free_answer",
+    "question": "Comment s'appelle l'unité réutilisable regroupant variables, tâches et fichiers ?",
+    "correct": [
+      "role",
+      "rôle",
+      "role ansible",
+      "rôle ansible"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "free_answer",
+    "question": "Quelle commande initialise un rôle ?",
+    "correct": [
+      "ansible-galaxy role init mon_nouveau_role",
+      "ansible-galaxy role init"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "free_answer",
+    "question": "Quel dossier contient le cœur du rôle ?",
+    "correct": [
+      "tasks",
+      "tasks/"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "free_answer",
+    "question": "Quel dossier contient les services à redémarrer ?",
+    "correct": [
+      "handlers",
+      "handlers/"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "free_answer",
+    "question": "Quels dossiers servent à la configuration dans un rôle ?",
+    "correct": [
+      "defaults vars",
+      "defaults et vars",
+      "defaults vars/"
+    ],
+    "number_of_answers": 2
+  },
+  {
+    "id": 96,
+    "type": "free_answer",
+    "question": "Quel dossier contient les modèles dynamiques Jinja2 ?",
+    "correct": [
+      "templates",
+      "templates/"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "free_answer",
+    "question": "Comment s'appelle le format de distribution standard depuis Ansible 2.9+ ?",
+    "correct": [
+      "collection",
+      "collections"
+    ]
+  },
+  {
+    "id": 98,
+    "type": "free_answer",
+    "question": "Quelle commande initialise une collection ?",
+    "correct": [
+      "ansible-galaxy collection init mon_namespace.ma_collection",
+      "ansible-galaxy collection init"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "free_answer",
+    "question": "Combien de parties doit contenir le nom d'une collection ?",
+    "correct": [
+      "2",
+      "deux"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "free_answer",
+    "question": "Quelle commande affichée dans le cours permet de tester un inventaire YAML ?",
+    "correct": [
+      "ansible-inventory --list -i inventory.yaml"
+    ]
+  }
+]
